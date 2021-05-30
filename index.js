@@ -42,9 +42,19 @@ client.once('ready', () => {
 
 
 client.on('message', message => {
-    if(message.author.id === client.user.id || message.content[0] !== config.prefix){return} //returns if the user is itself or they do not have the prefix
+    if(message.mentions.has(client.user.id)){
+        //checks to see if bot was mentioned
+        const help_file = require('./commands/default_commands/help')
+        help_file.execute(settings, message)
+    }
+    else if(message.author.id === client.user.id || message.content[0] !== config.prefix){
+        //returns if the user is itself or they do not have the prefix
+        return
+    }
+
     const args = message.content.slice(config.prefix.length).trim().split(/ +/); //each space is a new argument
     const command_name = args.shift().toLowerCase() //sets the command name equal to the first argument,(what is immediately after the prefix)
+
     command_types.forEach(function(command_type) {
         if(client[command_type].has(command_name) && (command_requirements[command_type].includes(message.author.id) || command_requirements[command_type].length === 0)){ //checks if the command name exists and if the user has the proper permissions or if it is a default command
             const command = client[command_type].get(command_name) //this is the executable command
