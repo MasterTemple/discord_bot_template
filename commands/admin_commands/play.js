@@ -4,7 +4,7 @@ module.exports = {
     use: `play [args]`,
     example:[`play LEGO Universe`],
     notes: "This command is used to temporarily set the bot's status",
-    execute(settings, message, args) {
+    async execute(settings, message, args) {
         if(args.length === 0){
             settings.client.user.setActivity();
         } else{

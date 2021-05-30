@@ -6,7 +6,7 @@ module.exports = {
         //     //const button_function = require(`./${file}`)
         // }
         const button_function = require(`./button_identifiers/${button.id}`)
-        const [buttons, embed] = button_function.execute(settings, button)
-        button.message.edit({buttons: buttons, embed: embed})
+        const [text, buttons, embed] = button_function.execute(settings, button)
+        button.message.edit(text, {buttons: buttons, embed: embed})
     }
 }

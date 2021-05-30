@@ -1,10 +1,13 @@
 module.exports = {
     execute(buttons, button_label, params){
         let button = new buttons.MessageButton()
-            .setStyle('url')
-            .setURL(params['url'])
+            .setStyle('blurple')
             .setLabel(button_label)
-            .setID('link')
+            .setID('dev_commands_button')
+
+        if(params['color']){
+            button.setStyle(params['color'])
+        }
 
         return button
     }

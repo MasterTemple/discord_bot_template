@@ -4,7 +4,7 @@ module.exports = {
     use: `ping`,
     example:[`ping`],
     notes: "This command is just a filler command",
-    execute(settings, message, args) {
+    async execute(settings, message, args) {
         message.channel.send('pong')
     }
 }
