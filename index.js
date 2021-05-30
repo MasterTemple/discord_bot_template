@@ -23,7 +23,7 @@ const command_requirements = {
     default_commands: [],
     admin_commands: config.admin_users,
     dev_commands: config.developers
-}
+} //imports the list of users that are allowed to use each type of command
 
 command_types.forEach(function(command_type){
     initialize_commands.execute(settings, command_type, Discord) //creates collections of different types of commands
