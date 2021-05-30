@@ -1,9 +1,9 @@
 module.exports = {
     name: ['test'],
     description: 'Test a feature',
-    use: `test`,
-    example:[`test`],
-    notes: "This is a command used for testing purposes",
+    use: 'test',
+    example:['test'],
+    notes: 'This is a command used for testing purposes',
     async execute(settings, message, args) {
 
         //let link_button = settings.button_retriever(settings.buttons, 'link', 'Test Label', {url: 'http://www.google.com'})

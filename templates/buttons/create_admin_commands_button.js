@@ -3,7 +3,7 @@ module.exports = {
         let button = new buttons.MessageButton()
             .setStyle('blurple')
             .setLabel(button_label)
-            .setID('default_commands_button')
+            .setID('admin_commands_button')
 
         if(params['color']){
             button.setStyle(params['color'])
