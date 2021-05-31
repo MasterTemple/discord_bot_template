@@ -3,8 +3,11 @@ const fs = require('fs')
 const client = new Discord.Client()
 const buttons = require('discord-buttons')(client)
 
-const button_handler = require(`./buttons/button_handler`)
-const button_template_retriever = require(`./buttons/button_template_retriever`)
+const button_handler = require(`./functions/handlers/button_handler`)
+const button_template_retriever = require(`./functions/buttons/button_template_retriever`)
+const field_handler = require('./functions/handlers/field_handler')
+const search_handler = require('./functions/handlers/search_handler')
+const embed_template = require('.//templates/embeds/default_embed_template')
 var config = require('./config.json');
 
 
@@ -16,6 +19,10 @@ var settings = {
     edit_message: false,
     send_to_dm: false,
     button_retriever: button_template_retriever.execute,
+    button_handler: button_handler,
+    field_handler: field_handler,
+    search_handler: search_handler,
+    embed_template: embed_template,
     message_info: {}
 }
 //an object to pass around certain common values without creating countless parameters

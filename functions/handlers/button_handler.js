@@ -6,7 +6,7 @@ module.exports = {
         it returns optional text, buttons, and an embed
         it edits the message
          */
-        const button_function = require(`./button_functions/${button.id}`)
+        const button_function = require(`./../buttons/button_functions/${button.id}`)
         const [text, buttons, embed] = button_function.execute(settings, button)
         button.message.edit(text, {buttons: buttons, embed: embed})
         button.defer()
