@@ -6,9 +6,9 @@ module.exports = {
     notes: "This command is used to temporarily set the bot's status",
     async execute(settings, message, args) {
         if(args.length === 0){
-            settings.client.user.setActivity();
+            settings.client.user.setActivity() //clears activity status if no status is provided
         } else{
-            settings.client.user.setPresence({activity: {name: args.join(' ')}});
+            settings.client.user.setPresence({activity: {name: args.join(' ')}}) //sets the status
         }
     }
 }

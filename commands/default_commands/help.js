@@ -12,9 +12,11 @@ module.exports = {
         const help_message_embed = require('./../../functions/get_help_message_from_directory')
 
         let buttons = [default_commands_button, admin_commands_button, dev_commands_button]
+        //sends embed with buttons and returns the id
         let sent_message = await message.channel.send({buttons: buttons, embed: help_message_embed.execute(settings.config, 'default_commands', "Default Commands")})
-
+        //creates an object with the message id as the key, storing its button, fields, and the current page
         settings.message_info[sent_message.id] = {buttons: buttons}
-        setTimeout(() => delete settings.message_info[sent_message.id], 300000) //deletes the info after 5 minutes
+        //this object deletes after x minutes
+        setTimeout(() => delete settings.message_info[sent_message.id], settings.config.time_out_ms) 
     }
 }

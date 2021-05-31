@@ -15,6 +15,6 @@ module.exports = {
         let sent_message = await message.channel.send({buttons: buttons, embed: help_message_embed.execute(settings.config, 'admin_commands', "Admin Commands")})
 
         settings.message_info[sent_message.id] = {buttons: buttons}
-        setTimeout(() => delete settings.message_info[sent_message.id], 300000) //deletes the info after 5 minutes
+        setTimeout(() => delete settings.message_info[sent_message.id], settings.config.time_out_ms) 
     }
 }
