@@ -6,9 +6,11 @@ module.exports = {
         //creates 3 buttons
         let previous = settings.button_retriever(settings.buttons, 'previous', 'Previous', {})
         let next = settings.button_retriever(settings.buttons, 'next', 'Next', {})
-        let back = settings.button_retriever(settings.buttons, 'back', 'Back', {})
 
-        let buttons = [previous, next, back]
+        let buttons = [previous, next]
+        // let back = settings.button_retriever(settings.buttons, 'back', 'Back', {})
+
+        // let buttons = [previous, next, back]
 
         return [buttons, embed]
     }

@@ -1,11 +1,5 @@
 module.exports = {
     execute(settings, info_file, field_function_file_name, has_pages) {
-        /*
-        each button has a function in a file in fields
-        the function file is named after the id
-        it returns optional text, buttons, and an embed
-        it edits the message
-         */
 
         function check_field_index(counter){
             //checks if the inner array exists in the fields array or creates it so that I can push values to it

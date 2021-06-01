@@ -17,7 +17,7 @@ module.exports = {
                     }))
                     return match?.id
                 } catch {
-                    let sql_search_file = require(`./../search/sql_${search_type}.json`)
+                    let sql_search_file = require(`./../output/references/sql_${search_type}.json`)
 
                     let match = sql_search_file.find(e => search_for.every(function (el) {
                         return e?.name?.toLowerCase().includes(el) + e?.displayName?.toLowerCase().includes(el)
@@ -25,18 +25,28 @@ module.exports = {
                     return match?.id
                 }
             } else {
-                try {
-                    let match = locale_search_file.find(e => search_for.every(function (el) {
-                        return e?.name?.toLowerCase().includes(el)
-                    }))
-                    return match?.id
-                } catch {
-                    let sql_search_file = require(`./../search/sql_${search_type}.json`)
+                let results = []
+                locale_search_file.forEach(function(each_object){
+                    let match = search_for.every(function (el) {
+                        return each_object?.name?.toLowerCase().includes(el)
+                    })
+                    if(match){
+                        results.push(each_object)
+                    }
+                })
+                if(results.length !== 0) {
+                    return results
+                }else {
+                    let sql_search_file = require(`./../output/references/sql_${search_type}.json`)
 
-                    let match = sql_search_file.find(e => search_for.every(function (el) {
-                        return e?.name?.toLowerCase().includes(el) + e?.displayName?.toLowerCase().includes(el)
-                    }))
-                    return match?.id
+                    sql_search_file.forEach(function(each_object){
+                        let match = search_for.every(function (el) {
+                            return each_object?.name?.toLowerCase().includes(el) + each_object?.displayName?.toLowerCase().includes(el)
+                        })
+                        if(match){
+                            results.push(each_object)
+                        }
+                    })
                 }
             }
         }catch(e){
