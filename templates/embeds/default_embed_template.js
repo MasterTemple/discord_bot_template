@@ -1,4 +1,3 @@
-const Discord = require("discord.js");
 module.exports = {
     execute(config, embed_title, embed_title_url, embed_thumbnail_url){
         const Discord = require('discord.js');

@@ -6,8 +6,8 @@ module.exports = {
     notes: 'This is a command used for testing purposes',
     async execute(settings, message, args) {
 
-        //let link_button = settings.button_retriever(settings.buttons, 'link', 'Test Label', {url: 'http://www.google.com'})
-        let test_button = settings.button_retriever(settings.buttons, 'test_button', 'Clicks: 0', {})
+        //let link_button = settings.button_creator(settings.buttons, 'link', 'Test Label', {url: 'http://www.google.com'})
+        let test_button = settings.button_creator(settings.buttons, 'test_button', 'Clicks: 0', {})
 
         let sent_message = await message.channel.send('tested', {buttons: [test_button], embed: undefined})
         settings.message_info[sent_message.id] = {clicks: 0, buttons: [test_button]}

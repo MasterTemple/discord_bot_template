@@ -9,7 +9,7 @@ module.exports = {
 
         command_files.forEach(function(each_command_file){
             const command = require(`./../commands/${dir}/${each_command_file}`)
-            description = `${description}**${config.prefix}${command.name.join(`${config.prefix} `)}** ${command.description}\n`
+            description = `${description}**${config.prefix}${command.name.join(` ${config.prefix}`)}** ${command.description}\n`
         })
 
         embed.setDescription(description)

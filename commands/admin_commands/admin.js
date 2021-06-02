@@ -5,9 +5,9 @@ module.exports = {
     example:['admin'],
     notes: 'This command lists all other commands',
     async execute(settings, message, args) {
-        let default_commands_button = settings.button_retriever(settings.buttons, 'default_commands_button', 'Default Commands', {})
-        let admin_commands_button = settings.button_retriever(settings.buttons, 'admin_commands_button', 'Admin Commands', {color: 'green'})
-        let dev_commands_button = settings.button_retriever(settings.buttons, 'dev_commands_button', 'Developer Commands', {})
+        let default_commands_button = settings.button_creator(settings.buttons, 'default_commands_button', 'Default Commands', {})
+        let admin_commands_button = settings.button_creator(settings.buttons, 'admin_commands_button', 'Admin Commands', {style: 'green'})
+        let dev_commands_button = settings.button_creator(settings.buttons, 'dev_commands_button', 'Developer Commands', {})
 
         const help_message_embed = require('./../../functions/get_help_message_from_directory')
 

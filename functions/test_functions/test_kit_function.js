@@ -6,7 +6,7 @@ module.exports = {
 
         function check_field_index(){
             //checks if the inner array exists in the fields array or creates it so that I can push values to it
-            field_index = Math.floor(counter/config['embed_fields_length'])
+            field_index = Math.floor(counter/config['embed_fields_length'])//unused function with outdated config value
             if(!fields[field_index]){
                 fields[field_index] = []
             }

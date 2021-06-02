@@ -11,29 +11,29 @@ module.exports = {
         let title = `Results For: "${args.join(' ')}"`
         let image_url = settings.config.bot_icon_url
         let [buttons, embed] = pages_template.execute(settings, title, image_url)
-        let matches = settings.search_handler.execute('objects', false, args)
-        console.log(matches)
+        let matches = settings.search_handler('objects', false, args)
         //return
-        let fields = []
-        function check_field_index(counter){
-            //checks if the inner array exists in the fields array or creates it so that I can push values to it
-            field_index = Math.floor(counter/settings.config['embed_fields_length'])
-            if(!fields[field_index]){
-                fields[field_index] = []
-            }
-        }
-        let field_index = 0
-
-        matches.forEach(function (each_field, counter) {
-            check_field_index(counter)
-            // fields[field_index].push(each_field)
-            fields[field_index].push({
-                name:`${counter+1}. ${each_field.name}`,
-                value:`${each_field.type}: [[${each_field.id}]](${settings.config.explorer_link_domain}objects/${each_field.id})`,
-                inline:true
-            })
-
-        })
+        let fields = settings.divide_into_fields(settings, matches)
+        // let fields = []
+        // function check_field_index(counter){
+        //     //checks if the inner array exists in the fields array or creates it so that I can push values to it
+        //     field_index = Math.floor(counter/settings.config['embed_sizes']['search'])
+        //     if(!fields[field_index]){
+        //         fields[field_index] = []
+        //     }
+        // }
+        // let field_index = 0
+        //
+        // matches.forEach(function (each_field, counter) {
+        //     check_field_index(counter)
+        //     // fields[field_index].push(each_field)
+        //     fields[field_index].push({
+        //         name:`${counter+1}. ${each_field.name}`,
+        //         value:`${each_field.type}: [[${each_field.id}]](${settings.config.explorer_link_domain}objects/${each_field.id})`,
+        //         inline:true
+        //     })
+        //
+        // })
 
         let page = 0
         //automatically disables 'previously' button

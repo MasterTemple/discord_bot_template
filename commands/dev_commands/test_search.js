@@ -11,13 +11,13 @@ module.exports = {
         let title = `Results For: "${args.join(' ')}"`
         let image_url = settings.config.bot_icon_url
         let [buttons, embed] = pages_template.execute(settings, title, image_url)
-        let matches = settings.search_handler.execute('objects', false, args)
+        let matches = settings.search_handler('objects', false, args)
         //console.log(matches)
         //return
         let fields = []
         function check_field_index(counter){
             //checks if the inner array exists in the fields array or creates it so that I can push values to it
-            field_index = Math.floor(counter/settings.config['embed_fields_length'])
+            field_index = Math.floor(counter/settings.config['embed_sizes']['search'])
             if(!fields[field_index]){
                 fields[field_index] = []
             }
