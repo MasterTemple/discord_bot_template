@@ -1,130 +1,49 @@
 {
-    "objectID": 15936,
-    "itemInfo": {
+    "object_id": 15936,
+    "components": {
+        "2": 14628,
+        "9": 0,
+        "11": 7343
+    },
+    "item_info": {
         "name": "Hobby Hood",
         "displayName": "Hobby Hood",
         "type": "Loot",
         "description": null,
         "internalNotes": "repairs caster for 3 Armor. 4 AP 5 IP"
     },
-    "components": {
-        "2": 14628,
-        "9": 0,
-        "11": 7343
-    },
-    "skillIDs": [
-        363,
-        373,
-        1463,
-        1537
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        },
-        "373": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4255,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 5,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1463": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 36249,
-            "imaginationcost": 2,
-            "cooldowngroup": 5,
+    "skills": [
+        {
+            "imagination_cost": 2,
             "cooldown": 10.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Mend Armor",
-                "rawDescription": "Restores 3 Armor"
-            }
-        },
-        "1537": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 37628,
-            "imaginationcost": 0,
-            "cooldowngroup": -1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4709,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 5,
+            "name": "Mend Armor",
+            "full_description": "Restores 3 Armor"
         }
-    },
-    "behaviorIDs": [
-        4245,
-        4255,
-        36249,
-        37628
     ],
     "stats": {
-        "armorBonusUI": 4,
-        "imBonusUI": 5,
-        "cooldown": 10.0,
-        "cooldowngroup": 5
+        "life": 0,
+        "armor": 4,
+        "imagination": 5
     },
-    "itemComponent": {
-        "subItems": [
-            14490
-        ],
-        "equipLocation": [
-            "hair",
-            "clavicle"
-        ],
-        "sellPrice": 1142,
-        "buyPrice": 11425,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 7,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 90,
-        "equipLocationNames": [
-            "Headgear",
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Headgear",
+        "Neck/Back"
+    ],
+    "sell_price": 1142,
+    "buy_price": 11425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 90,
+    "stack_size": 1,
     "overview": {
         "36249": {
             "hasChargeUp": false,
@@ -144,26 +63,18 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m30177_199.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1919": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1919",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Urufu's Second Treasure",
-            "missionDescription": "Use a pet on the Pet Dig under the Ninjago Battlefield bridge to find a treasure.",
-            "isMission": 1,
+            "mission_description": "Use a pet on the Pet Dig under the Ninjago Battlefield bridge to find a treasure.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

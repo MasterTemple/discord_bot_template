@@ -1,97 +1,56 @@
 {
-    "objectID": 12108,
-    "itemInfo": {
+    "object_id": 12108,
+    "components": {
+        "2": 11857,
+        "9": 0,
+        "11": 6000
+    },
+    "item_info": {
         "name": "Balloon Animals",
         "displayName": "Balloon Animals",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": null
     },
-    "components": {
-        "2": 11857,
-        "9": 0,
-        "11": 6000
-    },
-    "skillIDs": [
-        1248
-    ],
-    "objectSkills": {
-        "1248": {
-            "castOnType": 3,
-            "AICombatWeight": 0,
-            "behaviorID": 29066,
-            "imaginationcost": 0,
-            "cooldowngroup": 13,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 120.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2965,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Party Clown",
-                "rawDescription": "Restores up to 30 Life, 30 Imagination and 30 Armor over time and boosts 5 Life, 5 Imagination and 5 Armor for 120 seconds"
-            }
+            "cooldown_group": 13,
+            "name": "Party Clown",
+            "full_description": "Restores up to 30 Life, 30 Imagination and 30 Armor over time and boosts 5 Life, 5 Imagination and 5 Armor for 120 seconds"
         }
-    },
-    "behaviorIDs": [
-        29066
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 650,
-        "buyPrice": 6500,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": 19,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "20",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
+    },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 650,
+    "buy_price": 6500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/misc/balloon_animals.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            613
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            111,
-            117
-        ],
-        "VendorIDs": [
-            13392
-        ],
-        "Vendors": [
-            {
-                "id": 13392,
-                "name": "NT Consumable Vendor",
-                "displayName": "Olivia Nightshade - Supplies Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13392,
+            "name": "Olivia Nightshade - Supplies Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

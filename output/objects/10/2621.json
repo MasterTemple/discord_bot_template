@@ -1,58 +1,39 @@
 {
-    "objectID": 2621,
-    "itemInfo": {
+    "object_id": 2621,
+    "components": {
+        "2": 2234,
+        "11": 958
+    },
+    "item_info": {
         "name": "NPC Bug Net",
         "displayName": "NPC Bug Net",
         "type": "Loot",
         "description": null,
         "internalNotes": null
     },
-    "components": {
-        "2": 2234,
-        "11": 958
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 100,
-        "color": 2,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 100,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/bricks/dds/m4433.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

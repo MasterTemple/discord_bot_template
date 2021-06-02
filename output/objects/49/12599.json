@@ -1,111 +1,53 @@
 {
-    "objectID": 12599,
-    "itemInfo": {
+    "object_id": 12599,
+    "components": {
+        "2": 12389,
+        "9": 0,
+        "11": 6182
+    },
+    "item_info": {
         "name": "Crux Planet Shield",
         "displayName": "Crux Planet Shield",
         "type": "Loot",
         "description": "",
         "internalNotes": "3 IP 4 AP"
     },
-    "components": {
-        "2": 12389,
-        "9": 0,
-        "11": 6182
-    },
-    "skillIDs": [
-        363,
-        371
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        },
-        "371": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4253,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 3,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4245,
-        4253
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 4,
-        "imBonusUI": 3
+        "life": 0,
+        "armor": 4,
+        "imagination": 3
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 725,
-        "buyPrice": 7250,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 87,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 40,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "25",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 725,
+    "buy_price": 7250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 40,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/scutumshield_cruxplanet.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1233": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1233",
             "defined_type": "Battle",
             "defined_subtype": "Nimbus Instance",
             "missionName": "The Curse of Kinga Hurl",
-            "missionDescription": "Defeat Kinga Hurl in the Battle of Nimbus Station 100 more times.",
-            "isMission": 0,
+            "mission_description": "Defeat Kinga Hurl in the Battle of Nimbus Station 100 more times.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

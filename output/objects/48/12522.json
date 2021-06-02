@@ -1,68 +1,51 @@
 {
-    "objectID": 12522,
-    "itemInfo": {
+    "object_id": 12522,
+    "components": {
+        "2": 12294,
+        "11": 6149,
+        "53": 91
+    },
+    "item_info": {
         "name": "Farm Model Pack 2",
         "displayName": "Farm Model Pack 2",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": null
     },
-    "components": {
-        "2": 12294,
-        "11": 6149,
-        "53": 91
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 15,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 15,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/present_orange.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1205": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1205",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "Model Mover 2",
-            "missionDescription": "Place 75 more models on any of your Properties.",
-            "isMission": 0,
+            "mission_description": "Place 75 more models on any of your Properties.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

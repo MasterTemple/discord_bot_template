@@ -1,65 +1,50 @@
 {
-    "objectID": 13578,
-    "itemInfo": {
+    "object_id": 13578,
+    "components": {
+        "2": 13315,
+        "11": 6705
+    },
+    "item_info": {
         "name": "Delivery Package",
         "displayName": "Achilles' Shield",
         "type": "Loot",
         "description": "Return this to Achilles Plutarch in Nexus Tower.",
         "internalNotes": "Nexus Tower Mission Item"
     },
-    "components": {
-        "2": 13315,
-        "11": 6705
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/misc/paper-package.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1449": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1449",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "Meyer's Cap Collection",
-            "missionDescription": "Talk to Olivia Nightshade in the Paradox vendor area of Nexus Tower.",
-            "isMission": 1,
+            "mission_description": "Talk to Olivia Nightshade in the Paradox vendor area of Nexus Tower.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

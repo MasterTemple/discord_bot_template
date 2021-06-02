@@ -1,77 +1,40 @@
 {
-    "objectID": 4015,
-    "itemInfo": {
+    "object_id": 4015,
+    "components": {
+        "2": 2404,
+        "9": 0,
+        "11": 1110
+    },
+    "item_info": {
         "name": "Test Contest Parachute",
         "displayName": "Test Contest Parachute",
         "type": "Loot",
         "description": "Lupowski",
         "internalNotes": "Lupowski"
     },
-    "components": {
-        "2": 2404,
-        "9": 0,
-        "11": 1110
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [
-        128
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Neck/Back"
     ],
-    "objectSkills": {
-        "128": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 296,
-            "imaginationcost": 0,
-            "cooldowngroup": 10,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2840,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        296
-    ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": 32,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/tgas/tgas/minifig_accessory_jetpack.tga",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

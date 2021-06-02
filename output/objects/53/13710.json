@@ -1,71 +1,47 @@
 {
-    "objectID": 13710,
-    "itemInfo": {
-        "name": "Model Reward Zoo Aviary Floor Corner 1 ",
-        "displayName": "Zoo Aviary Floor Corner Model 1",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": "Reward Model"
-    },
+    "object_id": 13710,
     "components": {
         "2": 13448,
         "3": 6768,
         "11": 6820,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 62,
-        "buyPrice": 620,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Zoo Aviary Floor Corner 1 ",
+        "displayName": "Zoo Aviary Floor Corner Model 1",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": "Reward Model"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 62,
+    "buy_price": 620,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_zoo_aviary_floor_corner_01.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            669
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            67
-        ],
-        "VendorIDs": [
-            10027
-        ],
-        "Vendors": [
-            {
-                "id": 10027,
-                "name": "NS Model Vendor",
-                "displayName": "Autumn Helix - Model Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 10027,
+            "name": "Autumn Helix - Model Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

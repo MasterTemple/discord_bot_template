@@ -1,74 +1,48 @@
 {
-    "objectID": 7641,
-    "itemInfo": {
+    "object_id": 7641,
+    "components": {
+        "2": 7210,
+        "9": 0,
+        "11": 3233
+    },
+    "item_info": {
         "name": "NPC Coalessa Staff",
         "displayName": "NPC Coalessa Staff",
         "type": "Loot",
         "description": "Special NPC Left Hand Staff 2/3/3 Short Smashing",
         "internalNotes": "Special NPC Left Hand Staff 2/3/3 Short Smashing"
     },
-    "components": {
-        "2": 7210,
-        "9": 0,
-        "11": 3233
-    },
-    "skillIDs": [
-        280
-    ],
-    "objectSkills": {
-        "280": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4714,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Super Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Super Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4714
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4714": {
             "hasChargeUp": false,
@@ -110,17 +84,7 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/gf_tikitorch.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

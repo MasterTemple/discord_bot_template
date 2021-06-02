@@ -1,56 +1,39 @@
 {
-    "objectID": 10044,
-    "itemInfo": {
+    "object_id": 10044,
+    "components": {
+        "2": 9879,
+        "11": 4870
+    },
+    "item_info": {
         "name": "Behavior - Basic Smash",
         "displayName": "Basic Smash Behavior",
         "type": "Loot",
         "description": "Smash an object and rebuild it",
         "internalNotes": "Smash an object and rebuild it"
     },
-    "components": {
-        "2": 9879,
-        "11": 4870
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "0"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 1,
-        "itemComponent": 32832,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 1,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 1,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/model_icon.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

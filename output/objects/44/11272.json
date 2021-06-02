@@ -1,72 +1,46 @@
 {
-    "objectID": 11272,
-    "itemInfo": {
+    "object_id": 11272,
+    "components": {
+        "2": 11042,
+        "9": 0,
+        "11": 5505
+    },
+    "item_info": {
         "name": "Sentinel Shield",
         "displayName": "Sentinel Shield",
         "type": "Loot",
         "description": "",
         "internalNotes": "3 points of shielding"
     },
-    "components": {
-        "2": 11042,
-        "9": 0,
-        "11": 5505
-    },
-    "skillIDs": [
-        879
-    ],
-    "objectSkills": {
-        "879": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 17592,
-            "imaginationcost": 3,
-            "cooldowngroup": 8,
+    "skills": [
+        {
+            "imagination_cost": 3,
             "cooldown": 45.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2950,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Shielding 1",
-                "rawDescription": "Shields you from up to 3 damage for 30 seconds"
-            }
+            "cooldown_group": 8,
+            "name": "Shielding 1",
+            "full_description": "Shields you from up to 3 damage for 30 seconds"
         }
-    },
-    "behaviorIDs": [
-        17592
     ],
     "stats": {
-        "cooldown": 45.0,
-        "cooldowngroup": 8
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 70,
-        "buyPrice": 700,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 70,
+    "buy_price": 700,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "17592": {
             "hasChargeUp": false,
@@ -86,30 +60,13 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m61856_sentinel.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            190
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            58,
-            81
-        ],
-        "VendorIDs": [
-            8212
-        ],
-        "Vendors": [
-            {
-                "id": 8212,
-                "name": "AG Gear Vendor - Sentinel",
-                "displayName": "Klaus Zett - Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 8212,
+            "name": "Klaus Zett - Gear Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,112 +1,48 @@
 {
-    "objectID": 12675,
-    "itemInfo": {
+    "object_id": 12675,
+    "components": {
+        "2": 12464,
+        "9": 0,
+        "11": 6223
+    },
+    "item_info": {
         "name": "Fleur-di-lis Shield",
         "displayName": "Fleur-de-Lis Shield",
         "type": "Loot",
         "description": null,
         "internalNotes": "4 IP 4 AP"
     },
-    "components": {
-        "2": 12464,
-        "9": 0,
-        "11": 6223
-    },
-    "skillIDs": [
-        363,
-        372
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        },
-        "372": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4254,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 4,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4245,
-        4254
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 4,
-        "imBonusUI": 4
+        "life": 0,
+        "armor": 4,
+        "imagination": 4
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 8000,
-        "buyPrice": 80000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 87,
-        "preconditions": [
-            254
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "35",
-        "preconditionDescriptions": {
-            "254": "You must be Level 35 or greater to use this item."
-        }
+    "preconditions": {
+        "254": "You must be Level 35 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "35",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 8000,
+    "buy_price": 80000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/heatershieldfluedelis.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            643
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            115
-        ],
-        "VendorIDs": [
-            13569
-        ],
-        "Vendors": [
-            {
-                "id": 13569,
-                "name": "NT Mr. Ree Shady Vendor",
-                "displayName": "Mr. Ree - Shady Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13569,
+            "name": "Mr. Ree - Shady Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

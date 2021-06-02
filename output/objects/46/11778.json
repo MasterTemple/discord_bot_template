@@ -1,73 +1,47 @@
 {
-    "objectID": 11778,
-    "itemInfo": {
-        "name": "Model Reward Office Chair 2",
-        "displayName": "Office Chair 2 Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 11778,
     "components": {
         "2": 11530,
         "3": 5622,
         "11": 5829,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 8,
-        "buyPrice": 80,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Office Chair 2",
+        "displayName": "Office Chair 2 Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 8,
+    "buy_price": 80,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_office_chair02.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            833
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            95,
-            118
-        ],
-        "VendorIDs": [
-            12550,
-            13776
-        ],
-        "Vendors": [
-            {
-                "id": 12550,
-                "name": "AG - Model Vending Machine",
-                "displayName": "Model Vending Machine"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12550,
+            "name": "Model Vending Machine"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

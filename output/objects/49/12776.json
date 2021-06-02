@@ -1,79 +1,50 @@
 {
-    "objectID": 12776,
-    "itemInfo": {
+    "object_id": 12776,
+    "components": {
+        "2": 12566,
+        "9": 0,
+        "11": 6324
+    },
+    "item_info": {
         "name": "Super Scimitar",
         "displayName": "Super Scimitar",
         "type": "Loot",
         "description": "",
         "internalNotes": "2/3/3 Long Slashing"
     },
-    "components": {
-        "2": 12566,
-        "9": 0,
-        "11": 6324
-    },
-    "skillIDs": [
-        286
-    ],
-    "objectSkills": {
-        "286": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4565,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Super Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(Description)Slashes enemies",
-                "damageCombo": " 2+3+3 ",
-                "Description": "Slashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Super Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(Description)Slashes enemies",
+            "damage_combo": " 2+3+3 ",
+            "description": "Slashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4565
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 600,
-        "buyPrice": 6000,
-        "isKitPiece": 1,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "20",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 600,
+    "buy_price": 6000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4565": {
             "hasChargeUp": false,
@@ -116,35 +87,13 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m43887_21.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            442
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            98
-        ],
-        "VendorIDs": [
-            4769,
-            12214
-        ],
-        "Vendors": [
-            {
-                "id": 4769,
-                "name": "Test Puccio MissionGiver",
-                "displayName": null
-            },
-            {
-                "id": 12214,
-                "name": "Temp AM Temple Ruins Vendor",
-                "displayName": "Sakura Moonstone - Monastery Ruins Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12214,
+            "name": "Sakura Moonstone - Monastery Ruins Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

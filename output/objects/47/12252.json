@@ -1,70 +1,38 @@
 {
-    "objectID": 12252,
-    "itemInfo": {
+    "object_id": 12252,
+    "components": {
+        "2": 11999,
+        "9": 0,
+        "11": 6030
+    },
+    "item_info": {
         "name": "TEST effects item",
         "displayName": "",
         "type": "Loot",
         "description": "",
         "internalNotes": null
     },
-    "components": {
-        "2": 11999,
-        "9": 0,
-        "11": 6030
-    },
-    "skillIDs": [
-        814
-    ],
-    "objectSkills": {
-        "814": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 15429,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2860,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        15429
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 0
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 200,
-        "buyPrice": 2000,
-        "isKitPiece": 1,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 200,
+    "buy_price": 2000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "15429": {
             "hasChargeUp": false,
@@ -84,17 +52,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m44658_131.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

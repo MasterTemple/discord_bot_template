@@ -1,81 +1,50 @@
 {
-    "objectID": 12595,
-    "itemInfo": {
+    "object_id": 12595,
+    "components": {
+        "2": 12385,
+        "9": 0,
+        "11": 6178
+    },
+    "item_info": {
         "name": "Blaster",
         "displayName": "Blaster",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "3/3/3 Projectile"
     },
-    "components": {
-        "2": 12385,
-        "9": 0,
-        "11": 6178
-    },
-    "skillIDs": [
-        1003
-    ],
-    "objectSkills": {
-        "1003": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 22022,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Blaster Shot",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(Description)Fires a projectile",
-                "damageCombo": " 3+3+3 ",
-                "Description": "Fires a projectile"
-            }
+            "cooldown_group": 1,
+            "name": "Blaster Shot",
+            "full_description": "%(DamageCombo) 3+3+3 %(Description)Fires a projectile",
+            "damage_combo": " 3+3+3 ",
+            "description": "Fires a projectile"
         }
-    },
-    "behaviorIDs": [
-        22022
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 1250,
-        "buyPrice": 12500,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 9,
-        "preconditions": [
-            223
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 69,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "27",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "223": "You must be Level 27 or greater to use this item."
-        }
+    "preconditions": {
+        "223": "You must be Level 27 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "27",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 1250,
+    "buy_price": 12500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 69,
+    "stack_size": 1,
     "overview": {
         "22022": {
             "hasChargeUp": false,
@@ -132,26 +101,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/props_bladegun.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1231": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1231",
             "defined_type": "Battle",
             "defined_subtype": "Nimbus Instance",
             "missionName": "The Curse of Murgle Blotch",
-            "missionDescription": "Defeat Murgle Blotch in the Battle of Nimbus Station 150 more times.",
-            "isMission": 0,
+            "mission_description": "Defeat Murgle Blotch in the Battle of Nimbus Station 150 more times.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

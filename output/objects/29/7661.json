@@ -1,69 +1,38 @@
 {
-    "objectID": 7661,
-    "itemInfo": {
+    "object_id": 7661,
+    "components": {
+        "2": 7221,
+        "9": 0,
+        "11": 3234
+    },
+    "item_info": {
         "name": "Test Yegge Banana",
         "displayName": "Test Yegge Banana",
         "type": "Loot",
         "description": "",
         "internalNotes": null
     },
-    "components": {
-        "2": 7221,
-        "9": 0,
-        "11": 3234
-    },
-    "skillIDs": [
-        359
-    ],
-    "objectSkills": {
-        "359": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4265,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 2.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2860,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        4265
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 2.0,
-        "cooldowngroup": 16
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 100,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 100,
     "overview": {
         "4265": {
             "hasChargeUp": false,
@@ -83,17 +52,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/missioncomics/wonderland/gnarled_forest/hud_icons/mission_386.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

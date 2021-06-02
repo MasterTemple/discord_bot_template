@@ -1,121 +1,63 @@
 {
-    "objectID": 14127,
-    "itemInfo": {
+    "object_id": 14127,
+    "components": {
+        "2": 13838,
+        "11": 7004,
+        "53": 129
+    },
+    "item_info": {
         "name": "Faction Token Bag - 200 tokens",
         "displayName": "Ultra-Mega Bag of Faction Tokens",
         "type": "Loot",
         "description": "Double-click to get 200 Faction Tokens!",
         "internalNotes": "Community Reward - Contains 200 Faction Tokens"
     },
-    "components": {
-        "2": 13838,
-        "11": 7004,
-        "53": 129
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            null
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            211,
-            47
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "6",
-        "preconditionDescriptions": {
-            "211": "You must be Level 6 or greater to use this item.",
-            "47": "Faction members only. Find the Recruiter in Nimbus Station and join a Faction!"
-        }
+    "preconditions": {
+        "211": "You must be Level 6 or greater to use this item.",
+        "47": "Faction members only. Find the Recruiter in Nimbus Station and join a Faction!"
     },
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "6",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/faction_bag_lg.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            680
-        ],
-        "LootMatrixIndexes": {
-            "730": {
-                "LootMatrixIndex": 730,
-                "LootTableIndex": 680,
-                "RarityTableIndex": 23,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 86,
-                        "randmax": 100.0,
-                        "rarity": 1,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 1,
-                    "2": 0,
-                    "3": 0,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 100.0,
-                    "howManyToKill": 1
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {
-                    "730": {
-                        "name": "12 Month Membership Reward",
-                        "displayName": "12 Month Membership Reward"
-                    }
-                },
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1745": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1745",
             "defined_type": "Play",
             "defined_subtype": "General",
             "missionName": "Nexus Force Commendation",
-            "missionDescription": "Complete 100 more Missions, for a total of 400.",
-            "isMission": 0,
+            "mission_description": "Complete 100 more Missions, for a total of 400.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1747": {
+        {
+            "mission_id": "1747",
             "defined_type": "Play",
             "defined_subtype": "General",
             "missionName": "LEGO Universe Commendation",
-            "missionDescription": "Complete 100 more Achievements, for a total of 500.",
-            "isMission": 0,
+            "mission_description": "Complete 100 more Achievements, for a total of 500.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

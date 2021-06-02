@@ -1,85 +1,52 @@
 {
-    "objectID": 7397,
-    "itemInfo": {
+    "object_id": 7397,
+    "components": {
+        "2": 6961,
+        "9": 0,
+        "11": 3074
+    },
+    "item_info": {
         "name": "Sorcerer Weapon 1",
         "displayName": "Sorcerer Wand 1",
         "type": "Loot",
         "description": "Rank 1 Specialty Kit Item",
         "internalNotes": "Rank 1 Specialty Kit Item"
     },
-    "components": {
-        "2": 6961,
-        "9": 0,
-        "11": 3074
-    },
-    "skillIDs": [
-        355
-    ],
-    "objectSkills": {
-        "355": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 14076,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3332,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Wand Mastery 1",
-                "rawDescription": "%(DamageCombo) 1+2+2 %(ChargeUp)Restores 2 Imagination for nearby characters",
-                "damageCombo": " 1+2+2 ",
-                "ChargeUp": "Restores 2 Imagination for nearby characters"
-            }
+            "cooldown_group": 1,
+            "name": "Wand Mastery 1",
+            "full_description": "%(DamageCombo) 1+2+2 %(ChargeUp)Restores 2 Imagination for nearby characters",
+            "charge_up": "Restores 2 Imagination for nearby characters",
+            "damage_combo": " 1+2+2 "
         }
-    },
-    "behaviorIDs": [
-        14076
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 150,
-        "buyPrice": 1500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            253,
-            123,
-            38
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8320,
-        "altCurrencyCost": 25,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "5",
-        "altCurrencyName": "Paradox Token",
-        "altCurrencyDisplayName": "Paradox Token",
-        "preconditionDescriptions": {
-            "253": "You must be Level 5 or greater to use this item.",
-            "123": "Use the Rank 1 Sorcerer book before doing that.",
-            "38": "You need to be a member of Paradox to use this."
-        }
+    "preconditions": {
+        "253": "You must be Level 5 or greater to use this item.",
+        "123": "Use the Rank 1 Sorcerer book before doing that.",
+        "38": "You need to be a member of Paradox to use this."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "5",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 150,
+    "buy_price": 1500,
+    "alt_currency_type": 8320,
+    "alt_currency_cost": 25,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "14076": {
             "hasChargeUp": true,
@@ -134,76 +101,13 @@
             "projectileChargeUpDamage": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/sorcerer_staff_1.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            146,
-            179,
-            634
-        ],
-        "LootMatrixIndexes": {
-            "248": {
-                "LootMatrixIndex": 248,
-                "LootTableIndex": 146,
-                "RarityTableIndex": 22,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "4": {
-                        "id": 83,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 100.0,
-                    "howManyToKill": 1
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {
-                    "248": {
-                        "name": "Rank 1 Sorcerer Kit Package",
-                        "displayName": "Rank 1 Sorcerer Kit Package"
-                    }
-                },
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [
-            55,
-            85
-        ],
-        "VendorIDs": [
-            6632,
-            11223
-        ],
-        "Vendors": [
-            {
-                "id": 6632,
-                "name": "NS Paradox Faction Vendor - Plaza",
-                "displayName": "Cog Blammo - Paradox Vendor"
-            },
-            {
-                "id": 11223,
-                "name": "Testdude2",
-                "displayName": null
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6632,
+            "name": "Cog Blammo - Paradox Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

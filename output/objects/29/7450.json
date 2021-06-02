@@ -1,101 +1,52 @@
 {
-    "objectID": 7450,
-    "itemInfo": {
+    "object_id": 7450,
+    "components": {
+        "2": 7015,
+        "9": 0,
+        "11": 3105
+    },
+    "item_info": {
         "name": "Space Marauder Head 3",
         "displayName": "Space Marauder Helm 3",
         "type": "Loot",
         "description": "Rank 3 Specialty Kit Item",
         "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "components": {
-        "2": 7015,
-        "9": 0,
-        "11": 3105
-    },
-    "skillIDs": [
-        360,
-        460
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "460": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 5411,
-            "imaginationcost": 8,
-            "cooldowngroup": 20,
+    "skills": [
+        {
+            "imagination_cost": 8,
             "cooldown": 5.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3679,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Plasma Ball 3",
-                "rawDescription": "%(DamageCombo) 10 %(Description)Tosses an energy sphere that does 10 damage to enemies",
-                "damageCombo": " 10 ",
-                "Description": "Tosses an energy sphere that does 10 damage to enemies"
-            }
+            "cooldown_group": 20,
+            "name": "Plasma Ball 3",
+            "full_description": "%(DamageCombo) 10 %(Description)Tosses an energy sphere that does 10 damage to enemies",
+            "damage_combo": " 10 ",
+            "description": "Tosses an energy sphere that does 10 damage to enemies"
         }
-    },
-    "behaviorIDs": [
-        4241,
-        5411
     ],
     "stats": {
-        "armorBonusUI": 1,
-        "cooldown": 5.0,
-        "cooldowngroup": 20
+        "life": 0,
+        "armor": 1,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            78,
-            38
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8320,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Paradox Token",
-        "altCurrencyDisplayName": "Paradox Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "78": "Use the Rank 3 Space Marauder book before doing that.",
-            "38": "You need to be a member of Paradox to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "78": "Use the Rank 3 Space Marauder book before doing that.",
+        "38": "You need to be a member of Paradox to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8320,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "5411": {
             "hasChargeUp": false,
@@ -128,31 +79,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/spacemaurader_helm_3.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            688,
-            676,
-            691
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            103
-        ],
-        "VendorIDs": [
-            13378
-        ],
-        "Vendors": [
-            {
-                "id": 13378,
-                "name": "NT Paradox Faction Vendor",
-                "displayName": "Sutoro Hatto - Paradox Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13378,
+            "name": "Sutoro Hatto - Paradox Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,85 +1,38 @@
 {
-    "objectID": 6651,
-    "itemInfo": {
+    "object_id": 6651,
+    "components": {
+        "2": 1933,
+        "9": 0,
+        "11": 3464
+    },
+    "item_info": {
         "name": "Test AoE Hammer Tier 2",
         "displayName": "Test AoE Hammer Tier 2",
         "type": "Loot",
         "description": null,
         "internalNotes": null
     },
-    "components": {
-        "2": 1933,
-        "9": 0,
-        "11": 3464
-    },
-    "skillIDs": [
-        225,
-        227
-    ],
-    "objectSkills": {
-        "225": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1872,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2840,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        },
-        "227": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1878,
-            "imaginationcost": 4,
-            "cooldowngroup": 0,
-            "cooldown": 4.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2859,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        1872,
-        1878
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 4.0,
-        "cooldowngroup": 0
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 2,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "1872": {
             "hasChargeUp": false,
@@ -120,17 +73,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/uber_hammer.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,95 +1,50 @@
 {
-    "objectID": 12669,
-    "itemInfo": {
+    "object_id": 12669,
+    "components": {
+        "2": 12458,
+        "9": 0,
+        "11": 6217
+    },
+    "item_info": {
         "name": "Blue Gem Scepter",
         "displayName": "Sapphire Scepter",
         "type": "Loot",
         "description": "",
         "internalNotes": "4 AP + Damage lasers"
     },
-    "components": {
-        "2": 12458,
-        "9": 0,
-        "11": 6217
-    },
-    "skillIDs": [
-        363,
-        1202
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        },
-        "1202": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 27040,
-            "imaginationcost": 5,
-            "cooldowngroup": 2,
+    "skills": [
+        {
+            "imagination_cost": 5,
             "cooldown": 8.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Sapphire Scepter Blast",
-                "rawDescription": "%(DamageCombo) 3x3 %(Description)Shoots 3 lasers that each do 3 damage",
-                "damageCombo": " 3x3 ",
-                "Description": "Shoots 3 lasers that each do 3 damage"
-            }
+            "cooldown_group": 2,
+            "name": "Sapphire Scepter Blast",
+            "full_description": "%(DamageCombo) 3x3 %(Description)Shoots 3 lasers that each do 3 damage",
+            "damage_combo": " 3x3 ",
+            "description": "Shoots 3 lasers that each do 3 damage"
         }
-    },
-    "behaviorIDs": [
-        4245,
-        27040
     ],
     "stats": {
-        "armorBonusUI": 4,
-        "cooldown": 8.0,
-        "cooldowngroup": 2
+        "life": 0,
+        "armor": 4,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 7500,
-        "buyPrice": 75000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "25",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 7500,
+    "buy_price": 75000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "27040": {
             "hasChargeUp": false,
@@ -122,29 +77,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/bluegemscepter.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            643
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            115
-        ],
-        "VendorIDs": [
-            13569
-        ],
-        "Vendors": [
-            {
-                "id": 13569,
-                "name": "NT Mr. Ree Shady Vendor",
-                "displayName": "Mr. Ree - Shady Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13569,
+            "name": "Mr. Ree - Shady Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

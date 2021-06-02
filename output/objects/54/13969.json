@@ -1,51 +1,38 @@
 {
-    "objectID": 13969,
-    "itemInfo": {
+    "object_id": 13969,
+    "components": {
+        "2": 13681,
+        "9": 0,
+        "11": 6939
+    },
+    "item_info": {
         "name": "TEST Tower Grid MainHand B",
         "displayName": "Test",
         "type": "Loot",
         "description": "for testing only",
         "internalNotes": "For testing targetting"
     },
-    "components": {
-        "2": 13681,
-        "9": 0,
-        "11": 6939
-    },
-    "skillIDs": [
-        1292
-    ],
-    "objectSkills": {
-        "1292": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 29579,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": null,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        29579
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            null
-        ],
-        "equipLocationNames": [],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 0,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "29579": {
             "hasChargeUp": false,
@@ -65,15 +52,7 @@
             "attackTypes": []
         }
     },
-    "iconURL": "textures/ui/inventory/hands/flintlock_gun_black.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

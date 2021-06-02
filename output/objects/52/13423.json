@@ -1,81 +1,50 @@
 {
-    "objectID": 13423,
-    "itemInfo": {
+    "object_id": 13423,
+    "components": {
+        "2": 13152,
+        "9": 0,
+        "11": 6639
+    },
+    "item_info": {
         "name": "Exceptional Pea Shooter MKII",
         "displayName": "Exceptional Pea Shooter MKII",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "2/2/2 damage with knockdown on each bullet"
     },
-    "components": {
-        "2": 13152,
-        "9": 0,
-        "11": 6639
-    },
-    "skillIDs": [
-        1217
-    ],
-    "objectSkills": {
-        "1217": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 27373,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Pea Shot MKII",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(Description)Knocks down enemies",
-                "damageCombo": " 2+2+2 ",
-                "Description": "Knocks down enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Pea Shot MKII",
+            "full_description": "%(DamageCombo) 2+2+2 %(Description)Knocks down enemies",
+            "damage_combo": " 2+2+2 ",
+            "description": "Knocks down enemies"
         }
-    },
-    "behaviorIDs": [
-        27373
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 2500,
-        "buyPrice": 25000,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 139,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 2500,
+    "buy_price": 25000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 139,
+    "stack_size": 1,
     "overview": {
         "27373": {
             "hasChargeUp": false,
@@ -132,26 +101,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/march2011content/ui/inventory/hands/props_peashooter2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1354": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1354",
             "defined_type": "General",
             "defined_subtype": null,
             "missionName": "Like Clockwork",
-            "missionDescription": "Complete 1000 Daily Missions.",
-            "isMission": 0,
+            "mission_description": "Complete 1000 Daily Missions.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

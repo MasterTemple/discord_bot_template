@@ -1,99 +1,58 @@
 {
-    "objectID": 12103,
-    "itemInfo": {
+    "object_id": 12103,
+    "components": {
+        "2": 11852,
+        "9": 0,
+        "11": 5995
+    },
+    "item_info": {
         "name": "Maneater Seeds",
         "displayName": "Maneater Seeds",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": null
     },
-    "components": {
-        "2": 11852,
-        "9": 0,
-        "11": 5995
-    },
-    "skillIDs": [
-        1227
-    ],
-    "objectSkills": {
-        "1227": {
-            "castOnType": 3,
-            "AICombatWeight": 0,
-            "behaviorID": 27804,
-            "imaginationcost": 0,
-            "cooldowngroup": 52,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 45.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4276,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Plant Pod",
-                "rawDescription": "%(DamageCombo) 3/2 %(Description)Plants a seed that grows into a massive plant that assists you in battle",
-                "damageCombo": " 3/2 ",
-                "Description": "Plants a seed that grows into a massive plant that assists you in battle"
-            }
+            "cooldown_group": 52,
+            "name": "Plant Pod",
+            "full_description": "%(DamageCombo) 3/2 %(Description)Plants a seed that grows into a massive plant that assists you in battle",
+            "damage_combo": " 3/2 ",
+            "description": "Plants a seed that grows into a massive plant that assists you in battle"
         }
-    },
-    "behaviorIDs": [
-        27804
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 507,
-        "buyPrice": 5075,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": 19,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "20",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
+    },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 507,
+    "buy_price": 5075,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/misc/cons_audry_seeds.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            613
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            111,
-            117
-        ],
-        "VendorIDs": [
-            13392
-        ],
-        "Vendors": [
-            {
-                "id": 13392,
-                "name": "NT Consumable Vendor",
-                "displayName": "Olivia Nightshade - Supplies Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13392,
+            "name": "Olivia Nightshade - Supplies Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

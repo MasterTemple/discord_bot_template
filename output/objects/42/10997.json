@@ -1,66 +1,50 @@
 {
-    "objectID": 10997,
-    "itemInfo": {
+    "object_id": 10997,
+    "components": {
+        "2": 10750,
+        "11": 5351
+    },
+    "item_info": {
         "name": "Touch Sensitive Platform Behavior",
         "displayName": "Touch Sensitive Platform Behavior",
         "type": "Loot",
         "description": "Model moves up and down when touched.  The model also gives instructions when approached.",
         "internalNotes": "TIER 2 Behavior"
     },
-    "components": {
-        "2": 10750,
-        "11": 5351
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            null
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 10997,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 0,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 0,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/missions/req_shooting_gallery.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "881": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "881",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "Behaviors 2",
-            "missionDescription": "Claim a Property on Nimbus Station.",
-            "isMission": 0,
+            "mission_description": "Claim a Property on Nimbus Station.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

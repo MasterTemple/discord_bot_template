@@ -1,63 +1,41 @@
 {
-    "objectID": 8321,
-    "itemInfo": {
+    "object_id": 8321,
+    "components": {
+        "2": 7880,
+        "11": 3657
+    },
+    "item_info": {
         "name": "Venture League Token",
         "displayName": "Venture League Token",
         "type": "Loot",
         "description": "Spend this at a Venture League vendor!",
         "internalNotes": "Faction token"
     },
-    "components": {
-        "2": 7880,
-        "11": 3657
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 999,
-        "color": null,
-        "preconditions": [
-            36
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "preconditionDescriptions": {
-            "36": "You need to be a member of the Venture League to use this."
-        }
+    "preconditions": {
+        "36": "You need to be a member of the Venture League to use this."
     },
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 999,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/misc/faction_coin_venture.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            237,
-            239
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

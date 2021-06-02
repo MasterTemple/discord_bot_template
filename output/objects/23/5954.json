@@ -1,81 +1,50 @@
 {
-    "objectID": 5954,
-    "itemInfo": {
+    "object_id": 5954,
+    "components": {
+        "2": 5350,
+        "9": 0,
+        "11": 2495
+    },
+    "item_info": {
         "name": "Great Shortsword of Stunning",
         "displayName": "Great Shortsword of Stunning",
         "type": "Loot",
         "description": null,
         "internalNotes": "2/2/3 Slashing + Stunning add on"
     },
-    "components": {
-        "2": 5350,
-        "9": 0,
-        "11": 2495
-    },
-    "skillIDs": [
-        768
-    ],
-    "objectSkills": {
-        "768": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 13108,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Great Attack with Stun",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(ChargeUp)Stuns enemies",
-                "damageCombo": " 2+2+3 ",
-                "ChargeUp": "Stuns enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Great Attack with Stun",
+            "full_description": "%(DamageCombo) 2+2+3 %(ChargeUp)Stuns enemies",
+            "charge_up": "Stuns enemies",
+            "damage_combo": " 2+2+3 "
         }
-    },
-    "behaviorIDs": [
-        13108
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 552,
-        "buyPrice": 5525,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 20,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 552,
+    "buy_price": 5525,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 20,
+    "stack_size": 1,
     "overview": {
         "13108": {
             "hasChargeUp": true,
@@ -120,30 +89,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m3847_131.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            83
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            45
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "531": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "531",
             "defined_type": "Battle",
             "defined_subtype": "General",
             "missionName": "Not the Boss of Me 3",
-            "missionDescription": "Smash 100 more mini-bosses.",
-            "isMission": 0,
+            "mission_description": "Smash 100 more mini-bosses.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

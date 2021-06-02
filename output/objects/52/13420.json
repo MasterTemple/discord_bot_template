@@ -1,59 +1,41 @@
 {
-    "objectID": 13420,
-    "itemInfo": {
-        "name": "Reward Hot Air Balloon",
-        "displayName": "Reward Hot Air Balloon",
-        "type": "Loot",
-        "description": "This model contains behaviors!",
-        "internalNotes": "A reward model with Behaviors"
-    },
+    "object_id": 13420,
     "components": {
         "2": 13149,
         "3": 6522,
         "11": 6638,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 99,
-        "buyPrice": 999,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 13420,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Reward Hot Air Balloon",
+        "displayName": "Reward Hot Air Balloon",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": "A reward model with Behaviors"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 99,
+    "buy_price": 999,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_bvr_hotairbaloon.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

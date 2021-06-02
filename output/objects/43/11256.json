@@ -1,62 +1,42 @@
 {
-    "objectID": 11256,
-    "itemInfo": {
+    "object_id": 11256,
+    "components": {
+        "2": 11026,
+        "11": 5504,
+        "53": 64
+    },
+    "item_info": {
         "name": "Daily Token Pack",
         "displayName": "Daily Token Pack",
         "type": "Loot",
         "description": "Double-click to open this pack of tokens!",
         "internalNotes": "Gives 1 to 3 (random) faction tokens"
     },
-    "components": {
-        "2": 11026,
-        "11": 5504,
-        "53": 64
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/present_black.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

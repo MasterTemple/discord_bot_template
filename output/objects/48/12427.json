@@ -1,79 +1,40 @@
 {
-    "objectID": 12427,
-    "itemInfo": {
+    "object_id": 12427,
+    "components": {
+        "2": 12180,
+        "9": 0,
+        "11": 6089
+    },
+    "item_info": {
         "name": "PaperFigShield",
         "displayName": "PaperFigShield",
         "type": "Loot",
         "description": "",
         "internalNotes": null
     },
-    "components": {
-        "2": 12180,
-        "9": 0,
-        "11": 6089
-    },
-    "skillIDs": [
-        363
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        }
-    },
-    "behaviorIDs": [
-        4245
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 4
+        "life": 0,
+        "armor": 4,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 625,
-        "buyPrice": 6250,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 625,
+    "buy_price": 6250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/maelstromeyeshield.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

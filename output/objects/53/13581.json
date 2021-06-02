@@ -1,109 +1,48 @@
 {
-    "objectID": 13581,
-    "itemInfo": {
+    "object_id": 13581,
+    "components": {
+        "2": 13318,
+        "9": 0,
+        "11": 6708
+    },
+    "item_info": {
         "name": "Skeleton Key",
         "displayName": "Skeleton Key",
         "type": "Loot",
         "description": "",
         "internalNotes": "1 IP 1 AP + Summons Bone Daddy"
     },
-    "components": {
-        "2": 13318,
-        "9": 0,
-        "11": 6708
-    },
-    "skillIDs": [
-        360,
-        369,
-        1232
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1232": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 27942,
-            "imaginationcost": 3,
-            "cooldowngroup": 15,
+    "skills": [
+        {
+            "imagination_cost": 3,
             "cooldown": 35.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4261,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Summon Bone Daddy",
-                "rawDescription": "Creates a Bone Daddy that assists you in battle"
-            }
+            "cooldown_group": 15,
+            "name": "Summon Bone Daddy",
+            "full_description": "Creates a Bone Daddy that assists you in battle"
         }
-    },
-    "behaviorIDs": [
-        4241,
-        4251,
-        27942
     ],
     "stats": {
-        "armorBonusUI": 1,
-        "imBonusUI": 1,
-        "cooldown": 35.0,
-        "cooldowngroup": 15
+        "life": 0,
+        "armor": 1,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 9000,
-        "buyPrice": 90000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 9000,
+    "buy_price": 90000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "27942": {
             "hasChargeUp": false,
@@ -123,29 +62,13 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/skeletonkey.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            643
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            115
-        ],
-        "VendorIDs": [
-            13569
-        ],
-        "Vendors": [
-            {
-                "id": 13569,
-                "name": "NT Mr. Ree Shady Vendor",
-                "displayName": "Mr. Ree - Shady Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13569,
+            "name": "Mr. Ree - Shady Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

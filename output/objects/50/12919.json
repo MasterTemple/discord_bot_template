@@ -1,142 +1,57 @@
 {
-    "objectID": 12919,
-    "itemInfo": {
+    "object_id": 12919,
+    "components": {
+        "2": 12705,
+        "9": 0,
+        "11": 6419
+    },
+    "item_info": {
         "name": "NJ SJ Imagination Shirt",
         "displayName": "Imagination Spinjitzu Shirt",
         "type": "Loot",
         "description": null,
         "internalNotes": "2 IP 2 AP + Spinjitzu Armor"
     },
-    "components": {
-        "2": 12705,
-        "9": 0,
-        "11": 6419
-    },
-    "skillIDs": [
-        361,
-        370,
-        1119
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1119": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 24665,
-            "imaginationcost": 0,
-            "cooldowngroup": -1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4709,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4243,
-        4252,
-        24665
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "chest"
-        ],
-        "sellPrice": 550,
-        "buyPrice": 5500,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            214,
-            302
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 31,
-        "equipLocationNames": [
-            "Torso"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Torso"
+    ],
+    "sell_price": 550,
+    "buy_price": 5500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 31,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/torsos/torsos_spinjitzu.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            442
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            98
-        ],
-        "VendorIDs": [
-            4769,
-            12214
-        ],
-        "Vendors": [
-            {
-                "id": 4769,
-                "name": "Test Puccio MissionGiver",
-                "displayName": null
-            },
-            {
-                "id": 12214,
-                "name": "Temp AM Temple Ruins Vendor",
-                "displayName": "Sakura Moonstone - Monastery Ruins Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "972": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12214,
+            "name": "Sakura Moonstone - Monastery Ruins Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "972",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Destroy the Drill!",
-            "missionDescription": "Smash a Skeleton Drilling Rig in the Maelstrom Quarry. Use Spinjitzu to reveal its weakness!",
-            "isMission": 1,
+            "mission_description": "Smash a Skeleton Drilling Rig in the Maelstrom Quarry. Use Spinjitzu to reveal its weakness!",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,12 +1,5 @@
 {
-    "objectID": 7542,
-    "itemInfo": {
-        "name": "Inventor Neck/Back 3",
-        "displayName": "Inventor Shoulderpads 3",
-        "type": "Loot",
-        "description": "Rank 3 Specialty Kit Item",
-        "internalNotes": "Rank 3 Specialty Kit Item"
-    },
+    "object_id": 7542,
     "components": {
         "2": 7107,
         "5": 1417,
@@ -14,104 +7,46 @@
         "11": 3197,
         "72": 0
     },
-    "skillIDs": [
-        361,
-        370,
-        1058
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1058": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 23150,
-            "imaginationcost": 10,
-            "cooldowngroup": 21,
-            "cooldown": 60.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4492,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Gadgets Extreme",
-                "rawDescription": "Does 3 ongoing damage to enemies"
-            }
-        }
+    "item_info": {
+        "name": "Inventor Neck/Back 3",
+        "displayName": "Inventor Shoulderpads 3",
+        "type": "Loot",
+        "description": "Rank 3 Specialty Kit Item",
+        "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        4243,
-        4252,
-        23150
+    "skills": [
+        {
+            "imagination_cost": 10,
+            "cooldown": 60.0,
+            "cooldown_group": 21,
+            "name": "Gadgets Extreme",
+            "full_description": "Does 3 ongoing damage to enemies"
+        }
     ],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2,
-        "cooldown": 60.0,
-        "cooldowngroup": 21
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            84,
-            37
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8318,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Assembly Token",
-        "altCurrencyDisplayName": "Assembly Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "84": "Use the Rank 3 Inventor book before doing that.",
-            "37": "You need to be a member of Assembly to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "84": "Use the Rank 3 Inventor book before doing that.",
+        "37": "You need to be a member of Assembly to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8318,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "23150": {
             "hasChargeUp": false,
@@ -139,29 +74,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/factionkits/inventor3_armor.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            640
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            107
-        ],
-        "VendorIDs": [
-            13380
-        ],
-        "Vendors": [
-            {
-                "id": 13380,
-                "name": "NT Assembly Faction Vendor",
-                "displayName": "Torbert Oscillator - Assembly Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13380,
+            "name": "Torbert Oscillator - Assembly Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

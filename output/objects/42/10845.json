@@ -1,59 +1,41 @@
 {
-    "objectID": 10845,
-    "itemInfo": {
-        "name": "LUP Model Reward Plant",
-        "displayName": "Plant Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": "Promo Item"
-    },
+    "object_id": 10845,
     "components": {
         "2": 10692,
         "3": 4966,
         "11": 5301,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 14,
-        "buyPrice": 140,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "LUP Model Reward Plant",
+        "displayName": "Plant Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": "Promo Item"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 14,
+    "buy_price": 140,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/lup_jc_plant.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

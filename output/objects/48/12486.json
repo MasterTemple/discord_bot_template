@@ -1,98 +1,51 @@
 {
-    "objectID": 12486,
-    "itemInfo": {
+    "object_id": 12486,
+    "components": {
+        "2": 12250,
+        "9": 0,
+        "11": 6123
+    },
+    "item_info": {
         "name": "Red Scythe",
         "displayName": "Scarlet Scythe",
         "type": "Loot",
         "description": "Two-Handed Weapon",
         "internalNotes": null
     },
-    "components": {
-        "2": 12250,
-        "9": 0,
-        "11": 6123
-    },
-    "skillIDs": [
-        979,
-        1327
-    ],
-    "objectSkills": {
-        "979": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 20432,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack with Sleep",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(ChargeUp)Puts enemies to sleep",
-                "damageCombo": " 3+3+3 ",
-                "ChargeUp": "Puts enemies to sleep"
-            }
-        },
-        "1327": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2950,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 1,
+            "name": "Elite Attack with Sleep",
+            "full_description": "%(DamageCombo) 3+3+3 %(ChargeUp)Puts enemies to sleep",
+            "charge_up": "Puts enemies to sleep",
+            "damage_combo": " 3+3+3 "
         }
-    },
-    "behaviorIDs": [
-        20432,
-        11860
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": [
-            13781
-        ],
-        "equipLocation": [
-            "special_r",
-            "special_l"
-        ],
-        "sellPrice": 8000,
-        "buyPrice": 80000,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 7,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand",
-            "Left Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "25",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Right Hand",
+        "Left Hand"
+    ],
+    "sell_price": 8000,
+    "buy_price": 80000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "20432": {
             "hasChargeUp": true,
@@ -136,29 +89,13 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/red_scythe_master.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            607
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            100
-        ],
-        "VendorIDs": [
-            13300
-        ],
-        "Vendors": [
-            {
-                "id": 13300,
-                "name": "NT Gear Vendor",
-                "displayName": "Achilles Plutarch - Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13300,
+            "name": "Achilles Plutarch - Gear Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

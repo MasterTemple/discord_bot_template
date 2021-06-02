@@ -1,81 +1,50 @@
 {
-    "objectID": 8508,
-    "itemInfo": {
+    "object_id": 8508,
+    "components": {
+        "2": 8063,
+        "9": 0,
+        "11": 3807
+    },
+    "item_info": {
         "name": "Pneumatic Drill of Blasting",
         "displayName": "Pneumatic Drill of Blasting",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "2/2/2 Ranged + 3 chargeup"
     },
-    "components": {
-        "2": 8063,
-        "9": 0,
-        "11": 3807
-    },
-    "skillIDs": [
-        900
-    ],
-    "objectSkills": {
-        "900": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 18570,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Exceptional Ranged Attack",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(ChargeUp)Fires a 3 damage projectile",
-                "damageCombo": " 2+2+2 ",
-                "ChargeUp": "Fires a 3 damage projectile"
-            }
+            "cooldown_group": 1,
+            "name": "Exceptional Ranged Attack",
+            "full_description": "%(DamageCombo) 2+2+2 %(ChargeUp)Fires a 3 damage projectile",
+            "charge_up": "Fires a 3 damage projectile",
+            "damage_combo": " 2+2+2 "
         }
-    },
-    "behaviorIDs": [
-        18570
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 1100,
-        "buyPrice": 11000,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 61,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 1100,
+    "buy_price": 11000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 61,
+    "stack_size": 1,
     "overview": {
         "18570": {
             "hasChargeUp": true,
@@ -137,26 +106,18 @@
             "projectileChargeUpDamage": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m55297_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "530": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "530",
             "defined_type": "Battle",
             "defined_subtype": "General",
             "missionName": "Not the Boss of Me 2",
-            "missionDescription": "Smash 25 more mini-bosses.",
-            "isMission": 0,
+            "mission_description": "Smash 25 more mini-bosses.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

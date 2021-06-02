@@ -1,76 +1,48 @@
 {
-    "objectID": 4881,
-    "itemInfo": {
+    "object_id": 4881,
+    "components": {
+        "2": 4316,
+        "9": 0,
+        "11": 1732
+    },
+    "item_info": {
         "name": "Basic Spear",
         "displayName": "Basic Spear",
         "type": "Loot",
         "description": null,
         "internalNotes": "1/1/1 Piercing"
     },
-    "components": {
-        "2": 4316,
-        "9": 0,
-        "11": 1732
-    },
-    "skillIDs": [
-        149
-    ],
-    "objectSkills": {
-        "149": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 4386,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Basic Attack",
-                "rawDescription": "%(DamageCombo) 1+1+1 %(Description)Pokes enemies",
-                "damageCombo": " 1+1+1 ",
-                "Description": "Pokes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Basic Attack",
+            "full_description": "%(DamageCombo) 1+1+1 %(Description)Pokes enemies",
+            "damage_combo": " 1+1+1 ",
+            "description": "Pokes enemies"
         }
-    },
-    "behaviorIDs": [
-        4386
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 5,
-        "buyPrice": 50,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 5,
+    "buy_price": 50,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 1,
     "overview": {
         "4386": {
             "hasChargeUp": false,
@@ -106,26 +78,18 @@
             "singleJumpSmash": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m4497_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "311": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "311",
             "defined_type": "Location",
             "defined_subtype": "Avant Gardens",
             "missionName": "Get Help!",
-            "missionDescription": "Find Epsilon Starcracker in Avant Gardens.",
-            "isMission": 1,
+            "mission_description": "Find Epsilon Starcracker in Avant Gardens.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

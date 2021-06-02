@@ -1,85 +1,51 @@
 {
-    "objectID": 12596,
-    "itemInfo": {
+    "object_id": 12596,
+    "components": {
+        "2": 12386,
+        "9": 0,
+        "11": 6179
+    },
+    "item_info": {
         "name": "Savage Club",
         "displayName": "Savage Club",
         "type": "Loot",
         "description": "Two-Handed Weapon",
         "internalNotes": "3/4/4 Two handed smashing"
     },
-    "components": {
-        "2": 12386,
-        "9": 0,
-        "11": 6179
-    },
-    "skillIDs": [
-        1004
-    ],
-    "objectSkills": {
-        "1004": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 22164,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Fantastic Attack",
-                "rawDescription": "%(DamageCombo) 3+4+4 %(Description)Smashes enemies",
-                "damageCombo": " 3+4+4 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Fantastic Attack",
+            "full_description": "%(DamageCombo) 3+4+4 %(Description)Smashes enemies",
+            "damage_combo": " 3+4+4 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        22164
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": [
-            12926
-        ],
-        "equipLocation": [
-            "special_r",
-            "special_l"
-        ],
-        "sellPrice": 1500,
-        "buyPrice": 15000,
-        "isKitPiece": 1,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 83,
-        "equipLocationNames": [
-            "Right Hand",
-            "Left Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "30",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Right Hand",
+        "Left Hand"
+    ],
+    "sell_price": 1500,
+    "buy_price": 15000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 83,
+    "stack_size": 1,
     "overview": {
         "22164": {
             "hasChargeUp": false,
@@ -121,26 +87,18 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/props_spikestaff_master.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1235": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1235",
             "defined_type": "Battle",
             "defined_subtype": "Nimbus Instance",
             "missionName": "The Curse of Whack Bliddo",
-            "missionDescription": "Defeat Whack Bliddo in the Battle of Nimbus Station 50 more times.",
-            "isMission": 0,
+            "mission_description": "Defeat Whack Bliddo in the Battle of Nimbus Station 50 more times.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

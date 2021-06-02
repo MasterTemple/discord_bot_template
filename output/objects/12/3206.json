@@ -1,76 +1,48 @@
 {
-    "objectID": 3206,
-    "itemInfo": {
+    "object_id": 3206,
+    "components": {
+        "2": 2730,
+        "9": 0,
+        "11": 1051
+    },
+    "item_info": {
         "name": "Water Sprayer",
         "displayName": "Water Sprayer",
         "type": "Loot",
         "description": "Use this to clean things and spray water on them.",
         "internalNotes": "Sprays water and cleans things"
     },
-    "components": {
-        "2": 2730,
-        "9": 0,
-        "11": 1051
-    },
-    "skillIDs": [
-        105
-    ],
-    "objectSkills": {
-        "105": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 15445,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3711,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Water Spray",
-                "rawDescription": "%(DamageCombo) 1 %(Description)Sprays water",
-                "damageCombo": " 1 ",
-                "Description": "Sprays water"
-            }
+            "cooldown_group": 1,
+            "name": "Water Spray",
+            "full_description": "%(DamageCombo) 1 %(Description)Sprays water",
+            "damage_combo": " 1 ",
+            "description": "Sprays water"
         }
-    },
-    "behaviorIDs": [
-        15445
     ],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 5128,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 100,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 100,
+    "stack_size": 1,
     "overview": {
         "15445": {
             "hasChargeUp": false,
@@ -104,26 +76,18 @@
             "singleJumpSmash": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/missioncomics/wonderland/seasonal/winter/hud_icons/mission_1029.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "236": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "236",
             "defined_type": "Location",
             "defined_subtype": "Nimbus Station",
             "missionName": "Yay for Spray!",
-            "missionDescription": "Look around for Water Sprayer parts. Check the Red Blocks concert, Brick Annex and Pet Cove.",
-            "isMission": 1,
+            "mission_description": "Look around for Water Sprayer parts. Check the Red Blocks concert, Brick Annex and Pet Cove.",
+            "is_mission": 1,
             "rewardCount": 0
         }
-    }
+    ],
+    "is_dropped": 0
 }

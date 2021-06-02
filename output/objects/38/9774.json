@@ -1,68 +1,51 @@
 {
-    "objectID": 9774,
-    "itemInfo": {
+    "object_id": 9774,
+    "components": {
+        "2": 9611,
+        "11": 4751,
+        "53": 33
+    },
+    "item_info": {
         "name": "Medieval Village Pack 2",
         "displayName": "Medieval Village Pack 2",
         "type": "Loot",
         "description": "Double-click to open this pack of models!",
         "internalNotes": "Forge, wagon, and weapon rack"
     },
-    "components": {
-        "2": 9611,
-        "11": 4751,
-        "53": 33
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 128,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/present_blue.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "270": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "270",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "Reputation 2",
-            "missionDescription": "Earn 1000 more Reputation.",
-            "isMission": 0,
+            "mission_description": "Earn 1000 more Reputation.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

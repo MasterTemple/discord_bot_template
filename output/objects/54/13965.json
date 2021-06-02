@@ -1,75 +1,41 @@
 {
-    "objectID": 13965,
-    "itemInfo": {
+    "object_id": 13965,
+    "components": {
+        "2": 13677,
+        "9": 0,
+        "11": 6935
+    },
+    "item_info": {
         "name": "TEST Tower Grid Shoulder A",
         "displayName": "TEST Tower Grid Shoulder A",
         "type": "Loot",
         "description": "TEST Tower Grid Shoulder A",
         "internalNotes": "TEST Tower Grid Shoulder A"
     },
-    "components": {
-        "2": 13677,
-        "9": 0,
-        "11": 6935
-    },
-    "skillIDs": [
-        1291
-    ],
-    "objectSkills": {
-        "1291": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 29566,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": null,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        29566
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 300,
-        "buyPrice": 3000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            69,
-            36
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "preconditionDescriptions": {
-            "69": "Use the Rank 2 Buccaneer book before doing that.",
-            "36": "You need to be a member of the Venture League to use this."
-        }
+    "preconditions": {
+        "69": "Use the Rank 2 Buccaneer book before doing that.",
+        "36": "You need to be a member of the Venture League to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 300,
+    "buy_price": 3000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "29566": {
             "hasChargeUp": false,
@@ -89,17 +55,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/buccaneer_shoulder_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,12 +1,5 @@
 {
-    "objectID": 7538,
-    "itemInfo": {
-        "name": "Space Ranger Neck/Back 3",
-        "displayName": "Space Ranger Pack 3",
-        "type": "Loot",
-        "description": "Rank 3 Specialty Kit Item",
-        "internalNotes": "Rank 3 Specialty Kit Item"
-    },
+    "object_id": 7538,
     "components": {
         "2": 7103,
         "5": 1413,
@@ -14,106 +7,48 @@
         "11": 3193,
         "72": 0
     },
-    "skillIDs": [
-        362,
-        370,
-        1093
-    ],
-    "objectSkills": {
-        "362": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4244,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 3
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1093": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 24210,
-            "imaginationcost": 10,
-            "cooldowngroup": 21,
-            "cooldown": 12.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4497,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Sentinel Blast",
-                "rawDescription": "%(DamageCombo) 14 %(Description)Releases stored energy that does 14 damage to enemies",
-                "damageCombo": " 14 ",
-                "Description": "Releases stored energy that does 14 damage to enemies"
-            }
-        }
+    "item_info": {
+        "name": "Space Ranger Neck/Back 3",
+        "displayName": "Space Ranger Pack 3",
+        "type": "Loot",
+        "description": "Rank 3 Specialty Kit Item",
+        "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        4244,
-        4252,
-        24210
+    "skills": [
+        {
+            "imagination_cost": 10,
+            "cooldown": 12.0,
+            "cooldown_group": 21,
+            "name": "Sentinel Blast",
+            "full_description": "%(DamageCombo) 14 %(Description)Releases stored energy that does 14 damage to enemies",
+            "damage_combo": " 14 ",
+            "description": "Releases stored energy that does 14 damage to enemies"
+        }
     ],
     "stats": {
-        "armorBonusUI": 3,
-        "imBonusUI": 2,
-        "cooldown": 12.0,
-        "cooldowngroup": 21
+        "life": 0,
+        "armor": 3,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            92,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8319,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Sentinel Token",
-        "altCurrencyDisplayName": "Sentinel Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "92": "Use the Rank 3 Space Ranger book before doing that.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "92": "Use the Rank 3 Space Ranger book before doing that.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8319,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "24210": {
             "hasChargeUp": false,
@@ -141,29 +76,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/factionkits/spaceranger3_chest.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            618
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            102
-        ],
-        "VendorIDs": [
-            13376
-        ],
-        "Vendors": [
-            {
-                "id": 13376,
-                "name": "NT Sentinel Faction Vendor",
-                "displayName": "Nikolai Gammapulse - Sentinel Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13376,
+            "name": "Nikolai Gammapulse - Sentinel Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

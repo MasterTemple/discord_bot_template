@@ -1,73 +1,46 @@
 {
-    "objectID": 12808,
-    "itemInfo": {
+    "object_id": 12808,
+    "components": {
+        "2": 12598,
+        "9": 0,
+        "11": 6354
+    },
+    "item_info": {
         "name": "TEST",
         "displayName": "",
         "type": "Loot",
         "description": null,
         "internalNotes": "Testing Summoner Valiant offhand skill"
     },
-    "components": {
-        "2": 12598,
-        "9": 0,
-        "11": 6354
-    },
-    "skillIDs": [
-        1031
-    ],
-    "objectSkills": {
-        "1031": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 22298,
-            "imaginationcost": 10,
-            "cooldowngroup": 24,
+    "skills": [
+        {
+            "imagination_cost": 10,
             "cooldown": 45.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4279,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Summon Owls",
-                "rawDescription": "Creates a flight of Owls that assist you in battle"
-            }
+            "cooldown_group": 24,
+            "name": "Summon Owls",
+            "full_description": "Creates a flight of Owls that assist you in battle"
         }
-    },
-    "behaviorIDs": [
-        22298
     ],
     "stats": {
-        "cooldown": 45.0,
-        "cooldowngroup": 24
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 70,
-        "buyPrice": 700,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 70,
+    "buy_price": 700,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "22298": {
             "hasChargeUp": false,
@@ -87,17 +60,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m61856_sentinel.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

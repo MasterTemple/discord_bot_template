@@ -1,81 +1,50 @@
 {
-    "objectID": 13147,
-    "itemInfo": {
+    "object_id": 13147,
+    "components": {
+        "2": 12927,
+        "9": 0,
+        "11": 6520
+    },
+    "item_info": {
         "name": "Great Corseque",
         "displayName": "Great Corseque",
         "type": "Loot",
         "description": null,
         "internalNotes": "2/2/3 Piercing"
     },
-    "components": {
-        "2": 12927,
-        "9": 0,
-        "11": 6520
-    },
-    "skillIDs": [
-        291
-    ],
-    "objectSkills": {
-        "291": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4641,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Great Attack",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(Description)Pokes enemies",
-                "damageCombo": " 2+2+3 ",
-                "Description": "Pokes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Great Attack",
+            "full_description": "%(DamageCombo) 2+2+3 %(Description)Pokes enemies",
+            "damage_combo": " 2+2+3 ",
+            "description": "Pokes enemies"
         }
-    },
-    "behaviorIDs": [
-        4641
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 500,
-        "buyPrice": 5000,
-        "isKitPiece": 1,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 31,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 1,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 500,
+    "buy_price": 5000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 31,
+    "stack_size": 1,
     "overview": {
         "4641": {
             "hasChargeUp": false,
@@ -118,26 +87,18 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m43899_21.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "400": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "400",
             "defined_type": "Battle",
             "defined_subtype": "Survival Games",
             "missionName": "Nothing Left for Dead 2",
-            "missionDescription": "Smash 1000 more Survival enemies.",
-            "isMission": 0,
+            "mission_description": "Smash 1000 more Survival enemies.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

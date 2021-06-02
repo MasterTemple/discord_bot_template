@@ -1,72 +1,46 @@
 {
-    "objectID": 12491,
-    "itemInfo": {
+    "object_id": 12491,
+    "components": {
+        "2": 12256,
+        "9": 0,
+        "11": 6125
+    },
+    "item_info": {
         "name": "TEST",
         "displayName": "TEST",
         "type": "Loot",
         "description": null,
         "internalNotes": "Testing Buc Valiant offhand skill"
     },
-    "components": {
-        "2": 12256,
-        "9": 0,
-        "11": 6125
-    },
-    "skillIDs": [
-        980
-    ],
-    "objectSkills": {
-        "980": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 20561,
-            "imaginationcost": 10,
-            "cooldowngroup": 24,
+    "skills": [
+        {
+            "imagination_cost": 10,
             "cooldown": 2.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4225,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Create Schooner",
-                "rawDescription": "Creates a schooner that rams an enemy for 15 damage"
-            }
+            "cooldown_group": 24,
+            "name": "Create Schooner",
+            "full_description": "Creates a schooner that rams an enemy for 15 damage"
         }
-    },
-    "behaviorIDs": [
-        20561
     ],
     "stats": {
-        "cooldown": 2.0,
-        "cooldowngroup": 24
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 70,
-        "buyPrice": 700,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 70,
+    "buy_price": 700,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "20561": {
             "hasChargeUp": false,
@@ -86,17 +60,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m61856_sentinel.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

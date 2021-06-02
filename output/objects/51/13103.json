@@ -1,106 +1,96 @@
 {
-    "objectID": 13103,
-    "itemInfo": {
+    "object_id": 13103,
+    "components": {
+        "2": 12879,
+        "11": 6498,
+        "53": 112
+    },
+    "item_info": {
         "name": "FV Loot Surprise Pack",
         "displayName": "Superior Surprise Pack",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Mission reward that pulls from loot table - idea is to trade/sell to other players"
     },
-    "components": {
-        "2": 12879,
-        "11": 6498,
-        "53": 112
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/bag_black_red.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1353": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1353",
             "defined_type": "General",
             "defined_subtype": null,
             "missionName": "Like Clockwork 4",
-            "missionDescription": "Complete 500 Daily Missions.",
-            "isMission": 0,
+            "mission_description": "Complete 500 Daily Missions.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1670": {
+        {
+            "mission_id": "1670",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "Find the Fragments",
-            "missionDescription": "Gather the 8 chunks of the Imagimeter Base from red Venture Koi wreckage on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Gather the 8 chunks of the Imagimeter Base from red Venture Koi wreckage on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1723": {
+        {
+            "mission_id": "1723",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Unavailable",
-            "missionDescription": "Unavailable",
-            "isMission": 0,
+            "mission_description": "Unavailable",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1724": {
+        {
+            "mission_id": "1724",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Unavailable",
-            "missionDescription": "Unavailable",
-            "isMission": 0,
+            "mission_description": "Unavailable",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1725": {
+        {
+            "mission_id": "1725",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Unavailable",
-            "missionDescription": "Unavailable",
-            "isMission": 0,
+            "mission_description": "Unavailable",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1726": {
+        {
+            "mission_id": "1726",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Unavailable",
-            "missionDescription": "Unavailable",
-            "isMission": 0,
+            "mission_description": "Unavailable",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

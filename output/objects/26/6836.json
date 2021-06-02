@@ -1,70 +1,52 @@
 {
-    "objectID": 6836,
-    "itemInfo": {
-        "name": "Model Reward Ambient Parrot",
-        "displayName": "Parrot Model",
-        "type": "Loot",
-        "description": "Place this animated creature model on your Property!",
-        "internalNotes": null
-    },
+    "object_id": 6836,
     "components": {
         "2": 6387,
         "3": 3151,
         "11": 2859,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 2,
-        "buyPrice": 20,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 6836,
-        "inLootTable": 0,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
+    "item_info": {
+        "name": "Model Reward Ambient Parrot",
+        "displayName": "Parrot Model",
+        "type": "Loot",
+        "description": "Place this animated creature model on your Property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 2,
+    "buy_price": 20,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/m2546_23.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "434": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "434",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Everybody's chum, Chief Brody",
-            "missionDescription": "Smash 100 more sharks.",
-            "isMission": 0,
+            "mission_description": "Smash 100 more sharks.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

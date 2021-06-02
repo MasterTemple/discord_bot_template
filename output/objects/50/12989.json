@@ -1,133 +1,52 @@
 {
-    "objectID": 12989,
-    "itemInfo": {
+    "object_id": 12989,
+    "components": {
+        "2": 12774,
+        "9": 0,
+        "11": 6469
+    },
+    "item_info": {
         "name": "Sorcerer Neck/Back 3 Color Variant",
         "displayName": "Sorcerer Shoulderpads 3",
         "type": "Loot",
         "description": "Rank 3 Specialty Kit Item",
         "internalNotes": "Rank 3 Specialty Kit Item - Color Variant"
     },
-    "components": {
-        "2": 12774,
-        "9": 0,
-        "11": 6469
-    },
-    "skillIDs": [
-        361,
-        370,
-        378,
-        655
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "378": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4260,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3119,
-            "imBonusUI": null,
-            "lifeBonusUI": 1,
-            "armorBonusUI": null
-        },
-        "655": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 13387,
-            "imaginationcost": 14,
-            "cooldowngroup": 21,
+    "skills": [
+        {
+            "imagination_cost": 14,
             "cooldown": 30.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3380,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Last Blast",
-                "rawDescription": "%(DamageCombo) 13 %(Description)Releases a blast that does 13 damage and restores 30 Imagination to nearby characters",
-                "damageCombo": " 13 ",
-                "Description": "Releases a blast that does 13 damage and restores 30 Imagination to nearby characters"
-            }
+            "cooldown_group": 21,
+            "name": "Last Blast",
+            "full_description": "%(DamageCombo) 13 %(Description)Releases a blast that does 13 damage and restores 30 Imagination to nearby characters",
+            "damage_combo": " 13 ",
+            "description": "Releases a blast that does 13 damage and restores 30 Imagination to nearby characters"
         }
-    },
-    "behaviorIDs": [
-        4243,
-        4252,
-        4260,
-        13387
     ],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2,
-        "lifeBonusUI": 1,
-        "cooldown": 30.0,
-        "cooldowngroup": 21
+        "life": 1,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            76,
-            38
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8320,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Paradox Token",
-        "altCurrencyDisplayName": "Paradox Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "76": "Use the Rank 3 Sorcerer book before doing that.",
-            "38": "You need to be a member of Paradox to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "76": "Use the Rank 3 Sorcerer book before doing that.",
+        "38": "You need to be a member of Paradox to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8320,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "13387": {
             "hasChargeUp": false,
@@ -155,30 +74,13 @@
             "doubleJumpSmash": 13
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/faction%20kits/sorcerer_vest_3_variant.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            597,
-            691
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            103
-        ],
-        "VendorIDs": [
-            13378
-        ],
-        "Vendors": [
-            {
-                "id": 13378,
-                "name": "NT Paradox Faction Vendor",
-                "displayName": "Sutoro Hatto - Paradox Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13378,
+            "name": "Sutoro Hatto - Paradox Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,12 +1,5 @@
 {
-    "objectID": 7395,
-    "itemInfo": {
-        "name": "Engineer Weapon 2",
-        "displayName": "Engineer Wrench 2",
-        "type": "Loot",
-        "description": "Rank 2 Specialty Kit Item",
-        "internalNotes": "Rank 2 Specialty Kit Item"
-    },
+    "object_id": 7395,
     "components": {
         "2": 6959,
         "5": 1090,
@@ -14,74 +7,48 @@
         "11": 3072,
         "72": 0
     },
-    "skillIDs": [
-        593
-    ],
-    "objectSkills": {
-        "593": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 9531,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3347,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Wrench Wrecker 2",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(ChargeUp)Restores up to 6 Armor to nearby characters - charge longer for more Armor",
-                "damageCombo": " 2+2+3 ",
-                "ChargeUp": "Restores up to 6 Armor to nearby characters - charge longer for more Armor"
-            }
-        }
+    "item_info": {
+        "name": "Engineer Weapon 2",
+        "displayName": "Engineer Wrench 2",
+        "type": "Loot",
+        "description": "Rank 2 Specialty Kit Item",
+        "internalNotes": "Rank 2 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        9531
+    "skills": [
+        {
+            "imagination_cost": 0,
+            "cooldown": 0.0,
+            "cooldown_group": 1,
+            "name": "Wrench Wrecker 2",
+            "full_description": "%(DamageCombo) 2+2+3 %(ChargeUp)Restores up to 6 Armor to nearby characters - charge longer for more Armor",
+            "charge_up": "Restores up to 6 Armor to nearby characters - charge longer for more Armor",
+            "damage_combo": " 2+2+3 "
+        }
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 300,
-        "buyPrice": 3000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214,
-            81,
-            37
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8318,
-        "altCurrencyCost": 60,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "altCurrencyName": "Assembly Token",
-        "altCurrencyDisplayName": "Assembly Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item.",
-            "81": "Use the Rank 2 Engineer book before doing that.",
-            "37": "You need to be a member of Assembly to use this."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item.",
+        "81": "Use the Rank 2 Engineer book before doing that.",
+        "37": "You need to be a member of Assembly to use this."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 300,
+    "buy_price": 3000,
+    "alt_currency_type": 8318,
+    "alt_currency_cost": 60,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "9531": {
             "hasChargeUp": true,
@@ -131,31 +98,13 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/engineer_wrench_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            177,
-            641
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            54,
-            87
-        ],
-        "VendorIDs": [
-            6633
-        ],
-        "Vendors": [
-            {
-                "id": 6633,
-                "name": "NS Assembly Faction Vendor - Plaza",
-                "displayName": "Meldric Steamvalve - Assembly Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6633,
+            "name": "Meldric Steamvalve - Assembly Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

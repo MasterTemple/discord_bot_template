@@ -1,95 +1,61 @@
 {
-    "objectID": 12520,
-    "itemInfo": {
+    "object_id": 12520,
+    "components": {
+        "2": 12292,
+        "9": 0,
+        "11": 6147
+    },
+    "item_info": {
         "name": "Rockin' Keyboards",
         "displayName": "Rockin' Keyboards",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Like Portable Drumset. Stat restoration"
     },
-    "components": {
-        "2": 12292,
-        "9": 0,
-        "11": 6147
-    },
-    "skillIDs": [
-        986
-    ],
-    "objectSkills": {
-        "986": {
-            "castOnType": 4,
-            "AICombatWeight": 0,
-            "behaviorID": 20640,
-            "imaginationcost": 0,
-            "cooldowngroup": 13,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 60.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2965,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Keyboard Riff",
-                "rawDescription": "Restores 11 Imagination to nearby characters"
-            }
+            "cooldown_group": 13,
+            "name": "Keyboard Riff",
+            "full_description": "Restores 11 Imagination to nearby characters"
         }
-    },
-    "behaviorIDs": [
-        20640
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 53,
-        "buyPrice": 535,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 19,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
+    },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 53,
+    "buy_price": 535,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/misc/rew_nim_ag_keyboards.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1108": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1108",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Crux Prime Exterminator 2",
-            "missionDescription": "Smash 50 more Dark Spiderling Invaders on Crux Prime.",
-            "isMission": 0,
+            "mission_description": "Smash 50 more Dark Spiderling Invaders on Crux Prime.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

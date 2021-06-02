@@ -1,111 +1,53 @@
 {
-    "objectID": 6795,
-    "itemInfo": {
+    "object_id": 6795,
+    "components": {
+        "2": 6329,
+        "9": 0,
+        "11": 2833
+    },
+    "item_info": {
         "name": "Admiral Hat",
         "displayName": "Admiral Hat",
         "type": "Loot",
         "description": "Wear this in Nimbus Station to launch your rocket to the Pirate Camp",
         "internalNotes": "2 AP 3 IP +Secret Passage"
     },
-    "components": {
-        "2": 6329,
-        "9": 0,
-        "11": 2833
-    },
-    "skillIDs": [
-        361,
-        371
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "371": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4253,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 3,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4243,
-        4253
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 3
+        "life": 0,
+        "armor": 2,
+        "imagination": 3
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 865,
-        "buyPrice": 8650,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 48,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 865,
+    "buy_price": 8650,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 48,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m2528_admiral.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "452": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "452",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Gnarled Forest Achiever 5",
-            "missionDescription": "Complete 10 more Missions or Achievements in Gnarled Forest, for a total of 50.",
-            "isMission": 0,
+            "mission_description": "Complete 10 more Missions or Achievements in Gnarled Forest, for a total of 50.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

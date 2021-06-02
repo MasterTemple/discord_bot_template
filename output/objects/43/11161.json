@@ -1,76 +1,60 @@
 {
-    "objectID": 11161,
-    "itemInfo": {
+    "object_id": 11161,
+    "components": {
+        "2": 10910,
+        "11": 5458,
+        "53": 60
+    },
+    "item_info": {
         "name": "Ninja Fortress Model Pack 2",
         "displayName": "Ninja Fortress Model Pack 2",
         "type": "Loot",
         "description": "Double-click to open this pack of models!",
         "internalNotes": null
     },
-    "components": {
-        "2": 10910,
-        "11": 5458,
-        "53": 60
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 75,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 75,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/present_black.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "792": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "792",
             "defined_type": "Location",
             "defined_subtype": "Forbidden Valley",
             "missionName": "Ninja Acolyte 3",
-            "missionDescription": "Smash 1000 more Dark Ronin.",
-            "isMission": 0,
+            "mission_description": "Smash 1000 more Dark Ronin.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "794": {
+        {
+            "mission_id": "794",
             "defined_type": "Location",
             "defined_subtype": "Forbidden Valley",
             "missionName": "Ninja Initiate 2",
-            "missionDescription": "Smash 100 more Maelstrom Horsemen.",
-            "isMission": 0,
+            "mission_description": "Smash 100 more Maelstrom Horsemen.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

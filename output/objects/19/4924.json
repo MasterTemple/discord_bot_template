@@ -1,106 +1,51 @@
 {
-    "objectID": 4924,
-    "itemInfo": {
+    "object_id": 4924,
+    "components": {
+        "2": 4355,
+        "9": 0,
+        "11": 1737
+    },
+    "item_info": {
         "name": "Prismatic Baseball Cap",
         "displayName": "Prismatic Baseball Cap",
         "type": "Loot",
         "description": "Changes color with your mood!",
         "internalNotes": "1 AP 1 IP + Color Change"
     },
-    "components": {
-        "2": 4355,
-        "9": 0,
-        "11": 1737
-    },
-    "skillIDs": [
-        360,
-        369
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4241,
-        4251
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 1,
-        "imBonusUI": 1
+        "life": 0,
+        "armor": 1,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 325,
-        "buyPrice": 3250,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 32766,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 18,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 325,
+    "buy_price": 3250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 18,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/ag_theme_hat.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "251": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "251",
             "defined_type": "Location",
             "defined_subtype": "Avant Gardens",
             "missionName": "Robo-Repair 1",
-            "missionDescription": "Quick Build 10 smashed Stromling Mechs into turrets.",
-            "isMission": 0,
+            "mission_description": "Quick Build 10 smashed Stromling Mechs into turrets.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

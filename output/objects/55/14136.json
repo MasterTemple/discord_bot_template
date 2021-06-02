@@ -1,126 +1,47 @@
 {
-    "objectID": 14136,
-    "itemInfo": {
+    "object_id": 14136,
+    "components": {
+        "2": 13847,
+        "9": 0,
+        "11": 7008
+    },
+    "item_info": {
         "name": "Earth Spinjitzu Hood Hood of Quakes",
         "displayName": "Hood of Quakes",
         "type": "Loot",
         "description": "Wear this to look like a Ninja of Earth and rocket directly to the Ninjago Caves!",
         "internalNotes": "NJ Acolyte Earth Kit"
     },
-    "components": {
-        "2": 13847,
-        "9": 0,
-        "11": 7008
-    },
-    "skillIDs": [
-        361,
-        372,
-        1371,
-        1537
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "372": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4254,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 4,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1371": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 32053,
-            "imaginationcost": 2,
-            "cooldowngroup": 20,
+    "skills": [
+        {
+            "imagination_cost": 2,
             "cooldown": 10.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Earth Endurance",
-                "rawDescription": "Restores 1 Imgagination per 3 seconds for 60 seconds"
-            }
-        },
-        "1537": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 37628,
-            "imaginationcost": 0,
-            "cooldowngroup": -1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4709,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 20,
+            "name": "Earth Endurance",
+            "full_description": "Restores 1 Imgagination per 3 seconds for 60 seconds"
         }
-    },
-    "behaviorIDs": [
-        4243,
-        4254,
-        32053,
-        37628
     ],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 4,
-        "cooldown": 10.0,
-        "cooldowngroup": 20
+        "life": 0,
+        "armor": 2,
+        "imagination": 4
     },
-    "itemComponent": {
-        "subItems": [
-            14185
-        ],
-        "equipLocation": [
-            "hair",
-            "clavicle"
-        ],
-        "sellPrice": 722,
-        "buyPrice": 7225,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            314
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 50,
-        "equipLocationNames": [
-            "Headgear",
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear",
+        "Neck/Back"
+    ],
+    "sell_price": 722,
+    "buy_price": 7225,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 50,
+    "stack_size": 1,
     "overview": {
         "32053": {
             "hasChargeUp": false,
@@ -140,39 +61,24 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m30177_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            762,
-            758
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            122
-        ],
-        "VendorIDs": [
-            13799
-        ],
-        "Vendors": [
-            {
-                "id": 13799,
-                "name": "NJ Mon - Nya vendor",
-                "displayName": "Nya - Ninjago Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1946": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13799,
+            "name": "Nya - Ninjago Gear Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1946",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "The Power of Earth",
-            "missionDescription": "Get the Earth Key from the attic above the Dojo of Earth. Then use the Key to unlock the chest in front of Cole.",
-            "isMission": 1,
+            "mission_description": "Get the Earth Key from the attic above the Dojo of Earth. Then use the Key to unlock the chest in front of Cole.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

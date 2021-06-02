@@ -1,12 +1,5 @@
 {
-    "objectID": 12923,
-    "itemInfo": {
-        "name": "Summoner Neck/Back 3 Color Variant",
-        "displayName": "Summoner Shoulderpads 3",
-        "type": "Loot",
-        "description": "Rank 3 Specialty Kit Item",
-        "internalNotes": "Rank 3 Specialty Kit Item - Color Variant"
-    },
+    "object_id": 12923,
     "components": {
         "2": 12709,
         "5": 1242,
@@ -14,106 +7,48 @@
         "11": 6423,
         "72": 0
     },
-    "skillIDs": [
-        361,
-        370,
-        673
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "673": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 11283,
-            "imaginationcost": 10,
-            "cooldowngroup": 21,
-            "cooldown": 30.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3683,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Summon Scratch",
-                "rawDescription": "%(DamageCombo) 2x8 %(Description)Creates Scratch, a creature who assists you in battle",
-                "damageCombo": " 2x8 ",
-                "Description": "Creates Scratch, a creature who assists you in battle"
-            }
-        }
+    "item_info": {
+        "name": "Summoner Neck/Back 3 Color Variant",
+        "displayName": "Summoner Shoulderpads 3",
+        "type": "Loot",
+        "description": "Rank 3 Specialty Kit Item",
+        "internalNotes": "Rank 3 Specialty Kit Item - Color Variant"
     },
-    "behaviorIDs": [
-        4243,
-        4252,
-        11283
+    "skills": [
+        {
+            "imagination_cost": 10,
+            "cooldown": 30.0,
+            "cooldown_group": 21,
+            "name": "Summon Scratch",
+            "full_description": "%(DamageCombo) 2x8 %(Description)Creates Scratch, a creature who assists you in battle",
+            "damage_combo": " 2x8 ",
+            "description": "Creates Scratch, a creature who assists you in battle"
+        }
     ],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2,
-        "cooldown": 30.0,
-        "cooldowngroup": 21
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            86,
-            37
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8318,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Assembly Token",
-        "altCurrencyDisplayName": "Assembly Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "86": "Use the Rank 3 Summoner book before doing that.",
-            "37": "You need to be a member of Assembly to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "86": "Use the Rank 3 Summoner book before doing that.",
+        "37": "You need to be a member of Assembly to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8318,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "11283": {
             "hasChargeUp": false,
@@ -141,30 +76,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/faction%20kits/summoner_vest_3_variant.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            595,
-            690
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            107
-        ],
-        "VendorIDs": [
-            13380
-        ],
-        "Vendors": [
-            {
-                "id": 13380,
-                "name": "NT Assembly Faction Vendor",
-                "displayName": "Torbert Oscillator - Assembly Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13380,
+            "name": "Torbert Oscillator - Assembly Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,85 +1,52 @@
 {
-    "objectID": 7534,
-    "itemInfo": {
+    "object_id": 7534,
+    "components": {
+        "2": 7099,
+        "9": 0,
+        "11": 3189
+    },
+    "item_info": {
         "name": "Adventurer Crossbow 3",
         "displayName": "Adventurer Crossbow 3",
         "type": "Loot",
         "description": "Rank 3 Specialty Kit Item",
         "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "components": {
-        "2": 7099,
-        "9": 0,
-        "11": 3189
-    },
-    "skillIDs": [
-        1061
-    ],
-    "objectSkills": {
-        "1061": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 23451,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Adventurer Crossbow 3",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(ChargeUp)Fires a spread of bolts that do 4 damage each",
-                "damageCombo": " 3+3+3 ",
-                "ChargeUp": "Fires a spread of bolts that do 4 damage each"
-            }
+            "cooldown_group": 1,
+            "name": "Adventurer Crossbow 3",
+            "full_description": "%(DamageCombo) 3+3+3 %(ChargeUp)Fires a spread of bolts that do 4 damage each",
+            "charge_up": "Fires a spread of bolts that do 4 damage each",
+            "damage_combo": " 3+3+3 "
         }
-    },
-    "behaviorIDs": [
-        23451
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            224,
-            74,
-            36
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8321,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "30",
-        "altCurrencyName": "Venture League Token",
-        "altCurrencyDisplayName": "Venture League Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "74": "Use the Rank 3 Adventurer book before doing that.",
-            "36": "You need to be a member of the Venture League to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "74": "Use the Rank 3 Adventurer book before doing that.",
+        "36": "You need to be a member of the Venture League to use this."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8321,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "23451": {
             "hasChargeUp": true,
@@ -142,29 +109,13 @@
             "projectileChargeUpDamage": 4
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/factionkits/adventurer3_bow.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            626
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            108
-        ],
-        "VendorIDs": [
-            13384
-        ],
-        "Vendors": [
-            {
-                "id": 13384,
-                "name": "NT Venture Faction Vendor",
-                "displayName": "Billy Ganges - Venture League Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13384,
+            "name": "Billy Ganges - Venture League Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

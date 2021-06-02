@@ -1,85 +1,43 @@
 {
-    "objectID": 13326,
-    "itemInfo": {
+    "object_id": 13326,
+    "components": {
+        "2": 13054,
+        "9": 0,
+        "11": 6601
+    },
+    "item_info": {
         "name": "NPC Skier Pole Vendor",
         "displayName": "NPC Skier Pole Vendor",
         "type": "Loot",
         "description": null,
         "internalNotes": ""
     },
-    "components": {
-        "2": 13054,
-        "9": 0,
-        "11": 6601
-    },
-    "skillIDs": [
-        369
-    ],
-    "objectSkills": {
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4251
-    ],
+    "skills": [],
     "stats": {
-        "imBonusUI": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            78,
-            38
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "preconditionDescriptions": {
-            "78": "Use the Rank 3 Space Marauder book before doing that.",
-            "38": "You need to be a member of Paradox to use this."
-        }
+    "preconditions": {
+        "78": "Use the Rank 3 Space Marauder book before doing that.",
+        "38": "You need to be a member of Paradox to use this."
     },
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/spacemaurader_blaster_3.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

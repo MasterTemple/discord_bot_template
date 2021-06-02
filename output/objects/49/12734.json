@@ -1,130 +1,51 @@
 {
-    "objectID": 12734,
-    "itemInfo": {
+    "object_id": 12734,
+    "components": {
+        "2": 12523,
+        "9": 0,
+        "11": 6282
+    },
+    "item_info": {
         "name": "Zweihander",
         "displayName": "Zweihander",
         "type": "Loot",
         "description": "Two-Handed Weapon",
         "internalNotes": "5 AP 1 IP FlashBang Elite"
     },
-    "components": {
-        "2": 12523,
-        "9": 0,
-        "11": 6282
-    },
-    "skillIDs": [
-        364,
-        369,
-        1234,
-        1330
-    ],
-    "objectSkills": {
-        "364": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4246,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 5
-        },
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1234": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 28047,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 3+3+3 ",
-                "Description": "Smashes enemies"
-            }
-        },
-        "1330": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3675,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 1,
+            "name": "Elite Attack",
+            "full_description": "%(DamageCombo) 3+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 3+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4246,
-        4251,
-        28047,
-        11860
     ],
     "stats": {
-        "armorBonusUI": 5,
-        "imBonusUI": 1,
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 5,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": [
-            13805
-        ],
-        "equipLocation": [
-            "special_r",
-            "special_l"
-        ],
-        "sellPrice": 11000,
-        "buyPrice": 110000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            254
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand",
-            "Left Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "35",
-        "preconditionDescriptions": {
-            "254": "You must be Level 35 or greater to use this item."
-        }
+    "preconditions": {
+        "254": "You must be Level 35 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "35",
+    "equip_locations": [
+        "Right Hand",
+        "Left Hand"
+    ],
+    "sell_price": 11000,
+    "buy_price": 110000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "28047": {
             "hasChargeUp": false,
@@ -166,29 +87,13 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/zwiehander.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            607
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            100
-        ],
-        "VendorIDs": [
-            13300
-        ],
-        "Vendors": [
-            {
-                "id": 13300,
-                "name": "NT Gear Vendor",
-                "displayName": "Achilles Plutarch - Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13300,
+            "name": "Achilles Plutarch - Gear Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

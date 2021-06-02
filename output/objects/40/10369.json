@@ -1,12 +1,5 @@
 {
-    "objectID": 10369,
-    "itemInfo": {
-        "name": "OLD Model Reward Farm Silo 1",
-        "displayName": "Farm Silo Model 1",
-        "type": "Loot",
-        "description": "A model for your Property!",
-        "internalNotes": "DO NOT USE"
-    },
+    "object_id": 10369,
     "components": {
         "2": 10217,
         "3": 4609,
@@ -14,47 +7,36 @@
         "42": 0,
         "48": 110
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 51,
-        "buyPrice": 510,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "OLD Model Reward Farm Silo 1",
+        "displayName": "Farm Silo Model 1",
+        "type": "Loot",
+        "description": "A model for your Property!",
+        "internalNotes": "DO NOT USE"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 51,
+    "buy_price": 510,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_farm_silo1.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

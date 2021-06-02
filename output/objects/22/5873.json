@@ -1,69 +1,38 @@
 {
-    "objectID": 5873,
-    "itemInfo": {
+    "object_id": 5873,
+    "components": {
+        "2": 5297,
+        "9": 0,
+        "11": 2482
+    },
+    "item_info": {
         "name": "GM Only - Winged Helm of Speed",
         "displayName": "GM Only - Winged Helm of Speed",
         "type": "Loot",
         "description": "gives run speed increase",
         "internalNotes": "gives run speed increase"
     },
-    "components": {
-        "2": 5297,
-        "9": 0,
-        "11": 2482
-    },
-    "skillIDs": [
-        171
-    ],
-    "objectSkills": {
-        "171": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 158,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 1,
-            "skillIcon": 2840,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        158
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 0
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 7,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "158": {
             "hasChargeUp": false,
@@ -83,17 +52,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/bricks/dds/m60747.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

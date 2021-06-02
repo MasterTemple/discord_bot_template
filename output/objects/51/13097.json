@@ -1,76 +1,60 @@
 {
-    "objectID": 13097,
-    "itemInfo": {
+    "object_id": 13097,
+    "components": {
+        "2": 12873,
+        "11": 6494,
+        "53": 109
+    },
+    "item_info": {
         "name": "CP Loot Surprise Pack",
         "displayName": "Premium Surprise Pack",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Mission reward that pulls from loot table - idea is to trade/sell to other players"
     },
-    "components": {
-        "2": 12873,
-        "11": 6494,
-        "53": 109
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/bag_red_black.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            583
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1888": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1888",
             "defined_type": "Battle",
             "defined_subtype": "Nimbus Instance",
             "missionName": "Solo Riders",
-            "missionDescription": "As a solo player, defeat the 4 Riders in the Battle of Nimbus Station.",
-            "isMission": 0,
+            "mission_description": "As a solo player, defeat the 4 Riders in the Battle of Nimbus Station.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1974": {
+        {
+            "mission_id": "1974",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Bone Up",
-            "missionDescription": "Quick Build 75 more Skeleton Bouncers on the Ninjago Battlefield.",
-            "isMission": 0,
+            "mission_description": "Quick Build 75 more Skeleton Bouncers on the Ninjago Battlefield.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

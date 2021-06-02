@@ -1,79 +1,48 @@
 {
-    "objectID": 14731,
-    "itemInfo": {
+    "object_id": 14731,
+    "components": {
+        "2": 14418,
+        "9": 0,
+        "11": 7225
+    },
+    "item_info": {
         "name": "Purified Bone",
         "displayName": "Purified Bone",
         "type": "Loot",
         "description": "",
         "internalNotes": "2/3/3 7/7/8 NJ Smashing"
     },
-    "components": {
-        "2": 14418,
-        "9": 0,
-        "11": 7225
-    },
-    "skillIDs": [
-        1423
-    ],
-    "objectSkills": {
-        "1423": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 33768,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 %(AltCombo) 7+7+8 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 %(AltCombo) 7+7+8 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        33768
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 600,
-        "buyPrice": 6000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            296,
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 35,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "20",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 600,
+    "buy_price": 6000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 35,
+    "stack_size": 1,
     "overview": {
         "33768": {
             "hasChargeUp": false,
@@ -124,38 +93,24 @@
             "singleJumpSmash": 7
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/hands/silverbone.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            758
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            122
-        ],
-        "VendorIDs": [
-            13799
-        ],
-        "Vendors": [
-            {
-                "id": 13799,
-                "name": "NJ Mon - Nya vendor",
-                "displayName": "Nya - Ninjago Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "2022": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13799,
+            "name": "Nya - Ninjago Gear Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "2022",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Maelstrom Weapons Part 6",
-            "missionDescription": "Smash Krazi in the Lightning Shrine until he drops a Maelstrom Bone, then take it back to Nya.",
-            "isMission": 1,
+            "mission_description": "Smash Krazi in the Lightning Shrine until he drops a Maelstrom Bone, then take it back to Nya.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

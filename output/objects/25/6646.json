@@ -1,84 +1,38 @@
 {
-    "objectID": 6646,
-    "itemInfo": {
+    "object_id": 6646,
+    "components": {
+        "2": 3256,
+        "9": 0,
+        "11": 3459
+    },
+    "item_info": {
         "name": "Test Hat of Uber Imagination - 30 pts",
         "displayName": "30 pts imagination hat",
         "type": "Loot",
         "description": "Gives 30 points of imagination",
         "internalNotes": "Gives 30 points of imagination"
     },
-    "components": {
-        "2": 3256,
-        "9": 0,
-        "11": 3459
-    },
-    "skillIDs": [
-        223,
-        227
-    ],
-    "objectSkills": {
-        "223": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 1869,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2840,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "227": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1878,
-            "imaginationcost": 4,
-            "cooldowngroup": 0,
-            "cooldown": 4.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2859,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        1869,
-        1878
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 4.0,
-        "cooldowngroup": 0
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 2,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "1878": {
             "hasChargeUp": false,
@@ -100,17 +54,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m3833_24.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,77 +1,40 @@
 {
-    "objectID": 6969,
-    "itemInfo": {
+    "object_id": 6969,
+    "components": {
+        "2": 6548,
+        "9": 0,
+        "11": 2950
+    },
+    "item_info": {
         "name": "Test Hat of Immunity for Nic",
         "displayName": "Test Hat of Immunity for Nic",
         "type": "Loot",
         "description": "For Nic to test the skill",
         "internalNotes": "For Nic to test the skill"
     },
-    "components": {
-        "2": 6548,
-        "9": 0,
-        "11": 2950
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [
-        270
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
     ],
-    "objectSkills": {
-        "270": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 2194,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": null,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        2194
-    ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/bricks/dds/m4503.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,88 +1,46 @@
 {
-    "objectID": 14378,
-    "itemInfo": {
+    "object_id": 14378,
+    "components": {
+        "2": 14069,
+        "9": 0,
+        "11": 7082
+    },
+    "item_info": {
         "name": "Plunger Gun",
         "displayName": "Plunger Gun",
         "type": "Loot",
         "description": "Shoot targets around Avant Gardens with this here gizmo!",
         "internalNotes": ""
     },
-    "components": {
-        "2": 14069,
-        "9": 0,
-        "11": 7082
-    },
-    "skillIDs": [
-        369,
-        1366
-    ],
-    "objectSkills": {
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1366": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 32027,
-            "imaginationcost": 0,
-            "cooldowngroup": 14,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Plunger Shoot",
-                "rawDescription": "Shoots a plunger"
-            }
+            "cooldown_group": 14,
+            "name": "Plunger Shoot",
+            "full_description": "Shoots a plunger"
         }
-    },
-    "behaviorIDs": [
-        4251,
-        32027
     ],
     "stats": {
-        "imBonusUI": 1,
-        "cooldown": 1.0,
-        "cooldowngroup": 14
+        "life": 0,
+        "armor": 0,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "32027": {
             "hasChargeUp": false,
@@ -114,17 +72,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/icons/plunger_gun.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

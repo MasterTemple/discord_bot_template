@@ -1,90 +1,48 @@
 {
-    "objectID": 7339,
-    "itemInfo": {
+    "object_id": 7339,
+    "components": {
+        "2": 6904,
+        "9": 0,
+        "11": 3031
+    },
+    "item_info": {
         "name": "Test Katana of Bees",
         "displayName": "Test Katana of Bees",
         "type": "Loot",
         "description": "Testing the SJ tornado skill",
         "internalNotes": "Testing the Spinjutzu tornado skill"
     },
-    "components": {
-        "2": 6904,
-        "9": 0,
-        "11": 3031
-    },
-    "skillIDs": [
-        287,
-        333
-    ],
-    "objectSkills": {
-        "287": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4566,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(Description)Slashes enemies",
-                "damageCombo": " 3+3+3 ",
-                "Description": "Slashes enemies"
-            }
-        },
-        "333": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 3863,
-            "imaginationcost": 3,
-            "cooldowngroup": 2,
-            "cooldown": 3.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3137,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
+            "cooldown_group": 1,
+            "name": "Elite Attack",
+            "full_description": "%(DamageCombo) 3+3+3 %(Description)Slashes enemies",
+            "damage_combo": " 3+3+3 ",
+            "description": "Slashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4566,
-        3863
     ],
     "stats": {
-        "cooldown": 3.0,
-        "cooldowngroup": 2
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4566": {
             "hasChargeUp": false,
@@ -146,17 +104,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m30173-194.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

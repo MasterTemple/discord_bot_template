@@ -1,71 +1,47 @@
 {
-    "objectID": 13652,
-    "itemInfo": {
-        "name": "Model Reward Zoo Pathway AngledBridge 1 ",
-        "displayName": "Zoo Angled Bridge Pathway Model 1",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": "Reward Model"
-    },
+    "object_id": 13652,
     "components": {
         "2": 13390,
         "3": 6710,
         "11": 6762,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 70,
-        "buyPrice": 700,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Zoo Pathway AngledBridge 1 ",
+        "displayName": "Zoo Angled Bridge Pathway Model 1",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": "Reward Model"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 70,
+    "buy_price": 700,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_zoo_pathway_angledbridge_01.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            669
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            67
-        ],
-        "VendorIDs": [
-            10027
-        ],
-        "Vendors": [
-            {
-                "id": 10027,
-                "name": "NS Model Vendor",
-                "displayName": "Autumn Helix - Model Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 10027,
+            "name": "Autumn Helix - Model Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

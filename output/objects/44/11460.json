@@ -1,12 +1,5 @@
 {
-    "objectID": 11460,
-    "itemInfo": {
-        "name": "Inventor Offhand 2 - Proxy",
-        "displayName": "Inventor Offhand 2 - Proxy",
-        "type": "Loot",
-        "description": "Rank 2 Specialty Kit Item. Tied to Inventor Weapon 2",
-        "internalNotes": "Rank 2 Specialty Kit Item - Proxy"
-    },
+    "object_id": 11460,
     "components": {
         "2": 11208,
         "5": 1416,
@@ -14,65 +7,44 @@
         "11": 5548,
         "72": 0
     },
-    "skillIDs": [
-        1048
-    ],
-    "objectSkills": {
-        "1048": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 23043,
-            "imaginationcost": 5,
-            "cooldowngroup": 24,
-            "cooldown": 6.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4494,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Beehive Surprise 1",
-                "rawDescription": "%(DamageCombo) 6 %(Description)Launches a mass of bees at your enemies that deal damage over time",
-                "damageCombo": " 6 ",
-                "Description": "Launches a mass of bees at your enemies that deal damage over time"
-            }
-        }
+    "item_info": {
+        "name": "Inventor Offhand 2 - Proxy",
+        "displayName": "Inventor Offhand 2 - Proxy",
+        "type": "Loot",
+        "description": "Rank 2 Specialty Kit Item. Tied to Inventor Weapon 2",
+        "internalNotes": "Rank 2 Specialty Kit Item - Proxy"
     },
-    "behaviorIDs": [
-        23043
+    "skills": [
+        {
+            "imagination_cost": 5,
+            "cooldown": 6.0,
+            "cooldown_group": 24,
+            "name": "Beehive Surprise 1",
+            "full_description": "%(DamageCombo) 6 %(Description)Launches a mass of bees at your enemies that deal damage over time",
+            "damage_combo": " 6 ",
+            "description": "Launches a mass of bees at your enemies that deal damage over time"
+        }
     ],
     "stats": {
-        "cooldown": 6.0,
-        "cooldowngroup": 24
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": 8318,
-        "altCurrencyCost": 0,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "altCurrencyName": "Assembly Token",
-        "altCurrencyDisplayName": "Assembly Token"
-    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 8318,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "23043": {
             "hasChargeUp": false,
@@ -101,17 +73,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/factionkits/inventor2_beejar.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

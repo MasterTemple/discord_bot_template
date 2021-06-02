@@ -1,72 +1,47 @@
 {
-    "objectID": 11813,
-    "itemInfo": {
-        "name": "Model Reward Farm Shed End",
-        "displayName": "Farm Shed End Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 11813,
     "components": {
         "2": 11565,
         "3": 5657,
         "11": 5864,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 192,
-        "buyPrice": 1920,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Farm Shed End",
+        "displayName": "Farm Shed End Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 192,
+    "buy_price": 1920,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_shed_end_short_wide_single.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            550,
-            805
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            127
-        ],
-        "VendorIDs": [
-            5009
-        ],
-        "Vendors": [
-            {
-                "id": 5009,
-                "name": "AG - Cowboy Picnicker",
-                "displayName": "Dusty Holster - Cowboy Picnicker"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 5009,
+            "name": "Dusty Holster - Cowboy Picnicker"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

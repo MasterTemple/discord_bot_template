@@ -1,84 +1,42 @@
 {
-    "objectID": 12693,
-    "itemInfo": {
+    "object_id": 12693,
+    "components": {
+        "2": 12482,
+        "9": 0,
+        "11": 6241
+    },
+    "item_info": {
         "name": "Harlequin Shirt",
         "displayName": "Harlequin Shirt",
         "type": "Loot",
         "description": "",
         "internalNotes": "4 AP"
     },
-    "components": {
-        "2": 12482,
-        "9": 0,
-        "11": 6241
-    },
-    "skillIDs": [
-        363
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        }
-    },
-    "behaviorIDs": [
-        4245
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 4
+        "life": 0,
+        "armor": 4,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "chest"
-        ],
-        "sellPrice": 542,
-        "buyPrice": 5425,
-        "isKitPiece": 1,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Torso"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Torso"
+    ],
+    "sell_price": 542,
+    "buy_price": 5425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/torsos/torsos_harlequinsuit.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

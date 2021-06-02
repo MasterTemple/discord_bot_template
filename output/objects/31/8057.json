@@ -1,40 +1,39 @@
 {
-    "objectID": 8057,
-    "itemInfo": {
+    "object_id": 8057,
+    "components": {
+        "2": 7601,
+        "11": 3514
+    },
+    "item_info": {
         "name": "NPC Sky Lane ShoulderPads",
         "displayName": "NPC Sky Lane ShoulderPads",
         "type": "Loot",
         "description": "NPC Sky Lane ShoulderPads",
         "internalNotes": "NPC Sky Lane ShoulderPads"
     },
-    "components": {
-        "2": 7601,
-        "11": 3514
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 0,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "iconURL": "textures/ui/inventory/hats/m3833_24.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,95 +1,53 @@
 {
-    "objectID": 2979,
-    "itemInfo": {
+    "object_id": 2979,
+    "components": {
+        "2": 2486,
+        "9": 0,
+        "11": 1001
+    },
+    "item_info": {
         "name": "Red Pirate Scarf",
         "displayName": "Red Pirate Scarf",
         "type": "Loot",
         "description": null,
         "internalNotes": "2 IP"
     },
-    "components": {
-        "2": 2486,
-        "9": 0,
-        "11": 1001
-    },
-    "skillIDs": [
-        370
-    ],
-    "objectSkills": {
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4252
-    ],
+    "skills": [],
     "stats": {
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 0,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 142,
-        "buyPrice": 1425,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 142,
+    "buy_price": 1425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m2543_21.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "383": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "383",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Siren Song",
-            "missionDescription": "Find the missing bricks and rebuild a Siren Stunner in Gnarled Forest.",
-            "isMission": 1,
+            "mission_description": "Find the missing bricks and rebuild a Siren Stunner in Gnarled Forest.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

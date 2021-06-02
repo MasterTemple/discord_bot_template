@@ -1,266 +1,276 @@
 {
-    "objectID": 13117,
-    "itemInfo": {
+    "object_id": 13117,
+    "components": {
+        "2": 12893,
+        "11": 6504,
+        "53": 117
+    },
+    "item_info": {
         "name": "CP Model Surprise Pack",
         "displayName": "Surprise Model Pack",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Mission reward that pulls from loot table - idea is to trade/sell to other players"
     },
-    "components": {
-        "2": 12893,
-        "11": 6504,
-        "53": 117
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 5,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 5,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/present_rectangle_black_light_blue.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "996": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "996",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Smash Talli Reeko!",
-            "missionDescription": "Smash Talli Reeko on Crux Prime!",
-            "isMission": 0,
+            "mission_description": "Smash Talli Reeko on Crux Prime!",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1197": {
+        {
+            "mission_id": "1197",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Chantey Shanty Visitor",
-            "missionDescription": "Visit 5 Chantey Shanty Properties today.",
-            "isMission": 1,
+            "mission_description": "Visit 5 Chantey Shanty Properties today.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1198": {
+        {
+            "mission_id": "1198",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Raven Bluff Visitor",
-            "missionDescription": "Visit 5 Raven Bluff Properties today.",
-            "isMission": 1,
+            "mission_description": "Visit 5 Raven Bluff Properties today.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1254": {
+        {
+            "mission_id": "1254",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Mutiny on Crux Prime",
-            "missionDescription": "Smash 20 Admiral Invaders on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 20 Admiral Invaders on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1255": {
+        {
+            "mission_id": "1255",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Horsemaster",
-            "missionDescription": "Smash 20 Horseman Invaders on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 20 Horseman Invaders on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1256": {
+        {
+            "mission_id": "1256",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Spider Slayer",
-            "missionDescription": "Smash 20 Spiderling Invaders on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 20 Spiderling Invaders on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1257": {
+        {
+            "mission_id": "1257",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Dragonlord",
-            "missionDescription": "Smash 5 Dragon Invaders on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 5 Dragon Invaders on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1258": {
+        {
+            "mission_id": "1258",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Invaders!",
-            "missionDescription": "Smash 10 Stromlings, 5 Pirates, 5 Admirals and 5 Dark Ronin on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 10 Stromlings, 5 Pirates, 5 Admirals and 5 Dark Ronin on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1259": {
+        {
+            "mission_id": "1259",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Bone Patrol",
-            "missionDescription": "Smash 10 Skeleton Miners, 10 Skeleton Engineers and 5 Horsemen Invaders on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 10 Skeleton Miners, 10 Skeleton Engineers and 5 Horsemen Invaders on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1260": {
+        {
+            "mission_id": "1260",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Arrr is for Robot",
-            "missionDescription": "Smash 5 Horsemen, 10 Mechs, and 10 Admirals on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 5 Horsemen, 10 Mechs, and 10 Admirals on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1261": {
+        {
+            "mission_id": "1261",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Boss Battler",
-            "missionDescription": "Smash 1 Dragon, 2 Apes, and 5 Spiders on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 1 Dragon, 2 Apes, and 5 Spiders on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1262": {
+        {
+            "mission_id": "1262",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Maelstrom Mangler",
-            "missionDescription": "Smash 10 Mechs, 5 Apes, and 1 Dragon on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 10 Mechs, 5 Apes, and 1 Dragon on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1263": {
+        {
+            "mission_id": "1263",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Chaos Crusher",
-            "missionDescription": "Smash 10 Stromling Admirals, 5 Horsemen, and 10 Stromlings on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 10 Stromling Admirals, 5 Horsemen, and 10 Stromlings on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1264": {
+        {
+            "mission_id": "1264",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Smash Pack",
-            "missionDescription": "Smash 10 Skeleton Engineers, 10 Mechs, and 10 Pirates on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 10 Skeleton Engineers, 10 Mechs, and 10 Pirates on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1265": {
+        {
+            "mission_id": "1265",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Bone Voyage",
-            "missionDescription": "Smash 10 Skeleton Miners, 10 Spiderlings, and 5 Apes  on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 10 Skeleton Miners, 10 Spiderlings, and 5 Apes  on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1266": {
+        {
+            "mission_id": "1266",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Easy and Hard",
-            "missionDescription": "Smash 20 Stromlings and 2 Dragons on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 20 Stromlings and 2 Dragons on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1305": {
+        {
+            "mission_id": "1305",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Mining Marauder",
-            "missionDescription": "Smash 2 Skeleton Drilling Rigs, 2 Skeleton Watchtowers and 4 Bone Fracture Bombs on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 2 Skeleton Drilling Rigs, 2 Skeleton Watchtowers and 4 Bone Fracture Bombs on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1306": {
+        {
+            "mission_id": "1306",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Ninja Avenger",
-            "missionDescription": "Smash 15 Skeleton Miners, 6 Skeleton Engineers and 3 Skeleton Pit Bosses on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 15 Skeleton Miners, 6 Skeleton Engineers and 3 Skeleton Pit Bosses on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1307": {
+        {
+            "mission_id": "1307",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Breaking Ranks",
-            "missionDescription": "Smash 2 Skeleton Pit Bosses and 6 Skeleton Watchmen on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 2 Skeleton Pit Bosses and 6 Skeleton Watchmen on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1308": {
+        {
+            "mission_id": "1308",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Your Spinjitzu is Strong",
-            "missionDescription": "Smash 2 Skeleton Drilling Rigs, 15 Skeleton Miners and rebuild 5 Skeleton Growlspeakers on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 2 Skeleton Drilling Rigs, 15 Skeleton Miners and rebuild 5 Skeleton Growlspeakers on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1309": {
+        {
+            "mission_id": "1309",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Compound Fracture",
-            "missionDescription": "Smash 4 Bone Fracture Bombs, 6 Skeleton Watchmen and rebuild 5 Skeleton Growlspeakers on Crux Prime.",
-            "isMission": 1,
+            "mission_description": "Smash 4 Bone Fracture Bombs, 6 Skeleton Watchmen and rebuild 5 Skeleton Growlspeakers on Crux Prime.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1353": {
+        {
+            "mission_id": "1353",
             "defined_type": "General",
             "defined_subtype": null,
             "missionName": "Like Clockwork 4",
-            "missionDescription": "Complete 500 Daily Missions.",
-            "isMission": 0,
+            "mission_description": "Complete 500 Daily Missions.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1739": {
+        {
+            "mission_id": "1739",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "The Visitor",
-            "missionDescription": "Visit 500 more Properties that you have not previously visited, on any world.",
-            "isMission": 0,
+            "mission_description": "Visit 500 more Properties that you have not previously visited, on any world.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1740": {
+        {
+            "mission_id": "1740",
             "defined_type": "Play",
             "defined_subtype": "Shooting Galleries",
             "missionName": "Pirate Sharpshooter",
-            "missionDescription": "Score a cumulative total of 500,000,000 more points in Cannon Cove Shooting Gallery.",
-            "isMission": 0,
+            "mission_description": "Score a cumulative total of 500,000,000 more points in Cannon Cove Shooting Gallery.",
+            "is_mission": 0,
             "rewardCount": 1
         },
-        "1841": {
+        {
+            "mission_id": "1841",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "A Worthy Builder 4",
-            "missionDescription": "Complete 5000 more Quick Builds.",
-            "isMission": 0,
+            "mission_description": "Complete 5000 more Quick Builds.",
+            "is_mission": 0,
             "rewardCount": 5
         },
-        "1976": {
+        {
+            "mission_id": "1976",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Just a Fling",
-            "missionDescription": "Quick Build 75 more Catapults on the Ninjago Battlefield.",
-            "isMission": 0,
+            "mission_description": "Quick Build 75 more Catapults on the Ninjago Battlefield.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

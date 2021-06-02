@@ -1,75 +1,48 @@
 {
-    "objectID": 14324,
-    "itemInfo": {
+    "object_id": 14324,
+    "components": {
+        "2": 14013,
+        "9": 0,
+        "11": 7066
+    },
+    "item_info": {
         "name": "Paradox Gear - Space Marauder - weapon proxy",
         "displayName": "Paradox Gear - Space Marauder - weapon proxy",
         "type": "Loot",
         "description": "",
         "internalNotes": ""
     },
-    "components": {
-        "2": 14013,
-        "9": 0,
-        "11": 7066
-    },
-    "skillIDs": [
-        1629
-    ],
-    "objectSkills": {
-        "1629": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 38731,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3357,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Rental Blaster Master",
-                "rawDescription": "%(DamageCombo) 4+4+4 %(ChargeUp)Restores up to 5 Imagination for nearby characters - charge longer for more Imagination",
-                "damageCombo": " 4+4+4 ",
-                "ChargeUp": "Restores up to 5 Imagination for nearby characters - charge longer for more Imagination"
-            }
+            "cooldown_group": 1,
+            "name": "Rental Blaster Master",
+            "full_description": "%(DamageCombo) 4+4+4 %(ChargeUp)Restores up to 5 Imagination for nearby characters - charge longer for more Imagination",
+            "charge_up": "Restores up to 5 Imagination for nearby characters - charge longer for more Imagination",
+            "damage_combo": " 4+4+4 "
         }
-    },
-    "behaviorIDs": [
-        38731
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true
-    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "38731": {
             "hasChargeUp": true,
@@ -116,17 +89,7 @@
             "singleJumpSmash": 4
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/spacemaurader_blaster_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

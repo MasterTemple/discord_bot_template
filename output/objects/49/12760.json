@@ -1,81 +1,50 @@
 {
-    "objectID": 12760,
-    "itemInfo": {
+    "object_id": 12760,
+    "components": {
+        "2": 12550,
+        "9": 0,
+        "11": 6308
+    },
+    "item_info": {
         "name": "Elite Sword of Blocking",
         "displayName": "Elite Sword of Blocking",
         "type": "Loot",
         "description": "",
         "internalNotes": "3/3/3 dmg + Weak Block ability"
     },
-    "components": {
-        "2": 12550,
-        "9": 0,
-        "11": 6308
-    },
-    "skillIDs": [
-        1144
-    ],
-    "objectSkills": {
-        "1144": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 26114,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack with Block",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(ChargeUp)Blocks 3 attacks while charged",
-                "damageCombo": " 3+3+3 ",
-                "ChargeUp": "Blocks 3 attacks while charged"
-            }
+            "cooldown_group": 1,
+            "name": "Elite Attack with Block",
+            "full_description": "%(DamageCombo) 3+3+3 %(ChargeUp)Blocks 3 attacks while charged",
+            "charge_up": "Blocks 3 attacks while charged",
+            "damage_combo": " 3+3+3 "
         }
-    },
-    "behaviorIDs": [
-        26114
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 930,
-        "buyPrice": 9300,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 52,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "25",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 930,
+    "buy_price": 9300,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 52,
+    "stack_size": 1,
     "overview": {
         "26114": {
             "hasChargeUp": true,
@@ -120,26 +89,18 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m44493_131.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1121": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1121",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Crux Prime Guardian 2",
-            "missionDescription": "Smash 50 more Dark Ronin Invaders on Crux Prime.",
-            "isMission": 0,
+            "mission_description": "Smash 50 more Dark Ronin Invaders on Crux Prime.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

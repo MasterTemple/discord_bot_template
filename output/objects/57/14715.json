@@ -1,81 +1,50 @@
 {
-    "objectID": 14715,
-    "itemInfo": {
+    "object_id": 14715,
+    "components": {
+        "2": 14403,
+        "9": 0,
+        "11": 7212
+    },
+    "item_info": {
         "name": "Cave Diver",
         "displayName": "Cave Diver",
         "type": "Loot",
         "description": "",
         "internalNotes": "2/3/3 7/7/8 NJ Smashing M"
     },
-    "components": {
-        "2": 14403,
-        "9": 0,
-        "11": 7212
-    },
-    "skillIDs": [
-        1423
-    ],
-    "objectSkills": {
-        "1423": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 33768,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 %(AltCombo) 7+7+8 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 %(AltCombo) 7+7+8 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        33768
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 600,
-        "buyPrice": 6000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 35,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "20",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 600,
+    "buy_price": 6000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 35,
+    "stack_size": 1,
     "overview": {
         "33768": {
             "hasChargeUp": false,
@@ -126,26 +95,18 @@
             "singleJumpSmash": 7
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m3841_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1986": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1986",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Heel, Boy!",
-            "missionDescription": "Smash 100 more Bone Wolves in the Ninjago Caves.",
-            "isMission": 0,
+            "mission_description": "Smash 100 more Bone Wolves in the Ninjago Caves.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,12 +1,5 @@
 {
-    "objectID": 11001,
-    "itemInfo": {
-        "name": "GF Property Pushback Model - Tombstone",
-        "displayName": "GF Property Pushback Model - Tombstone",
-        "type": "Loot",
-        "description": "GF Property Pushback Model - Tombstone",
-        "internalNotes": "For ND Use only"
-    },
+    "object_id": 11001,
     "components": {
         "2": 10754,
         "3": 5020,
@@ -14,46 +7,36 @@
         "42": 0,
         "48": 156
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 99,
-        "buyPrice": 999,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 11001,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0
+    "item_info": {
+        "name": "GF Property Pushback Model - Tombstone",
+        "displayName": "GF Property Pushback Model - Tombstone",
+        "type": "Loot",
+        "description": "GF Property Pushback Model - Tombstone",
+        "internalNotes": "For ND Use only"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 99,
+    "buy_price": 999,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/golden_brick.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

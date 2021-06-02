@@ -1,109 +1,48 @@
 {
-    "objectID": 12667,
-    "itemInfo": {
+    "object_id": 12667,
+    "components": {
+        "2": 12456,
+        "9": 0,
+        "11": 6215
+    },
+    "item_info": {
         "name": "Handy Spanner",
         "displayName": "Handy Spanner",
         "type": "Loot",
         "description": "",
         "internalNotes": "2 IP 3 AP + AOE heals armor and friendly turrets!"
     },
-    "components": {
-        "2": 12456,
-        "9": 0,
-        "11": 6215
-    },
-    "skillIDs": [
-        362,
-        370,
-        1136
-    ],
-    "objectSkills": {
-        "362": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4244,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 3
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1136": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 25009,
-            "imaginationcost": 3,
-            "cooldowngroup": 7,
+    "skills": [
+        {
+            "imagination_cost": 3,
             "cooldown": 3.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4027,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Assembly's Repair",
-                "rawDescription": "Restores 5 Armor to nearby characters and 5 Life to Assembly bots"
-            }
+            "cooldown_group": 7,
+            "name": "Assembly's Repair",
+            "full_description": "Restores 5 Armor to nearby characters and 5 Life to Assembly bots"
         }
-    },
-    "behaviorIDs": [
-        4244,
-        4252,
-        25009
     ],
     "stats": {
-        "armorBonusUI": 3,
-        "imBonusUI": 2,
-        "cooldown": 3.0,
-        "cooldowngroup": 7
+        "life": 0,
+        "armor": 3,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 605,
-        "buyPrice": 6050,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "20",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 605,
+    "buy_price": 6050,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "25009": {
             "hasChargeUp": false,
@@ -126,17 +65,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m55299_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

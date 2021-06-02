@@ -1,103 +1,65 @@
 {
-    "objectID": 14511,
-    "itemInfo": {
+    "object_id": 14511,
+    "components": {
+        "2": 14198,
+        "9": 0,
+        "11": 7132
+    },
+    "item_info": {
         "name": "Rockolate Bar",
         "displayName": "Rockolate Bar",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": null
     },
-    "components": {
-        "2": 14198,
-        "9": 0,
-        "11": 7132
-    },
-    "skillIDs": [
-        892
-    ],
-    "objectSkills": {
-        "892": {
-            "castOnType": 3,
-            "AICombatWeight": 0,
-            "behaviorID": 17781,
-            "imaginationcost": 0,
-            "cooldowngroup": 55,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 10.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2859,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Heal Life 6",
-                "rawDescription": "Restores 6 Life"
-            }
+            "cooldown_group": 55,
+            "name": "Heal Life 6",
+            "full_description": "Restores 6 Life"
         }
-    },
-    "behaviorIDs": [
-        17781
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 150,
-        "buyPrice": 1500,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": 19,
-        "preconditions": [
-            243,
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "15"
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 150,
+    "buy_price": 1500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/consumables/rockolate_bar.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            759
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            123
-        ],
-        "VendorIDs": [
-            13800
-        ],
-        "Vendors": [
-            {
-                "id": 13800,
-                "name": "NJ Mon - Johny Umami vendor",
-                "displayName": "Johnny Umami - Ninjago Supplies Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1876": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13800,
+            "name": "Johnny Umami - Ninjago Supplies Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1876",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Rock Candy",
-            "missionDescription": "Find 10 Rock Fruit, 5 Hot Chocolate, 5 Onyx Gems and 5 Bamboo Bites for Johnny Umami in the Ninjago Monastery.",
-            "isMission": 1,
+            "mission_description": "Find 10 Rock Fruit, 5 Hot Chocolate, 5 Onyx Gems and 5 Bamboo Bites for Johnny Umami in the Ninjago Monastery.",
+            "is_mission": 1,
             "rewardCount": 3
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,127 +1,40 @@
 {
-    "objectID": 14499,
-    "itemInfo": {
+    "object_id": 14499,
+    "components": {
+        "2": 14188,
+        "9": 0,
+        "11": 7122
+    },
+    "item_info": {
         "name": "Dragon Mask",
         "displayName": "Dragon Mask",
         "type": "Loot",
         "description": "A most mysterious Mask!",
         "internalNotes": "Ninjago Mission Item; needs custom mesh?"
     },
-    "components": {
-        "2": 14188,
-        "9": 0,
-        "11": 7122
-    },
-    "skillIDs": [
-        360,
-        369,
-        1119,
-        1542
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1119": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 24665,
-            "imaginationcost": 0,
-            "cooldowngroup": -1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4709,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1542": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 37778,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": -1.0,
-            "inNpcEditor": 0,
-            "skillIcon": null,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4241,
-        4251,
-        24665,
-        37778
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 1,
-        "imBonusUI": 1
+        "life": 0,
+        "armor": 1,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/helms/dragonmask.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            744
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

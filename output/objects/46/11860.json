@@ -1,71 +1,47 @@
 {
-    "objectID": 11860,
-    "itemInfo": {
-        "name": "Model Reward Treehouse Elevator Platform",
-        "displayName": "Treehouse Elevator Platform Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 11860,
     "components": {
         "2": 11612,
         "3": 5704,
         "11": 5911,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 102,
-        "buyPrice": 1020,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Treehouse Elevator Platform",
+        "displayName": "Treehouse Elevator Platform Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 102,
+    "buy_price": 1020,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_treehouse_elevatorplatform.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            804
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            129
-        ],
-        "VendorIDs": [
-            4746
-        ],
-        "Vendors": [
-            {
-                "id": 4746,
-                "name": "AG - Monkey Picnicker",
-                "displayName": "Eeekums - Monkey Picnicker"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 4746,
+            "name": "Eeekums - Monkey Picnicker"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

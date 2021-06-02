@@ -1,81 +1,50 @@
 {
-    "objectID": 13135,
-    "itemInfo": {
+    "object_id": 13135,
+    "components": {
+        "2": 12915,
+        "11": 6509,
+        "53": 118
+    },
+    "item_info": {
         "name": "Large Green Imaginite Bag - Venture",
         "displayName": "Large Bag of Green Imaginite",
         "type": "Loot",
         "description": "Contains 50 Green Imaginite",
         "internalNotes": "Sold at Venture vendors"
     },
-    "components": {
-        "2": 12915,
-        "11": 6509,
-        "53": 118
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 15,
-        "buyPrice": 150,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": 8321,
-        "altCurrencyCost": 15,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "altCurrencyName": "Venture League Token",
-        "altCurrencyDisplayName": "Venture League Token"
-    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 15,
+    "buy_price": 150,
+    "alt_currency_type": 8321,
+    "alt_currency_cost": 15,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/bag_blue_green.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            180,
-            624,
-            692
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            57,
-            88,
-            108
-        ],
-        "VendorIDs": [
-            6634,
-            13384
-        ],
-        "Vendors": [
-            {
-                "id": 6634,
-                "name": "NS Venture Faction Vendor - Plaza",
-                "displayName": "Magnus Bumperdent - Venture League Vendor"
-            },
-            {
-                "id": 13384,
-                "name": "NT Venture Faction Vendor",
-                "displayName": "Billy Ganges - Venture League Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6634,
+            "name": "Magnus Bumperdent - Venture League Vendor"
+        },
+        {
+            "id": 13384,
+            "name": "Billy Ganges - Venture League Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

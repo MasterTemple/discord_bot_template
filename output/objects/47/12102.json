@@ -1,97 +1,56 @@
 {
-    "objectID": 12102,
-    "itemInfo": {
+    "object_id": 12102,
+    "components": {
+        "2": 11851,
+        "9": 0,
+        "11": 5994
+    },
+    "item_info": {
         "name": "Sunflower Seed",
         "displayName": "Sunflower Seed",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": null
     },
-    "components": {
-        "2": 11851,
-        "9": 0,
-        "11": 5994
-    },
-    "skillIDs": [
-        1224
-    ],
-    "objectSkills": {
-        "1224": {
-            "castOnType": 3,
-            "AICombatWeight": 0,
-            "behaviorID": 27774,
-            "imaginationcost": 0,
-            "cooldowngroup": 52,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 45.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4275,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Sunflower Sprout",
-                "rawDescription": "Creates a sunflower that drops Imagination Power-ups"
-            }
+            "cooldown_group": 52,
+            "name": "Sunflower Sprout",
+            "full_description": "Creates a sunflower that drops Imagination Power-ups"
         }
-    },
-    "behaviorIDs": [
-        27774
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 657,
-        "buyPrice": 6575,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": 19,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "20",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
+    },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 657,
+    "buy_price": 6575,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/misc/cons_sunflower_seeds.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            613
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            111,
-            117
-        ],
-        "VendorIDs": [
-            13392
-        ],
-        "Vendors": [
-            {
-                "id": 13392,
-                "name": "NT Consumable Vendor",
-                "displayName": "Olivia Nightshade - Supplies Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13392,
+            "name": "Olivia Nightshade - Supplies Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

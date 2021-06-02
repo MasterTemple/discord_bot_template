@@ -1,38 +1,39 @@
 {
-    "objectID": 11163,
-    "itemInfo": {
+    "object_id": 11163,
+    "components": {
+        "2": 10912,
+        "11": 5460
+    },
+    "item_info": {
         "name": "Mouse Behavior",
         "displayName": "Mouse Behavior",
         "type": "Loot",
         "description": "Basic critter behavior",
         "internalNotes": "Behavior for ambient models"
     },
-    "components": {
-        "2": 10912,
-        "11": 5460
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            null
-        ],
-        "equipLocationNames": [],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 0,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "iconURL": "textures/ui/inventory/models/amb_rat.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

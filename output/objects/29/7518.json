@@ -1,12 +1,5 @@
 {
-    "objectID": 7518,
-    "itemInfo": {
-        "name": "Samurai Weapon 2",
-        "displayName": "Samurai Katana 2",
-        "type": "Loot",
-        "description": "Rank 2 Specialty Kit Item",
-        "internalNotes": "Rank 2 Specialty Kit Item"
-    },
+    "object_id": 7518,
     "components": {
         "2": 7083,
         "5": 1082,
@@ -14,89 +7,48 @@
         "11": 3173,
         "72": 0
     },
-    "skillIDs": [
-        573,
-        1363
-    ],
-    "objectSkills": {
-        "573": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 13502,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3328,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Katana Mastery 2",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(ChargeUp)Blocks 5 attacks while charged",
-                "damageCombo": " 2+3+3 ",
-                "ChargeUp": "Blocks 5 attacks while charged"
-            }
-        },
-        "1363": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
+    "item_info": {
+        "name": "Samurai Weapon 2",
+        "displayName": "Samurai Katana 2",
+        "type": "Loot",
+        "description": "Rank 2 Specialty Kit Item",
+        "internalNotes": "Rank 2 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        13502,
-        11860
+    "skills": [
+        {
+            "imagination_cost": 0,
+            "cooldown": 0.0,
+            "cooldown_group": 1,
+            "name": "Katana Mastery 2",
+            "full_description": "%(DamageCombo) 2+3+3 %(ChargeUp)Blocks 5 attacks while charged",
+            "charge_up": "Blocks 5 attacks while charged",
+            "damage_combo": " 2+3+3 "
+        }
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 300,
-        "buyPrice": 3000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214,
-            89,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8319,
-        "altCurrencyCost": 60,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "altCurrencyName": "Sentinel Token",
-        "altCurrencyDisplayName": "Sentinel Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item.",
-            "89": "Use the Rank 2 Samurai book before doing that.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item.",
+        "89": "Use the Rank 2 Samurai book before doing that.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 300,
+    "buy_price": 3000,
+    "alt_currency_type": 8319,
+    "alt_currency_cost": 60,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "13502": {
             "hasChargeUp": true,
@@ -141,31 +93,13 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/samurai_sword_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            178,
-            620
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            56,
-            86
-        ],
-        "VendorIDs": [
-            6631
-        ],
-        "Vendors": [
-            {
-                "id": 6631,
-                "name": "NS Sentinel Faction Vendor - Plaza",
-                "displayName": "Xeno Blueblade - Sentinel Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6631,
+            "name": "Xeno Blueblade - Sentinel Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

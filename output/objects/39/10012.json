@@ -1,97 +1,81 @@
 {
-    "objectID": 10012,
-    "itemInfo": {
+    "object_id": 10012,
+    "components": {
+        "2": 9838,
+        "11": 4850,
+        "53": 39
+    },
+    "item_info": {
         "name": "Faction Token Bag - 2 tokens",
         "displayName": "Small Bag of Faction Tokens",
         "type": "Loot",
         "description": "Double-click to get 2 Faction Tokens!",
         "internalNotes": "Contains 2 Faction Tokens"
     },
-    "components": {
-        "2": 9838,
-        "11": 4850,
-        "53": 39
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 128,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            211,
-            47
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "6",
-        "preconditionDescriptions": {
-            "211": "You must be Level 6 or greater to use this item.",
-            "47": "Faction members only. Find the Recruiter in Nimbus Station and join a Faction!"
-        }
+    "preconditions": {
+        "211": "You must be Level 6 or greater to use this item.",
+        "47": "Faction members only. Find the Recruiter in Nimbus Station and join a Faction!"
     },
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "6",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/presents/faction_bag_xxsm.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1001": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1001",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "Hearty and Hael",
-            "missionDescription": "Talk to Hael Storm in the Venture League Observatory.",
-            "isMission": 1,
+            "mission_description": "Talk to Hael Storm in the Venture League Observatory.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1004": {
+        {
+            "mission_id": "1004",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "Duke's Dark Alliance",
-            "missionDescription": "Talk to Vanda Darkflame in the Paradox Laboratory in Nexus Tower.",
-            "isMission": 1,
+            "mission_description": "Talk to Vanda Darkflame in the Paradox Laboratory in Nexus Tower.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1008": {
+        {
+            "mission_id": "1008",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "The Doctor is In",
-            "missionDescription": "Talk to Dr. Overbuild in the Nexus Core about a way to fight the Maelstrom.",
-            "isMission": 1,
+            "mission_description": "Talk to Dr. Overbuild in the Nexus Core about a way to fight the Maelstrom.",
+            "is_mission": 1,
             "rewardCount": 1
         },
-        "1291": {
+        {
+            "mission_id": "1291",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "Property Scanner",
-            "missionDescription": "Build the Property Scanning Device on any Property world, then return to Dr. Overbuild.",
-            "isMission": 1,
+            "mission_description": "Build the Property Scanning Device on any Property world, then return to Dr. Overbuild.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,90 +1,59 @@
 {
-    "objectID": 14132,
-    "itemInfo": {
+    "object_id": 14132,
+    "components": {
+        "2": 13843,
+        "9": 0,
+        "11": 7006
+    },
+    "item_info": {
         "name": "Doctor Overbuilds Property Device",
         "displayName": "Dr. Overbuild's Property Scanner",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Used to catalog property planets for Nexus Tower missions"
     },
-    "components": {
-        "2": 13843,
-        "9": 0,
-        "11": 7006
-    },
-    "skillIDs": [
-        1317
-    ],
-    "objectSkills": {
-        "1317": {
-            "castOnType": 4,
-            "AICombatWeight": 0,
-            "behaviorID": 30594,
-            "imaginationcost": 0,
-            "cooldowngroup": 78,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 60.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4304,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Deploy Property Scanner",
-                "rawDescription": "Deploys a Property Scanner Device"
-            }
+            "cooldown_group": 78,
+            "name": "Deploy Property Scanner",
+            "full_description": "Deploys a Property Scanner Device"
         }
-    },
-    "behaviorIDs": [
-        30594
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 1,
-        "buyPrice": 10,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 19,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 5,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 1,
+    "buy_price": 10,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 5,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/misc/overbuild_property_transmitter.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1693": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1693",
             "defined_type": "Location",
             "defined_subtype": "Nexus Tower",
             "missionName": "Deliver the Dish",
-            "missionDescription": "Dr. Overbuild needs a Dish 6x6 Inverted from Axon Klaxon in the Assembly Storeroom in Nexus Tower.",
-            "isMission": 1,
+            "mission_description": "Dr. Overbuild needs a Dish 6x6 Inverted from Axon Klaxon in the Assembly Storeroom in Nexus Tower.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,98 +1,51 @@
 {
-    "objectID": 13582,
-    "itemInfo": {
+    "object_id": 13582,
+    "components": {
+        "2": 13319,
+        "9": 0,
+        "11": 6709
+    },
+    "item_info": {
         "name": "Mole Whacker",
         "displayName": "Mole Whacker",
         "type": "Loot",
         "description": "Two-Handed Weapon",
         "internalNotes": ""
     },
-    "components": {
-        "2": 13319,
-        "9": 0,
-        "11": 6709
-    },
-    "skillIDs": [
-        1235,
-        1417
-    ],
-    "objectSkills": {
-        "1235": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 28140,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Heroic Attack with Slam",
-                "rawDescription": "%(DamageCombo) 3+3+4 %(ChargeUp)Does 5 damage and knocks down enemies",
-                "damageCombo": " 3+3+4 ",
-                "ChargeUp": "Does 5 damage and knocks down enemies"
-            }
-        },
-        "1417": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2951,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 1,
+            "name": "Heroic Attack with Slam",
+            "full_description": "%(DamageCombo) 3+3+4 %(ChargeUp)Does 5 damage and knocks down enemies",
+            "charge_up": "Does 5 damage and knocks down enemies",
+            "damage_combo": " 3+3+4 "
         }
-    },
-    "behaviorIDs": [
-        28140,
-        11860
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": [
-            13934
-        ],
-        "equipLocation": [
-            "special_r",
-            "special_l"
-        ],
-        "sellPrice": 7500,
-        "buyPrice": 75000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            223
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand",
-            "Left Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "27",
-        "preconditionDescriptions": {
-            "223": "You must be Level 27 or greater to use this item."
-        }
+    "preconditions": {
+        "223": "You must be Level 27 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "27",
+    "equip_locations": [
+        "Right Hand",
+        "Left Hand"
+    ],
+    "sell_price": 7500,
+    "buy_price": 75000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "28140": {
             "hasChargeUp": true,
@@ -137,29 +90,13 @@
             "chargeUpCost": -2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/molewhacker.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            643
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            115
-        ],
-        "VendorIDs": [
-            13569
-        ],
-        "Vendors": [
-            {
-                "id": 13569,
-                "name": "NT Mr. Ree Shady Vendor",
-                "displayName": "Mr. Ree - Shady Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13569,
+            "name": "Mr. Ree - Shady Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

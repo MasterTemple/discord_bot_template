@@ -1,77 +1,48 @@
 {
-    "objectID": 8291,
-    "itemInfo": {
+    "object_id": 8291,
+    "components": {
+        "2": 7851,
+        "9": 0,
+        "11": 3647
+    },
+    "item_info": {
         "name": "Test Faction Currency Item",
         "displayName": "Test Faction Currency Item",
         "type": "Loot",
         "description": "This item costs faction currency",
         "internalNotes": "This item costs faction currency"
     },
-    "components": {
-        "2": 7851,
-        "9": 0,
-        "11": 3647
-    },
-    "skillIDs": [
-        289
-    ],
-    "objectSkills": {
-        "289": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4717,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Super Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Super Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4717
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 6194,
-        "altCurrencyCost": 3,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "altCurrencyName": "Maelstrom Infected Brick",
-        "altCurrencyDisplayName": "Maelstrom-Infected Brick"
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 6194,
+    "alt_currency_cost": 3,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4717": {
             "hasChargeUp": false,
@@ -113,22 +84,7 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/consumables/fish_stick.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            31,
-            83
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            45
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

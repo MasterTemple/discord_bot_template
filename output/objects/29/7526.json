@@ -1,12 +1,5 @@
 {
-    "objectID": 7526,
-    "itemInfo": {
-        "name": "Inventor Weapon 1",
-        "displayName": "Inventor Improved Launcher 1",
-        "type": "Loot",
-        "description": "Rank 1 Specialty Kit Item",
-        "internalNotes": "Rank 1 Specialty Kit Item"
-    },
+    "object_id": 7526,
     "components": {
         "2": 7091,
         "5": 1415,
@@ -14,74 +7,48 @@
         "11": 3181,
         "72": 0
     },
-    "skillIDs": [
-        1043
-    ],
-    "objectSkills": {
-        "1043": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 22924,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Improvised Launcher 1",
-                "rawDescription": "%(DamageCombo) 1+1+2 %(ChargeUp)Restores up to 2 Armor to nearby characters",
-                "damageCombo": " 1+1+2 ",
-                "ChargeUp": "Restores up to 2 Armor to nearby characters"
-            }
-        }
+    "item_info": {
+        "name": "Inventor Weapon 1",
+        "displayName": "Inventor Improved Launcher 1",
+        "type": "Loot",
+        "description": "Rank 1 Specialty Kit Item",
+        "internalNotes": "Rank 1 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        22924
+    "skills": [
+        {
+            "imagination_cost": 0,
+            "cooldown": 0.0,
+            "cooldown_group": 1,
+            "name": "Improvised Launcher 1",
+            "full_description": "%(DamageCombo) 1+1+2 %(ChargeUp)Restores up to 2 Armor to nearby characters",
+            "charge_up": "Restores up to 2 Armor to nearby characters",
+            "damage_combo": " 1+1+2 "
+        }
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 150,
-        "buyPrice": 1500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            253,
-            135,
-            37
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8318,
-        "altCurrencyCost": 25,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "5",
-        "altCurrencyName": "Assembly Token",
-        "altCurrencyDisplayName": "Assembly Token",
-        "preconditionDescriptions": {
-            "253": "You must be Level 5 or greater to use this item.",
-            "135": "Use the Rank 1 Inventor book before doing that.",
-            "37": "You need to be a member of Assembly to use this."
-        }
+    "preconditions": {
+        "253": "You must be Level 5 or greater to use this item.",
+        "135": "Use the Rank 1 Inventor book before doing that.",
+        "37": "You need to be a member of Assembly to use this."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "5",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 150,
+    "buy_price": 1500,
+    "alt_currency_type": 8318,
+    "alt_currency_cost": 25,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "22924": {
             "hasChargeUp": true,
@@ -133,69 +100,13 @@
             "projectileChargeUpLOT": 12822
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/factionkits/inventor1_gunbase.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            164,
-            177
-        ],
-        "LootMatrixIndexes": {
-            "269": {
-                "LootMatrixIndex": 269,
-                "LootTableIndex": 164,
-                "RarityTableIndex": 22,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "4": {
-                        "id": 83,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 100.0,
-                    "howManyToKill": 1
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {
-                    "269": {
-                        "name": "Rank 1 Inventor Kit Package",
-                        "displayName": "Rank 1 Inventor Kit Package"
-                    }
-                },
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [
-            54,
-            87
-        ],
-        "VendorIDs": [
-            6633
-        ],
-        "Vendors": [
-            {
-                "id": 6633,
-                "name": "NS Assembly Faction Vendor - Plaza",
-                "displayName": "Meldric Steamvalve - Assembly Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6633,
+            "name": "Meldric Steamvalve - Assembly Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

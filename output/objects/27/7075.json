@@ -1,81 +1,50 @@
 {
-    "objectID": 7075,
-    "itemInfo": {
+    "object_id": 7075,
+    "components": {
+        "2": 6649,
+        "9": 0,
+        "11": 2972
+    },
+    "item_info": {
         "name": "Elite Club",
         "displayName": "Elite Club",
         "type": "Loot",
         "description": null,
         "internalNotes": "3/3/3 Smashing"
     },
-    "components": {
-        "2": 6649,
-        "9": 0,
-        "11": 2972
-    },
-    "skillIDs": [
-        290
-    ],
-    "objectSkills": {
-        "290": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4718,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 3+3+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Elite Attack",
+            "full_description": "%(DamageCombo) 3+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 3+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4718
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 900,
-        "buyPrice": 9000,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 9,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 28,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "25",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 900,
+    "buy_price": 9000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 28,
+    "stack_size": 1,
     "overview": {
         "4718": {
             "hasChargeUp": false,
@@ -117,26 +86,18 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m60659_109.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "851": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "851",
             "defined_type": "Location",
             "defined_subtype": "Forbidden Valley",
             "missionName": "The Way of the Hammer",
-            "missionDescription": "Smash 25 glowing anvils, 25 Dragon statues, 25 Horse statues, and 25 Mantis statues.",
-            "isMission": 0,
+            "mission_description": "Smash 25 glowing anvils, 25 Dragon statues, 25 Horse statues, and 25 Mantis statues.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,73 +1,47 @@
 {
-    "objectID": 12353,
-    "itemInfo": {
-        "name": "Model Reward Winter Toy Shop Building",
-        "displayName": "Winter Toy Shop Building Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 12353,
     "components": {
         "2": 12104,
         "3": 6042,
         "11": 6074,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 1142,
-        "buyPrice": 11420,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 12237,
-        "altCurrencyCost": 300,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "altCurrencyName": "Candy Cane",
-        "altCurrencyDisplayName": "Candy Cane"
+    "item_info": {
+        "name": "Model Reward Winter Toy Shop Building",
+        "displayName": "Winter Toy Shop Building Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 1142,
+    "buy_price": 11420,
+    "alt_currency_type": 12237,
+    "alt_currency_cost": 300,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_wintertoyshop_building.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            447
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            90
-        ],
-        "VendorIDs": [
-            12121
-        ],
-        "Vendors": [
-            {
-                "id": 12121,
-                "name": "FB - Toy Assembler Vendor",
-                "displayName": "Hansel Tinsel - Frostivus Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12121,
+            "name": "Hansel Tinsel - Frostivus Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

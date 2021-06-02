@@ -1,79 +1,50 @@
 {
-    "objectID": 16251,
-    "itemInfo": {
+    "object_id": 16251,
+    "components": {
+        "2": 14997,
+        "9": 0,
+        "11": 7550
+    },
+    "item_info": {
         "name": "Quality Longsword",
         "displayName": "Quality Longsword",
         "type": "Loot",
         "description": "",
         "internalNotes": "1/2/2 Slashing"
     },
-    "components": {
-        "2": 14997,
-        "9": 0,
-        "11": 7550
-    },
-    "skillIDs": [
-        527
-    ],
-    "objectSkills": {
-        "527": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 6713,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Quality Attack",
-                "rawDescription": "%(DamageCombo) 1+2+2 %(Description)Slashes enemies",
-                "damageCombo": " 1+2+2 ",
-                "Description": "Slashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Quality Attack",
+            "full_description": "%(DamageCombo) 1+2+2 %(Description)Slashes enemies",
+            "damage_combo": " 1+2+2 ",
+            "description": "Slashes enemies"
         }
-    },
-    "behaviorIDs": [
-        6713
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": "                                                  ",
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 250,
-        "buyPrice": 2500,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 147,
-        "preconditions": [
-            253
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "5",
-        "preconditionDescriptions": {
-            "253": "You must be Level 5 or greater to use this item."
-        }
+    "preconditions": {
+        "253": "You must be Level 5 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "5",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 250,
+    "buy_price": 2500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "6713": {
             "hasChargeUp": false,
@@ -116,30 +87,13 @@
             "singleJumpSmash": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m44493_297.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            190
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            58,
-            81
-        ],
-        "VendorIDs": [
-            8212
-        ],
-        "Vendors": [
-            {
-                "id": 8212,
-                "name": "AG Gear Vendor - Sentinel",
-                "displayName": "Klaus Zett - Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 8212,
+            "name": "Klaus Zett - Gear Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

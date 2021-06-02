@@ -1,111 +1,48 @@
 {
-    "objectID": 12743,
-    "itemInfo": {
+    "object_id": 12743,
+    "components": {
+        "2": 12533,
+        "9": 0,
+        "11": 6291
+    },
+    "item_info": {
         "name": "Mosaic Shield",
         "displayName": "Mosaic Shield",
         "type": "Loot",
         "description": null,
         "internalNotes": "1 IP 5 AP"
     },
-    "components": {
-        "2": 12533,
-        "9": 0,
-        "11": 6291
-    },
-    "skillIDs": [
-        325,
-        362,
-        370
-    ],
-    "objectSkills": {
-        "325": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 17567,
-            "imaginationcost": 5,
-            "cooldowngroup": 8,
+    "skills": [
+        {
+            "imagination_cost": 5,
             "cooldown": 90.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2950,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Shielding 2",
-                "rawDescription": "Shields you from up to 10 damage for 30 seconds"
-            }
-        },
-        "362": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4244,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 3
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 8,
+            "name": "Shielding 2",
+            "full_description": "Shields you from up to 10 damage for 30 seconds"
         }
-    },
-    "behaviorIDs": [
-        17567,
-        4244,
-        4252
     ],
     "stats": {
-        "cooldown": 90.0,
-        "cooldowngroup": 8,
-        "armorBonusUI": 3,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 3,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 725,
-        "buyPrice": 7250,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 40,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 725,
+    "buy_price": 7250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 40,
+    "stack_size": 1,
     "overview": {
         "17567": {
             "hasChargeUp": false,
@@ -125,26 +62,18 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/hands/scutumshieldprismatic.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1113": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1113",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Crux Prime Avenger",
-            "missionDescription": "Smash 1000 more Stromling Pirate Invaders on Crux Prime.",
-            "isMission": 0,
+            "mission_description": "Smash 1000 more Stromling Pirate Invaders on Crux Prime.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

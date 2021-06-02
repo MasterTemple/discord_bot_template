@@ -1,73 +1,47 @@
 {
-    "objectID": 8110,
-    "itemInfo": {
+    "object_id": 8110,
+    "components": {
+        "2": 7654,
+        "11": 3537
+    },
+    "item_info": {
         "name": "NPC Melodie Foxtrot Weapon",
         "displayName": "NPC Melodie Foxtrot Weapon",
         "type": "Loot",
         "description": "NPC Melodie Foxtrot Weapon",
         "internalNotes": "NPC Melodie Foxtrot Weapon"
     },
-    "components": {
-        "2": 7654,
-        "11": 3537
-    },
-    "skillIDs": [
-        289
-    ],
-    "objectSkills": {
-        "289": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4717,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Super Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Super Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4717
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4717": {
             "hasChargeUp": false,
@@ -109,17 +83,7 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/consumables/fish_stick.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

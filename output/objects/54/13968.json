@@ -1,70 +1,38 @@
 {
-    "objectID": 13968,
-    "itemInfo": {
+    "object_id": 13968,
+    "components": {
+        "2": 13680,
+        "9": 0,
+        "11": 6938
+    },
+    "item_info": {
         "name": "TEST Tower Grid Hat B",
         "displayName": "TEST Tower Grid Hat B",
         "type": "Loot",
         "description": "",
         "internalNotes": "for testing object spawning"
     },
-    "components": {
-        "2": 13680,
-        "9": 0,
-        "11": 6938
-    },
-    "skillIDs": [
-        1293
-    ],
-    "objectSkills": {
-        "1293": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 29582,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": null,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        29582
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 375,
-        "buyPrice": 3750,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 375,
+    "buy_price": 3750,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "29582": {
             "hasChargeUp": false,
@@ -84,17 +52,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m6131_21.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

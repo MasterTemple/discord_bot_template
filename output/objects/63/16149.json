@@ -1,94 +1,50 @@
 {
-    "objectID": 16149,
-    "itemInfo": {
+    "object_id": 16149,
+    "components": {
+        "2": 14867,
+        "9": 0,
+        "11": 7504
+    },
+    "item_info": {
         "name": "Krazi's Maelstrom Bone",
         "displayName": "Krazi's Maelstrom Bone",
         "type": "Loot",
         "description": "The Skeletons forged this from pure Maelstrom!",
         "internalNotes": "for Nya Mission"
     },
-    "components": {
-        "2": 14867,
-        "9": 0,
-        "11": 7504
-    },
-    "skillIDs": [
-        1497,
-        1499
-    ],
-    "objectSkills": {
-        "1497": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 36888,
-            "imaginationcost": 0,
-            "cooldowngroup": -1,
-            "cooldown": -1.0,
-            "inNpcEditor": 0,
-            "skillIcon": null,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1499": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 36993,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(AltCombo) 7+8+9 %(Description)Smashes enemies",
-                "damageCombo": " 3+3+3 %(AltCombo) 7+8+9 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 3+3+3 %(AltCombo) 7+8+9 %(Description)Smashes enemies",
+            "damage_combo": " 3+3+3 %(AltCombo) 7+8+9 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        36888,
-        36993
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": "                                                  ",
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "36993": {
             "hasChargeUp": false,
@@ -139,68 +95,19 @@
             "singleJumpSmash": 7
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/hands/maelstrombone.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            867
-        ],
-        "LootMatrixIndexes": {
-            "763": {
-                "LootMatrixIndex": 763,
-                "LootTableIndex": 867,
-                "RarityTableIndex": 25,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "2103": {
-                        "enemyID": 16049,
-                        "enemyNames": {
-                            "name": "NJ - Krazi Skeleton Lieutenant",
-                            "displayName": "Krazi - Skeleton of Lightning"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "3": {
-                        "id": 88,
-                        "randmax": 100.0,
-                        "rarity": 3,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 1,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 100.0,
-                    "howManyToKill": 1
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            16049
-        ],
-        "Enemies": [
-            {
-                "id": 16049,
-                "name": "NJ - Krazi Skeleton Lieutenant",
-                "displayName": "Krazi - Skeleton of Lightning"
-            }
-        ]
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 100.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1
+            },
+            "type": "Enemy",
+            "name": "Krazi - Skeleton of Lightning",
+            "id": 16049
+        }
+    ]
 }

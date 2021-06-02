@@ -1,75 +1,48 @@
 {
-    "objectID": 11283,
-    "itemInfo": {
+    "object_id": 11283,
+    "components": {
+        "2": 11050,
+        "9": 0,
+        "11": 5506
+    },
+    "item_info": {
         "name": "NPC Brick Fury HoloHUD1",
         "displayName": "",
         "type": "Loot",
         "description": "NPC Brick Fury HoloHUD1",
         "internalNotes": null
     },
-    "components": {
-        "2": 11050,
-        "9": 0,
-        "11": 5506
-    },
-    "skillIDs": [
-        524
-    ],
-    "objectSkills": {
-        "524": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 6545,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Improved Attack",
-                "rawDescription": "%(DamageCombo) 1+1+2 %(Description)Slashes enemies",
-                "damageCombo": " 1+1+2 ",
-                "Description": "Slashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Improved Attack",
+            "full_description": "%(DamageCombo) 1+1+2 %(Description)Slashes enemies",
+            "damage_combo": " 1+1+2 ",
+            "description": "Slashes enemies"
         }
-    },
-    "behaviorIDs": [
-        6545
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 7,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "6545": {
             "hasChargeUp": false,
@@ -108,17 +81,7 @@
             "singleJumpSmash": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m3835_199.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

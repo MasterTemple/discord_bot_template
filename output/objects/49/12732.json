@@ -1,130 +1,51 @@
 {
-    "objectID": 12732,
-    "itemInfo": {
+    "object_id": 12732,
+    "components": {
+        "2": 12521,
+        "9": 0,
+        "11": 6280
+    },
+    "item_info": {
         "name": "Massive Spear",
         "displayName": "Massive Spear",
         "type": "Loot",
         "description": "Two-Handed Weapon",
         "internalNotes": "4 AP 4 IP Speed Heroic"
     },
-    "components": {
-        "2": 12521,
-        "9": 0,
-        "11": 6280
-    },
-    "skillIDs": [
-        363,
-        372,
-        1233,
-        1274
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        },
-        "372": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4254,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 4,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1233": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 27954,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Heroic Attack",
-                "rawDescription": "%(DamageCombo) 3+3+4 %(Description)Smashes enemies",
-                "damageCombo": " 3+3+4 ",
-                "Description": "Smashes enemies"
-            }
-        },
-        "1274": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2951,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 1,
+            "name": "Heroic Attack",
+            "full_description": "%(DamageCombo) 3+3+4 %(Description)Smashes enemies",
+            "damage_combo": " 3+3+4 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4245,
-        4254,
-        27954,
-        11860
     ],
     "stats": {
-        "armorBonusUI": 4,
-        "imBonusUI": 4,
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 4,
+        "imagination": 4
     },
-    "itemComponent": {
-        "subItems": [
-            13803
-        ],
-        "equipLocation": [
-            "special_r",
-            "special_l"
-        ],
-        "sellPrice": 8500,
-        "buyPrice": 85000,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            254
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand",
-            "Left Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "35",
-        "preconditionDescriptions": {
-            "254": "You must be Level 35 or greater to use this item."
-        }
+    "preconditions": {
+        "254": "You must be Level 35 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "35",
+    "equip_locations": [
+        "Right Hand",
+        "Left Hand"
+    ],
+    "sell_price": 8500,
+    "buy_price": 85000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "27954": {
             "hasChargeUp": false,
@@ -166,29 +87,13 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/massivespear.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            607
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            100
-        ],
-        "VendorIDs": [
-            13300
-        ],
-        "Vendors": [
-            {
-                "id": 13300,
-                "name": "NT Gear Vendor",
-                "displayName": "Achilles Plutarch - Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13300,
+            "name": "Achilles Plutarch - Gear Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

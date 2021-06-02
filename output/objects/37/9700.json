@@ -1,95 +1,61 @@
 {
-    "objectID": 9700,
-    "itemInfo": {
+    "object_id": 9700,
+    "components": {
+        "2": 9542,
+        "9": 0,
+        "11": 4736
+    },
+    "item_info": {
         "name": "Anvil of Armor",
         "displayName": "Anvil of Armor",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Spawn AP powerups, everlasting"
     },
-    "components": {
-        "2": 9542,
-        "9": 0,
-        "11": 4736
-    },
-    "skillIDs": [
-        791
-    ],
-    "objectSkills": {
-        "791": {
-            "castOnType": 4,
-            "AICombatWeight": 0,
-            "behaviorID": 14147,
-            "imaginationcost": 0,
-            "cooldowngroup": 72,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 300.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Deploy Anvil of Armor",
-                "rawDescription": "Creates an anvil that slowly releases Armor Power-ups"
-            }
+            "cooldown_group": 72,
+            "name": "Deploy Anvil of Armor",
+            "full_description": "Creates an anvil that slowly releases Armor Power-ups"
         }
-    },
-    "behaviorIDs": [
-        14147
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 350,
-        "buyPrice": 3500,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 64,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": 19,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 19,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
+    },
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 350,
+    "buy_price": 3500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 19,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/missioncomics/wonderland/nimbus_station/task_icons/mission_863.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "692": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "692",
             "defined_type": "Battle",
             "defined_subtype": "General",
             "missionName": "Tanks Very Much! 1",
-            "missionDescription": "Collect 1000 Armor power-ups.",
-            "isMission": 0,
+            "mission_description": "Collect 1000 Armor power-ups.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

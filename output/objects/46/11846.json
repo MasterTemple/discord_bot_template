@@ -1,71 +1,47 @@
 {
-    "objectID": 11846,
-    "itemInfo": {
-        "name": "Model Reward Spacefort Wall Gate Wide",
-        "displayName": "Space Fort Wide Wall Gate Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 11846,
     "components": {
         "2": 11598,
         "3": 5690,
         "11": 5897,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 404,
-        "buyPrice": 4040,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Spacefort Wall Gate Wide",
+        "displayName": "Space Fort Wide Wall Gate Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 404,
+    "buy_price": 4040,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_spacefort_wall_gate_wide.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            800
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            128
-        ],
-        "VendorIDs": [
-            5010
-        ],
-        "Vendors": [
-            {
-                "id": 5010,
-                "name": "AG - Astronaut Picnicker",
-                "displayName": "Kirsten Quasar - Astronaut Picnicker"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 5010,
+            "name": "Kirsten Quasar - Astronaut Picnicker"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

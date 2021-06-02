@@ -1,121 +1,61 @@
 {
-    "objectID": 14517,
-    "itemInfo": {
+    "object_id": 14517,
+    "components": {
+        "2": 14202,
+        "11": 7136
+    },
+    "item_info": {
         "name": "Tail Bone",
         "displayName": "Tail Bone",
         "type": "Loot",
         "description": "Return this to Furious Urufu in the Ninjago Monastery.",
         "internalNotes": "Ninjago Mission Item; drops from Bone Wolves in Caves or Earth Gauntlet, only on mission"
     },
-    "components": {
-        "2": 14202,
-        "11": 7136
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/misc/tail_bone.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            754
-        ],
-        "LootMatrixIndexes": {
-            "761": {
-                "LootMatrixIndex": 761,
-                "LootTableIndex": 754,
-                "RarityTableIndex": 23,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "2130": {
-                        "enemyID": 16191,
-                        "enemyNames": {
-                            "name": "NJD - Bone Wolf - Frakjaw instance",
-                            "displayName": "Bone Wolf"
-                        }
-                    },
-                    "1899": {
-                        "enemyID": 13995,
-                        "enemyNames": {
-                            "name": "NJ - Bone Wolf",
-                            "displayName": "Bone Wolf"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 86,
-                        "randmax": 100.0,
-                        "rarity": 1,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 1,
-                    "2": 0,
-                    "3": 0,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 100.0,
-                    "howManyToKill": 1
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            13995,
-            16191
-        ],
-        "Enemies": [
-            {
-                "id": 13995,
-                "name": "NJ - Bone Wolf",
-                "displayName": "Bone Wolf"
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 100.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1
             },
-            {
-                "id": 16191,
-                "name": "NJD - Bone Wolf - Frakjaw instance",
-                "displayName": "Bone Wolf"
-            }
-        ]
-    },
-    "earn": {}
+            "type": "Enemy",
+            "name": "Bone Wolf",
+            "id": 16191
+        },
+        {
+            "percent": 100.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1
+            },
+            "type": "Enemy",
+            "name": "Bone Wolf",
+            "id": 13995
+        }
+    ]
 }

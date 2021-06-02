@@ -1,75 +1,48 @@
 {
-    "objectID": 14356,
-    "itemInfo": {
+    "object_id": 14356,
+    "components": {
+        "2": 14047,
+        "9": 0,
+        "11": 7073
+    },
+    "item_info": {
         "name": "Assembly Gear - Summoner - weapon proxy",
         "displayName": "Assembly Gear - Summoner - weapon proxy",
         "type": "Loot",
         "description": "",
         "internalNotes": ""
     },
-    "components": {
-        "2": 14047,
-        "9": 0,
-        "11": 7073
-    },
-    "skillIDs": [
-        1631
-    ],
-    "objectSkills": {
-        "1631": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 38967,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3365,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Rental Gnarled Staff",
-                "rawDescription": "%(DamageCombo) 4+4+6 %(ChargeUp)Restores up to 6 Armor to nearby characters - charge longer for more Armor",
-                "damageCombo": " 4+4+6 ",
-                "ChargeUp": "Restores up to 6 Armor to nearby characters - charge longer for more Armor"
-            }
+            "cooldown_group": 1,
+            "name": "Rental Gnarled Staff",
+            "full_description": "%(DamageCombo) 4+4+6 %(ChargeUp)Restores up to 6 Armor to nearby characters - charge longer for more Armor",
+            "charge_up": "Restores up to 6 Armor to nearby characters - charge longer for more Armor",
+            "damage_combo": " 4+4+6 "
         }
-    },
-    "behaviorIDs": [
-        38967
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true
-    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "38967": {
             "hasChargeUp": true,
@@ -119,17 +92,7 @@
             "singleJumpSmash": 4
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/summoner_staff_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,75 +1,48 @@
 {
-    "objectID": 14835,
-    "itemInfo": {
+    "object_id": 14835,
+    "components": {
+        "2": 14529,
+        "9": 0,
+        "11": 7307
+    },
+    "item_info": {
         "name": "NPC Red Samurai Axe",
         "displayName": "NPC Red Samurai Axe",
         "type": "Loot",
         "description": null,
         "internalNotes": ""
     },
-    "components": {
-        "2": 14529,
-        "9": 0,
-        "11": 7307
-    },
-    "skillIDs": [
-        1423
-    ],
-    "objectSkills": {
-        "1423": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 33768,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 %(AltCombo) 7+7+8 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 %(AltCombo) 7+7+8 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        33768
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "33768": {
             "hasChargeUp": false,
@@ -120,17 +93,7 @@
             "singleJumpSmash": 7
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/hammer_monkey.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,71 +1,47 @@
 {
-    "objectID": 13724,
-    "itemInfo": {
-        "name": "Model Reward Safari LionRock ",
-        "displayName": "Safari Lion Rock Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": "Reward Model"
-    },
+    "object_id": 13724,
     "components": {
         "2": 13462,
         "3": 6782,
         "11": 6834,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 40,
-        "buyPrice": 400,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Safari LionRock ",
+        "displayName": "Safari Lion Rock Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": "Reward Model"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 40,
+    "buy_price": 400,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_safari-lionrock.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            668
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            67
-        ],
-        "VendorIDs": [
-            10027
-        ],
-        "Vendors": [
-            {
-                "id": 10027,
-                "name": "NS Model Vendor",
-                "displayName": "Autumn Helix - Model Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 10027,
+            "name": "Autumn Helix - Model Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

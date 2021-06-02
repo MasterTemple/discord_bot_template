@@ -1,59 +1,41 @@
 {
-    "objectID": 11029,
-    "itemInfo": {
-        "name": "NS Property Pushback - Platform",
-        "displayName": "NS Property Pushback - Platform",
-        "type": "Loot",
-        "description": "NS Property Pushback - Platform",
-        "internalNotes": "For ND use only"
-    },
+    "object_id": 11029,
     "components": {
         "2": 10780,
         "3": 5038,
         "11": 5367,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 99,
-        "buyPrice": 999,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 11029,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "NS Property Pushback - Platform",
+        "displayName": "NS Property Pushback - Platform",
+        "type": "Loot",
+        "description": "NS Property Pushback - Platform",
+        "internalNotes": "For ND use only"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 99,
+    "buy_price": 999,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/golden_brick.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,310 +1,84 @@
 {
-    "objectID": 3861,
-    "itemInfo": {
+    "object_id": 3861,
+    "components": {
+        "2": 3257,
+        "9": 0,
+        "11": 1086
+    },
+    "item_info": {
         "name": "Diver Helmet",
         "displayName": "Diver Helmet",
         "type": "Loot",
         "description": null,
         "internalNotes": "2 AP 2 IP"
     },
-    "components": {
-        "2": 3257,
-        "9": 0,
-        "11": 1086
-    },
-    "skillIDs": [
-        361,
-        370
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4243,
-        4252
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 342,
-        "buyPrice": 3425,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 37888,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 342,
+    "buy_price": 3425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m30124_30090_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            467
-        ],
-        "LootMatrixIndexes": {
-            "590": {
-                "LootMatrixIndex": 590,
-                "LootTableIndex": 467,
-                "RarityTableIndex": 4,
-                "percent": 0.05,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "943": {
-                        "enemyID": 8238,
-                        "enemyNames": {
-                            "name": "VE Instance - Stromling Hammerling Ranged",
-                            "displayName": "Hammerhurl Stromling"
-                        }
-                    },
-                    "1740": {
-                        "enemyID": 12542,
-                        "enemyNames": {
-                            "name": "VE Instance - Stromling Hammerling Melee",
-                            "displayName": "Hammer Stromling"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 7,
-                    "2": 4,
-                    "3": 2,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.0019000000000000002,
-                    "howManyToKill": 56000
-                },
-                "LootTableIndexItems": 13,
-                "PackageComponent": {},
-                "ActivityComponent": []
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 0.0019000000000000002,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 56000
             },
-            "591": {
-                "LootMatrixIndex": 591,
-                "LootTableIndex": 467,
-                "RarityTableIndex": 4,
-                "percent": 3.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "886": {
-                        "enemyID": 8433,
-                        "enemyNames": {
-                            "name": "VE Instance - Stromling Mech 2",
-                            "displayName": "Corrupted Sentry"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 7,
-                    "2": 4,
-                    "3": 2,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.11249999999999999,
-                    "howManyToKill": 924
-                },
-                "LootTableIndexItems": 13,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            },
-            "593": {
-                "LootMatrixIndex": 593,
-                "LootTableIndex": 467,
-                "RarityTableIndex": 4,
-                "percent": 5.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "1703": {
-                        "enemyID": 12387,
-                        "enemyNames": {
-                            "name": "VE Instance - Elite Dark Spiderling",
-                            "displayName": "Elite Dark Spiderling"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 7,
-                    "2": 4,
-                    "3": 2,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.1875,
-                    "howManyToKill": 560
-                },
-                "LootTableIndexItems": 13,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            }
+            "type": "Enemy",
+            "name": "Hammerhurl Stromling",
+            "id": 8238
         },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            8238,
-            8433,
-            12387,
-            12542
-        ],
-        "Enemies": [
-            {
-                "id": 8238,
-                "name": "VE Instance - Stromling Hammerling Ranged",
-                "displayName": "Hammerhurl Stromling"
+        {
+            "percent": 0.0019000000000000002,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 56000
             },
-            {
-                "id": 8433,
-                "name": "VE Instance - Stromling Mech 2",
-                "displayName": "Corrupted Sentry"
+            "type": "Enemy",
+            "name": "Hammer Stromling",
+            "id": 12542
+        },
+        {
+            "percent": 0.11249999999999999,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 924
             },
-            {
-                "id": 12387,
-                "name": "VE Instance - Elite Dark Spiderling",
-                "displayName": "Elite Dark Spiderling"
+            "type": "Enemy",
+            "name": "Corrupted Sentry",
+            "id": 8433
+        },
+        {
+            "percent": 0.1875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 560
             },
-            {
-                "id": 12542,
-                "name": "VE Instance - Stromling Hammerling Melee",
-                "displayName": "Hammer Stromling"
-            }
-        ]
-    },
-    "earn": {}
+            "type": "Enemy",
+            "name": "Elite Dark Spiderling",
+            "id": 12387
+        }
+    ]
 }

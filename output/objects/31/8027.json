@@ -1,73 +1,54 @@
 {
-    "objectID": 8027,
-    "itemInfo": {
+    "object_id": 8027,
+    "components": {
+        "2": 7573,
+        "11": 3446,
+        "53": 11
+    },
+    "item_info": {
         "name": "Rank 1 Space Ranger Kit Package",
         "displayName": "Rank 1 Space Ranger Kit Package",
         "type": "Loot",
         "description": "Double-click to get the Rank 1 Space Ranger Specialty Gear!",
         "internalNotes": null
     },
-    "components": {
-        "2": 7573,
-        "11": 3446,
-        "53": 11
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            null
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            211,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "6",
-        "preconditionDescriptions": {
-            "211": "You must be Level 6 or greater to use this item.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "211": "You must be Level 6 or greater to use this item.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "6",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/kits/kit_sentinel.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "591": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "591",
             "defined_type": "Location",
             "defined_subtype": "Nimbus Station",
             "missionName": "Get your Sentinel Faction Gear!",
-            "missionDescription": "Talk to Xeno Blueblade in Nimbus Plaza and pick your first Specialty Kit!",
-            "isMission": 1,
+            "mission_description": "Talk to Xeno Blueblade in Nimbus Plaza and pick your first Specialty Kit!",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

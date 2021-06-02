@@ -1,12 +1,5 @@
 {
-    "objectID": 13617,
-    "itemInfo": {
-        "name": "Shard Armor",
-        "displayName": "Shard Armor",
-        "type": "Loot",
-        "description": "",
-        "internalNotes": "3 IP 3 AP Armor repair"
-    },
+    "object_id": 13617,
     "components": {
         "2": 13354,
         "5": 1464,
@@ -14,116 +7,44 @@
         "11": 6737,
         "72": 0
     },
-    "skillIDs": [
-        362,
-        371,
-        1335
-    ],
-    "objectSkills": {
-        "362": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4244,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 3
-        },
-        "371": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4253,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 3,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1335": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2825,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
+    "item_info": {
+        "name": "Shard Armor",
+        "displayName": "Shard Armor",
+        "type": "Loot",
+        "description": "",
+        "internalNotes": "3 IP 3 AP Armor repair"
     },
-    "behaviorIDs": [
-        4244,
-        4253,
-        11860
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 3,
-        "imBonusUI": 3
+        "life": 0,
+        "armor": 3,
+        "imagination": 3
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 8100,
-        "buyPrice": 81000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "25",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 8100,
+    "buy_price": 81000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/misc/shardarmor_master.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            643
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            115
-        ],
-        "VendorIDs": [
-            13569
-        ],
-        "Vendors": [
-            {
-                "id": 13569,
-                "name": "NT Mr. Ree Shady Vendor",
-                "displayName": "Mr. Ree - Shady Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13569,
+            "name": "Mr. Ree - Shady Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

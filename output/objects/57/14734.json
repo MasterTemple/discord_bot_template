@@ -1,79 +1,50 @@
 {
-    "objectID": 14734,
-    "itemInfo": {
+    "object_id": 14734,
+    "components": {
+        "2": 14419,
+        "9": 0,
+        "11": 7226
+    },
+    "item_info": {
         "name": "Artisan's Hammer",
         "displayName": "Artisan's Hammer",
         "type": "Loot",
         "description": "",
         "internalNotes": "2/3/3 7/7/8 Smashing"
     },
-    "components": {
-        "2": 14419,
-        "9": 0,
-        "11": 7226
-    },
-    "skillIDs": [
-        1423
-    ],
-    "objectSkills": {
-        "1423": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 33768,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 %(AltCombo) 7+7+8 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(AltCombo) 7+7+8 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 %(AltCombo) 7+7+8 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        33768
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 700,
-        "buyPrice": 7000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "20",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 700,
+    "buy_price": 7000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "33768": {
             "hasChargeUp": false,
@@ -124,294 +95,55 @@
             "singleJumpSmash": 7
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/hands/hammer.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            868
-        ],
-        "LootMatrixIndexes": {
-            "765": {
-                "LootMatrixIndex": 765,
-                "LootTableIndex": 868,
-                "RarityTableIndex": 4,
-                "percent": 4.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 3,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.026699999999999998,
-                    "howManyToKill": 3750
-                },
-                "LootTableIndexItems": 3,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "Frakjaw 1 Player"
-                ]
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 0.026699999999999998,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 3750
             },
-            "766": {
-                "LootMatrixIndex": 766,
-                "LootTableIndex": 868,
-                "RarityTableIndex": 4,
-                "percent": 0.1,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "2104": {
-                        "enemyID": 16050,
-                        "enemyNames": {
-                            "name": "NJ - Bonezai Skeleton Lieutenant",
-                            "displayName": "Bonezai - Skeleton of Ice"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 3,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.0007,
-                    "howManyToKill": 150000
-                },
-                "LootTableIndexItems": 3,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            },
-            "875": {
-                "LootMatrixIndex": 875,
-                "LootTableIndex": 868,
-                "RarityTableIndex": 4,
-                "percent": 5.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 3,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.0333,
-                    "howManyToKill": 3000
-                },
-                "LootTableIndexItems": 3,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "Frakjaw 2 Player"
-                ]
-            },
-            "876": {
-                "LootMatrixIndex": 876,
-                "LootTableIndex": 868,
-                "RarityTableIndex": 4,
-                "percent": 9.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 3,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.06,
-                    "howManyToKill": 1650
-                },
-                "LootTableIndexItems": 3,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "Frakjaw 3 Player"
-                ]
-            },
-            "877": {
-                "LootMatrixIndex": 877,
-                "LootTableIndex": 868,
-                "RarityTableIndex": 4,
-                "percent": 12.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0,
-                    "4": 3,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.08,
-                    "howManyToKill": 1200
-                },
-                "LootTableIndexItems": 3,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "Frakjaw 4 Player"
-                ]
-            }
+            "type": "Activity",
+            "name": "Frakjaw 1 Player"
         },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            16050
-        ],
-        "Enemies": [
-            {
-                "id": 16050,
-                "name": "NJ - Bonezai Skeleton Lieutenant",
-                "displayName": "Bonezai - Skeleton of Ice"
-            }
-        ]
-    },
-    "earn": {}
+        {
+            "percent": 0.0007,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 150000
+            },
+            "type": "Enemy",
+            "name": "Bonezai - Skeleton of Ice",
+            "id": 16050
+        },
+        {
+            "percent": 0.0333,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 3000
+            },
+            "type": "Activity",
+            "name": "Frakjaw 2 Player"
+        },
+        {
+            "percent": 0.06,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1650
+            },
+            "type": "Activity",
+            "name": "Frakjaw 3 Player"
+        },
+        {
+            "percent": 0.08,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1200
+            },
+            "type": "Activity",
+            "name": "Frakjaw 4 Player"
+        }
+    ]
 }

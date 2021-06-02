@@ -1,96 +1,50 @@
 {
-    "objectID": 12313,
-    "itemInfo": {
+    "object_id": 12313,
+    "components": {
+        "2": 12063,
+        "9": 0,
+        "11": 6053
+    },
+    "item_info": {
         "name": "Lucky Woodsman's Axe",
         "displayName": "Lucky Woodsman's Axe",
         "type": "Loot",
         "description": "",
         "internalNotes": "2/3/3 + Lucky"
     },
-    "components": {
-        "2": 12063,
-        "9": 0,
-        "11": 6053
-    },
-    "skillIDs": [
-        289,
-        402
-    ],
-    "objectSkills": {
-        "289": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4717,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Super Attack",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 2+3+3 ",
-                "Description": "Smashes enemies"
-            }
-        },
-        "402": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4433,
-            "imaginationcost": 0,
-            "cooldowngroup": 97,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3642,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 1,
+            "name": "Super Attack",
+            "full_description": "%(DamageCombo) 2+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 2+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4717,
-        4433
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 1050,
-        "buyPrice": 10500,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 58,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "20",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 1050,
+    "buy_price": 10500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 58,
+    "stack_size": 1,
     "overview": {
         "4717": {
             "hasChargeUp": false,
@@ -132,26 +86,18 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m4438_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1081": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1081",
             "defined_type": "Battle",
             "defined_subtype": "Venture Instance",
             "missionName": "Corrupted Sentry Destroyer 2",
-            "missionDescription": "Smash 125 more Corrupted Sentries on the Venture Explorer spaceship.",
-            "isMission": 0,
+            "mission_description": "Smash 125 more Corrupted Sentries on the Venture Explorer spaceship.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

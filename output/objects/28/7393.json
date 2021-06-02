@@ -1,12 +1,5 @@
 {
-    "objectID": 7393,
-    "itemInfo": {
-        "name": "Knight Weapon 3",
-        "displayName": "Knight Greatsword 3",
-        "type": "Loot",
-        "description": "Rank 3 Specialty Kit Item",
-        "internalNotes": "Rank 3 Specialty Kit Item"
-    },
+    "object_id": 7393,
     "components": {
         "2": 6957,
         "5": 1078,
@@ -14,89 +7,48 @@
         "11": 3070,
         "72": 0
     },
-    "skillIDs": [
-        478,
-        1363
-    ],
-    "objectSkills": {
-        "478": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 5744,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3487,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Knight's Blade 3",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(ChargeUp)Blocks 8 attacks while charged",
-                "damageCombo": " 2+3+3 ",
-                "ChargeUp": "Blocks 8 attacks while charged"
-            }
-        },
-        "1363": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 11860,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
+    "item_info": {
+        "name": "Knight Weapon 3",
+        "displayName": "Knight Greatsword 3",
+        "type": "Loot",
+        "description": "Rank 3 Specialty Kit Item",
+        "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        5744,
-        11860
+    "skills": [
+        {
+            "imagination_cost": 0,
+            "cooldown": 0.0,
+            "cooldown_group": 1,
+            "name": "Knight's Blade 3",
+            "full_description": "%(DamageCombo) 2+3+3 %(ChargeUp)Blocks 8 attacks while charged",
+            "charge_up": "Blocks 8 attacks while charged",
+            "damage_combo": " 2+3+3 "
+        }
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            88,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8319,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "30",
-        "altCurrencyName": "Sentinel Token",
-        "altCurrencyDisplayName": "Sentinel Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "88": "Use the Rank 3 Knight book before doing that.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "88": "Use the Rank 3 Knight book before doing that.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8319,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "5744": {
             "hasChargeUp": true,
@@ -141,32 +93,13 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/knight_sword_3.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            686,
-            619,
-            678,
-            689
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            102
-        ],
-        "VendorIDs": [
-            13376
-        ],
-        "Vendors": [
-            {
-                "id": 13376,
-                "name": "NT Sentinel Faction Vendor",
-                "displayName": "Nikolai Gammapulse - Sentinel Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13376,
+            "name": "Nikolai Gammapulse - Sentinel Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

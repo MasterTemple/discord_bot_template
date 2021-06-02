@@ -1,84 +1,42 @@
 {
-    "objectID": 14816,
-    "itemInfo": {
+    "object_id": 14816,
+    "components": {
+        "2": 14503,
+        "9": 0,
+        "11": 7290
+    },
+    "item_info": {
         "name": "Shoulder Owl Brown",
         "displayName": "Brown Shoulder Owl",
         "type": "Loot",
         "description": null,
         "internalNotes": "1 IP"
     },
-    "components": {
-        "2": 14503,
-        "9": 0,
-        "11": 7290
-    },
-    "skillIDs": [
-        369
-    ],
-    "objectSkills": {
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4251
-    ],
+    "skills": [],
     "stats": {
-        "imBonusUI": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 100,
-        "buyPrice": 1000,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": -1,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 100,
+    "buy_price": 1000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/icons/owl_brown.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

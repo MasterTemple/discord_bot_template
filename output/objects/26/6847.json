@@ -1,81 +1,50 @@
 {
-    "objectID": 6847,
-    "itemInfo": {
+    "object_id": 6847,
+    "components": {
+        "2": 6398,
+        "9": 0,
+        "11": 2867
+    },
+    "item_info": {
         "name": "Exceptional Flintlock Rifle",
         "displayName": "Exceptional Flintlock Rifle",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "2/2/2 Ranged"
     },
-    "components": {
-        "2": 6398,
-        "9": 0,
-        "11": 2867
-    },
-    "skillIDs": [
-        899
-    ],
-    "objectSkills": {
-        "899": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 18386,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Exceptional Ranged Attack",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(Description)Fires a projectile",
-                "damageCombo": " 2+2+2 ",
-                "Description": "Fires a projectile"
-            }
+            "cooldown_group": 1,
+            "name": "Exceptional Ranged Attack",
+            "full_description": "%(DamageCombo) 2+2+2 %(Description)Fires a projectile",
+            "damage_combo": " 2+2+2 ",
+            "description": "Fires a projectile"
         }
-    },
-    "behaviorIDs": [
-        18386
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 900,
-        "buyPrice": 9000,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 9,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 50,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 900,
+    "buy_price": 9000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 50,
+    "stack_size": 1,
     "overview": {
         "18386": {
             "hasChargeUp": false,
@@ -139,30 +108,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m2561_192.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            117
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            52
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "428": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "428",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Pirate Swashbuckler 2",
-            "missionDescription": "Smash 25 more Stromling Apes.",
-            "isMission": 0,
+            "mission_description": "Smash 25 more Stromling Apes.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

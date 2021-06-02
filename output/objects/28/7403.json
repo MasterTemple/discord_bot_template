@@ -1,12 +1,5 @@
 {
-    "objectID": 7403,
-    "itemInfo": {
-        "name": "Knight Shield 2",
-        "displayName": "Knight Shield 2",
-        "type": "Loot",
-        "description": "Rank 2 Specialty Kit Item",
-        "internalNotes": "Rank 2 Specialty Kit Item"
-    },
+    "object_id": 7403,
     "components": {
         "2": 6967,
         "5": 1077,
@@ -14,90 +7,48 @@
         "11": 3080,
         "72": 0
     },
-    "skillIDs": [
-        342,
-        361
-    ],
-    "objectSkills": {
-        "342": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 4036,
-            "imaginationcost": 4,
-            "cooldowngroup": 24,
-            "cooldown": 7.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3320,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Shield Slam 1",
-                "rawDescription": "%(DamageCombo) 5 %(Description)Makes you rush forward, doing 5 damage and knocking down the enemy that you strike",
-                "damageCombo": " 5 ",
-                "Description": "Makes you rush forward, doing 5 damage and knocking down the enemy that you strike"
-            }
-        },
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        }
+    "item_info": {
+        "name": "Knight Shield 2",
+        "displayName": "Knight Shield 2",
+        "type": "Loot",
+        "description": "Rank 2 Specialty Kit Item",
+        "internalNotes": "Rank 2 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        4036,
-        4243
+    "skills": [
+        {
+            "imagination_cost": 4,
+            "cooldown": 7.0,
+            "cooldown_group": 24,
+            "name": "Shield Slam 1",
+            "full_description": "%(DamageCombo) 5 %(Description)Makes you rush forward, doing 5 damage and knocking down the enemy that you strike",
+            "damage_combo": " 5 ",
+            "description": "Makes you rush forward, doing 5 damage and knocking down the enemy that you strike"
+        }
     ],
     "stats": {
-        "cooldown": 7.0,
-        "cooldowngroup": 24,
-        "armorBonusUI": 2
+        "life": 0,
+        "armor": 2,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 300,
-        "buyPrice": 3000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214,
-            87,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8319,
-        "altCurrencyCost": 60,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "altCurrencyName": "Sentinel Token",
-        "altCurrencyDisplayName": "Sentinel Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item.",
-            "87": "Use the Rank 2 Knight book before doing that.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item.",
+        "87": "Use the Rank 2 Knight book before doing that.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 300,
+    "buy_price": 3000,
+    "alt_currency_type": 8319,
+    "alt_currency_cost": 60,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4036": {
             "hasChargeUp": false,
@@ -123,31 +74,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/knight_shield_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            178,
-            619
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            56,
-            86
-        ],
-        "VendorIDs": [
-            6631
-        ],
-        "Vendors": [
-            {
-                "id": 6631,
-                "name": "NS Sentinel Faction Vendor - Plaza",
-                "displayName": "Xeno Blueblade - Sentinel Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6631,
+            "name": "Xeno Blueblade - Sentinel Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

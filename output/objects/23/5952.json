@@ -1,81 +1,50 @@
 {
-    "objectID": 5952,
-    "itemInfo": {
+    "object_id": 5952,
+    "components": {
+        "2": 5348,
+        "9": 0,
+        "11": 2494
+    },
+    "item_info": {
         "name": "Superior Longsword of Stunning",
         "displayName": "Superior Longsword of Stunning",
         "type": "Loot",
         "description": null,
         "internalNotes": "1/2/3 Slashing + stun chargeup"
     },
-    "components": {
-        "2": 5348,
-        "9": 0,
-        "11": 2494
-    },
-    "skillIDs": [
-        176
-    ],
-    "objectSkills": {
-        "176": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 33020,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Superior Attack with Stun",
-                "rawDescription": "%(DamageCombo) 1+2+3 %(ChargeUp)Stuns enemies",
-                "damageCombo": " 1+2+3 ",
-                "ChargeUp": "Stuns enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Superior Attack with Stun",
+            "full_description": "%(DamageCombo) 1+2+3 %(ChargeUp)Stuns enemies",
+            "charge_up": "Stuns enemies",
+            "damage_combo": " 1+2+3 "
         }
-    },
-    "behaviorIDs": [
-        33020
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 702,
-        "buyPrice": 7025,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "10",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 702,
+    "buy_price": 7025,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 1,
     "overview": {
         "33020": {
             "hasChargeUp": true,
@@ -120,30 +89,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m44493_131.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            83
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            45
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "294": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "294",
             "defined_type": "Location",
             "defined_subtype": "Avant Gardens",
             "missionName": "Paradox Protector 2",
-            "missionDescription": "Smash 100 more Stromlings, 100 more Stromling Mechs, and 100 more Dark Spiderlings.",
-            "isMission": 0,
+            "mission_description": "Smash 100 more Stromlings, 100 more Stromling Mechs, and 100 more Dark Spiderlings.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

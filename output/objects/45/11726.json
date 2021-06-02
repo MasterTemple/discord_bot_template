@@ -1,71 +1,47 @@
 {
-    "objectID": 11726,
-    "itemInfo": {
-        "name": "Model Reward Mechbay Ball Bot Base Sensor Tower",
-        "displayName": "Mech Bay Ball-Bot Base Sensor Tower Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 11726,
     "components": {
         "2": 11478,
         "3": 5570,
         "11": 5777,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 367,
-        "buyPrice": 3670,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Mechbay Ball Bot Base Sensor Tower",
+        "displayName": "Mech Bay Ball-Bot Base Sensor Tower Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 367,
+    "buy_price": 3670,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_mechbay_ballbotbasesensortower.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            801
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            130
-        ],
-        "VendorIDs": [
-            5004
-        ],
-        "Vendors": [
-            {
-                "id": 5004,
-                "name": "AG - Paradox Mech",
-                "displayName": "PRDX-4 - Robot Picnicker"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 5004,
+            "name": "PRDX-4 - Robot Picnicker"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

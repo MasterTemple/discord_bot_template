@@ -1,73 +1,54 @@
 {
-    "objectID": 7586,
-    "itemInfo": {
+    "object_id": 7586,
+    "components": {
+        "2": 7148,
+        "11": 3214,
+        "53": 6
+    },
+    "item_info": {
         "name": "Rank 1 Buccaneer Kit Package",
         "displayName": "Rank 1 Buccaneer Kit Package",
         "type": "Loot",
         "description": "Double-click to get the Rank 1 Buccaneer Specialty Gear!",
         "internalNotes": null
     },
-    "components": {
-        "2": 7148,
-        "11": 3214,
-        "53": 6
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            211,
-            36
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "6",
-        "preconditionDescriptions": {
-            "211": "You must be Level 6 or greater to use this item.",
-            "36": "You need to be a member of the Venture League to use this."
-        }
+    "preconditions": {
+        "211": "You must be Level 6 or greater to use this item.",
+        "36": "You need to be a member of the Venture League to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "6",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/kits/kit_venture.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "589": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "589",
             "defined_type": "Location",
             "defined_subtype": "Nimbus Station",
             "missionName": "Get your Venture League Gear!",
-            "missionDescription": "Talk to Magnus Bumperdent in Nimbus Plaza and pick your first Specialty Kit!",
-            "isMission": 1,
+            "mission_description": "Talk to Magnus Bumperdent in Nimbus Plaza and pick your first Specialty Kit!",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

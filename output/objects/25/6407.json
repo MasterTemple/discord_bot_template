@@ -1,148 +1,38 @@
 {
-    "objectID": 6407,
-    "itemInfo": {
+    "object_id": 6407,
+    "components": {
+        "2": 5850,
+        "9": 0,
+        "11": 2624
+    },
+    "item_info": {
         "name": "GM Only - Hat of Pwnage",
         "displayName": "GM Only - Hat of Pwnage",
         "type": "Loot",
         "description": null,
         "internalNotes": null
     },
-    "components": {
-        "2": 5850,
-        "9": 0,
-        "11": 2624
-    },
-    "skillIDs": [
-        10,
-        195,
-        196,
-        197,
-        198,
-        199
-    ],
-    "objectSkills": {
-        "10": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 14,
-            "imaginationcost": 0,
-            "cooldowngroup": null,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2858,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        },
-        "195": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1764,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2859,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        },
-        "196": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 1771,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2840,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "197": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1765,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        },
-        "198": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1766,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        },
-        "199": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1772,
-            "imaginationcost": 0,
-            "cooldowngroup": 0,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2951,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
-        }
-    },
-    "behaviorIDs": [
-        14,
-        1764,
-        1771,
-        1765,
-        1766,
-        1772
-    ],
+    "skills": [],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 0
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "14": {
             "hasChargeUp": false,
@@ -234,17 +124,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/custom_flower_hat.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

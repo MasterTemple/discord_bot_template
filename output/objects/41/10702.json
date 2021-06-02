@@ -1,73 +1,46 @@
 {
-    "objectID": 10702,
-    "itemInfo": {
+    "object_id": 10702,
+    "components": {
+        "2": 10553,
+        "9": 0,
+        "11": 5203
+    },
+    "item_info": {
         "name": "Clug Lego Back/Neck Proxy",
         "displayName": "Clug Lego Back/Neck Proxy",
         "type": "Loot",
         "description": "Backneck object created dynamically for Club Lego Shirt: 9875",
         "internalNotes": null
     },
-    "components": {
-        "2": 10553,
-        "9": 0,
-        "11": 5203
-    },
-    "skillIDs": [
-        838
-    ],
-    "objectSkills": {
-        "838": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 15569,
-            "imaginationcost": 0,
-            "cooldowngroup": 13,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 60.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2965,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "LEGO Club Salute",
-                "rawDescription": "Makes you perform a special salute known only to LEGO Club members and restores 5 Imagination"
-            }
+            "cooldown_group": 13,
+            "name": "LEGO Club Salute",
+            "full_description": "Makes you perform a special salute known only to LEGO Club members and restores 5 Imagination"
         }
-    },
-    "behaviorIDs": [
-        15569
     ],
     "stats": {
-        "cooldown": 60.0,
-        "cooldowngroup": 13
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 16,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "15569": {
             "hasChargeUp": false,
@@ -87,17 +60,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "unknown",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

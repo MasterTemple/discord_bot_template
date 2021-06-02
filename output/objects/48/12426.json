@@ -1,111 +1,53 @@
 {
-    "objectID": 12426,
-    "itemInfo": {
+    "object_id": 12426,
+    "components": {
+        "2": 12179,
+        "9": 0,
+        "11": 6088
+    },
+    "item_info": {
         "name": "Explorien Bot Legs",
         "displayName": "Explorien Bot Pants",
         "type": "Loot",
         "description": "",
         "internalNotes": "2 IP 5 AP"
     },
-    "components": {
-        "2": 12179,
-        "9": 0,
-        "11": 6088
-    },
-    "skillIDs": [
-        364,
-        370
-    ],
-    "objectSkills": {
-        "364": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4246,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 5
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4246,
-        4252
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 5,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 5,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "legs"
-        ],
-        "sellPrice": 672,
-        "buyPrice": 6725,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            224
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 37,
-        "equipLocationNames": [
-            "Pants"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Pants"
+    ],
+    "sell_price": 672,
+    "buy_price": 6725,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 37,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/legs/legs_exploriandroidsuit.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1144": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1144",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Crux Prime Achiever 4",
-            "missionDescription": "Complete 15 more Missions or Achievements on Crux Prime, for a total of 60.",
-            "isMission": 0,
+            "mission_description": "Complete 15 more Missions or Achievements on Crux Prime, for a total of 60.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

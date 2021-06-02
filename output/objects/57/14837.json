@@ -1,79 +1,48 @@
 {
-    "objectID": 14837,
-    "itemInfo": {
+    "object_id": 14837,
+    "components": {
+        "2": 14531,
+        "9": 0,
+        "11": 7309
+    },
+    "item_info": {
         "name": "Purified Double-Axe",
         "displayName": "Purified Double-Axe",
         "type": "Loot",
         "description": "",
         "internalNotes": "2/2/2 6/7/9 NJ Smashing"
     },
-    "components": {
-        "2": 14531,
-        "9": 0,
-        "11": 7309
-    },
-    "skillIDs": [
-        1638
-    ],
-    "objectSkills": {
-        "1638": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 39314,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(AltCombo) 6+7+9 %(Description)Smashes enemies",
-                "damageCombo": " 2+2+2 %(AltCombo) 6+7+9 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 2+2+2 %(AltCombo) 6+7+9 %(Description)Smashes enemies",
+            "damage_combo": " 2+2+2 %(AltCombo) 6+7+9 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        39314
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 450,
-        "buyPrice": 4500,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            294,
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 25,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 450,
+    "buy_price": 4500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 25,
+    "stack_size": 1,
     "overview": {
         "39314": {
             "hasChargeUp": false,
@@ -124,38 +93,24 @@
             "singleJumpSmash": 6
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/hands/copperdoubleboneaxe.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            758
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            122
-        ],
-        "VendorIDs": [
-            13799
-        ],
-        "Vendors": [
-            {
-                "id": 13799,
-                "name": "NJ Mon - Nya vendor",
-                "displayName": "Nya - Ninjago Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "2027": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13799,
+            "name": "Nya - Ninjago Gear Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "2027",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Maelstrom Weapons Part 4",
-            "missionDescription": "Smash Skeleton Overseers in the Siege Towers until you retrieve a Maelstrom Double-Bladed Axe, then take it back to Nya.",
-            "isMission": 1,
+            "mission_description": "Smash Skeleton Overseers in the Siege Towers until you retrieve a Maelstrom Double-Bladed Axe, then take it back to Nya.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

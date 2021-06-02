@@ -1,70 +1,52 @@
 {
-    "objectID": 13427,
-    "itemInfo": {
-        "name": "Model Reward Samurai Statue",
-        "displayName": "Samurai Statue Model",
-        "type": "Loot",
-        "description": "A model for your Property!",
-        "internalNotes": null
-    },
+    "object_id": 13427,
     "components": {
         "2": 13156,
         "3": 6524,
         "11": 2520,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 206,
-        "buyPrice": 2060,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 11,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
+    "item_info": {
+        "name": "Model Reward Samurai Statue",
+        "displayName": "Samurai Statue Model",
+        "type": "Loot",
+        "description": "A model for your Property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 206,
+    "buy_price": 2060,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 11,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/march2011content/ui/inventory/misc/rew_samuraistatue.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "693": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "693",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "A Collector's Dream",
-            "missionDescription": "Complete 1000 collection Quick Builds.",
-            "isMission": 0,
+            "mission_description": "Complete 1000 collection Quick Builds.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,81 +1,50 @@
 {
-    "objectID": 2616,
-    "itemInfo": {
+    "object_id": 2616,
+    "components": {
+        "2": 2229,
+        "9": 0,
+        "11": 953
+    },
+    "item_info": {
         "name": "Great Prismatic Wrench",
         "displayName": "Great Prismatic Wrench",
         "type": "Loot",
         "description": null,
         "internalNotes": "2/2/3 Smashing"
     },
-    "components": {
-        "2": 2229,
-        "9": 0,
-        "11": 953
-    },
-    "skillIDs": [
-        288
-    ],
-    "objectSkills": {
-        "288": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 4716,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Great Attack",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(Description)Smashes enemies",
-                "damageCombo": " 2+2+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Great Attack",
+            "full_description": "%(DamageCombo) 2+2+3 %(Description)Smashes enemies",
+            "damage_combo": " 2+2+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4716
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 500,
-        "buyPrice": 5000,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 32766,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 25,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 500,
+    "buy_price": 5000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 25,
+    "stack_size": 1,
     "overview": {
         "4716": {
             "hasChargeUp": false,
@@ -117,26 +86,18 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/ag_colorchanging_wrench.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "245": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "245",
             "defined_type": "Location",
             "defined_subtype": "Avant Gardens",
             "missionName": "Avant Guardian 3",
-            "missionDescription": "Smash 1000 more Stromlings.",
-            "isMission": 0,
+            "mission_description": "Smash 1000 more Stromlings.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

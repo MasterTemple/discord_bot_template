@@ -1,111 +1,53 @@
 {
-    "objectID": 12561,
-    "itemInfo": {
+    "object_id": 12561,
+    "components": {
+        "2": 12351,
+        "9": 0,
+        "11": 6167
+    },
+    "item_info": {
         "name": "More Golden Crown",
         "displayName": "King Bling Crown",
         "type": "Loot",
         "description": "",
         "internalNotes": "5 IP 4 AP + Sparkle FX"
     },
-    "components": {
-        "2": 12351,
-        "9": 0,
-        "11": 6167
-    },
-    "skillIDs": [
-        363,
-        373
-    ],
-    "objectSkills": {
-        "363": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4245,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 4
-        },
-        "373": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4255,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 5,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4245,
-        4255
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 4,
-        "imBonusUI": 5
+        "life": 0,
+        "armor": 4,
+        "imagination": 5
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 1095,
-        "buyPrice": 10950,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 147,
-        "preconditions": [
-            224
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 61,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 1095,
+    "buy_price": 10950,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 61,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/hats/crownwithfeather.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1119": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1119",
             "defined_type": "Location",
             "defined_subtype": "Crux Prime",
             "missionName": "Crux Prime Ape Whisperer 3",
-            "missionDescription": "Smash 125 more Stromling Ape Invaders on Crux Prime.",
-            "isMission": 0,
+            "mission_description": "Smash 125 more Stromling Ape Invaders on Crux Prime.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

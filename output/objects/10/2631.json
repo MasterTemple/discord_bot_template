@@ -1,81 +1,50 @@
 {
-    "objectID": 2631,
-    "itemInfo": {
+    "object_id": 2631,
+    "components": {
+        "2": 2228,
+        "9": 0,
+        "11": 1704
+    },
+    "item_info": {
         "name": "Shiver Me Timbers Axe",
         "displayName": "Shiver Me Timbers Axe",
         "type": "Loot",
         "description": null,
         "internalNotes": "3/3/3 Smashing + Freeze chargeup"
     },
-    "components": {
-        "2": 2228,
-        "9": 0,
-        "11": 1704
-    },
-    "skillIDs": [
-        804
-    ],
-    "objectSkills": {
-        "804": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 14410,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack with Freezing",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(ChargeUp)Does 2 damage and freezes enemies",
-                "damageCombo": " 3+3+3 ",
-                "ChargeUp": "Does 2 damage and freezes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Elite Attack with Freezing",
+            "full_description": "%(DamageCombo) 3+3+3 %(ChargeUp)Does 2 damage and freezes enemies",
+            "charge_up": "Does 2 damage and freezes enemies",
+            "damage_combo": " 3+3+3 "
         }
-    },
-    "behaviorIDs": [
-        14410
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 375,
-        "buyPrice": 3750,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 1,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 21,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "25",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 375,
+    "buy_price": 3750,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 21,
+    "stack_size": 1,
     "overview": {
         "14410": {
             "hasChargeUp": true,
@@ -120,87 +89,18 @@
             "chargeUpCost": -2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m3848_23.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            54,
-            117
-        ],
-        "LootMatrixIndexes": {
-            "65": {
-                "LootMatrixIndex": 65,
-                "LootTableIndex": 54,
-                "RarityTableIndex": 4,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 12,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 2,
-                    "2": 5,
-                    "3": 2,
-                    "4": 1,
-                    "5": 3
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 2.0,
-                    "howManyToKill": 50
-                },
-                "LootTableIndexItems": 13,
-                "PackageComponent": {
-                    "65": {
-                        "name": "Test Package",
-                        "displayName": "Test Package"
-                    }
-                },
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [
-            52
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "432": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "432",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Boom Boxes",
-            "missionDescription": "Smash 1000 more explosive crates.",
-            "isMission": 0,
+            "mission_description": "Smash 1000 more explosive crates.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

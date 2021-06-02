@@ -1,79 +1,50 @@
 {
-    "objectID": 12723,
-    "itemInfo": {
+    "object_id": 12723,
+    "components": {
+        "2": 12512,
+        "9": 0,
+        "11": 6271
+    },
+    "item_info": {
         "name": "Wand of Repulsion",
         "displayName": "Wand of Repulsion",
         "type": "Loot",
         "description": "",
         "internalNotes": null
     },
-    "components": {
-        "2": 12512,
-        "9": 0,
-        "11": 6271
-    },
-    "skillIDs": [
-        1231
-    ],
-    "objectSkills": {
-        "1231": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 27876,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 1.5,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Repulsion Wand",
-                "rawDescription": "%(DamageCombo) 3 %(Description)Does 3 damage and knocks back enemies",
-                "damageCombo": " 3 ",
-                "Description": "Does 3 damage and knocks back enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Repulsion Wand",
+            "full_description": "%(DamageCombo) 3 %(Description)Does 3 damage and knocks back enemies",
+            "damage_combo": " 3 ",
+            "description": "Does 3 damage and knocks back enemies"
         }
-    },
-    "behaviorIDs": [
-        27876
     ],
     "stats": {
-        "cooldown": 1.5,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 9700,
-        "buyPrice": 97000,
-        "isKitPiece": 1,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "25",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 9700,
+    "buy_price": 97000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "27876": {
             "hasChargeUp": false,
@@ -110,29 +81,13 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m6124_01.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            643
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            115
-        ],
-        "VendorIDs": [
-            13569
-        ],
-        "Vendors": [
-            {
-                "id": 13569,
-                "name": "NT Mr. Ree Shady Vendor",
-                "displayName": "Mr. Ree - Shady Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13569,
+            "name": "Mr. Ree - Shady Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

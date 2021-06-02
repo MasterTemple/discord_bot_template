@@ -1,86 +1,42 @@
 {
-    "objectID": 13912,
-    "itemInfo": {
+    "object_id": 13912,
+    "components": {
+        "2": 13636,
+        "9": 0,
+        "11": 6919
+    },
+    "item_info": {
         "name": "Hat of Magecraft",
         "displayName": "Hat of Magecraft",
         "type": "Loot",
         "description": "",
         "internalNotes": "Community Reward - Color Variant - 4 IP"
     },
-    "components": {
-        "2": 13636,
-        "9": 0,
-        "11": 6919
-    },
-    "skillIDs": [
-        372
-    ],
-    "objectSkills": {
-        "372": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4254,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 4,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4254
-    ],
+    "skills": [],
     "stats": {
-        "imBonusUI": 4
+        "life": 0,
+        "armor": 0,
+        "imagination": 4
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 375,
-        "buyPrice": 3750,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 25,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "20",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 375,
+    "buy_price": 3750,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 25,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m6131_21.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,73 +1,47 @@
 {
-    "objectID": 11792,
-    "itemInfo": {
-        "name": "Model Reward Office Plant1",
-        "displayName": "Office Plant 1 Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": null
-    },
+    "object_id": 11792,
     "components": {
         "2": 11544,
         "3": 5636,
         "11": 5843,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 6,
-        "buyPrice": 60,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Office Plant1",
+        "displayName": "Office Plant 1 Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 6,
+    "buy_price": 60,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_office_plant01.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            833
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            95,
-            118
-        ],
-        "VendorIDs": [
-            12550,
-            13776
-        ],
-        "Vendors": [
-            {
-                "id": 12550,
-                "name": "AG - Model Vending Machine",
-                "displayName": "Model Vending Machine"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12550,
+            "name": "Model Vending Machine"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,81 +1,50 @@
 {
-    "objectID": 6936,
-    "itemInfo": {
+    "object_id": 6936,
+    "components": {
+        "2": 6498,
+        "9": 0,
+        "11": 2934
+    },
+    "item_info": {
         "name": "Exceptional Morning Star",
         "displayName": "Exceptional Morning Star",
         "type": "Loot",
         "description": null,
         "internalNotes": "2/2/2 Smashing"
     },
-    "components": {
-        "2": 6498,
-        "9": 0,
-        "11": 2934
-    },
-    "skillIDs": [
-        553
-    ],
-    "objectSkills": {
-        "553": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 8493,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Exceptional Attack",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(Description)Smashes enemies",
-                "damageCombo": " 2+2+2 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Exceptional Attack",
+            "full_description": "%(DamageCombo) 2+2+2 %(Description)Smashes enemies",
+            "damage_combo": " 2+2+2 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        8493
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 350,
-        "buyPrice": 3500,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 19,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 350,
+    "buy_price": 3500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 19,
+    "stack_size": 1,
     "overview": {
         "8493": {
             "hasChargeUp": false,
@@ -117,30 +86,18 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m59232_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            117
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            52
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "467": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "467",
             "defined_type": "Battle",
             "defined_subtype": "Survival Games",
             "missionName": "Survivor",
-            "missionDescription": "Stay alive for 5 minutes as a solo player in a Survival game.",
-            "isMission": 0,
+            "mission_description": "Stay alive for 5 minutes as a solo player in a Survival game.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

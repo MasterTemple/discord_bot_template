@@ -1,109 +1,48 @@
 {
-    "objectID": 2633,
-    "itemInfo": {
+    "object_id": 2633,
+    "components": {
+        "2": 2487,
+        "9": 0,
+        "11": 966
+    },
+    "item_info": {
         "name": "Black Pirate Hat",
         "displayName": "Black Pirate Hat",
         "type": "Loot",
         "description": "Wear this in Nimbus Station to launch your rocket to the Pirate Camp",
         "internalNotes": "1 AP 2 IP +Emote +Secret Passage"
     },
-    "components": {
-        "2": 2487,
-        "9": 0,
-        "11": 966
-    },
-    "skillIDs": [
-        248,
-        360,
-        370
-    ],
-    "objectSkills": {
-        "248": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 15490,
-            "imaginationcost": 0,
-            "cooldowngroup": 6,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 5.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2965,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Pirate Jig",
-                "rawDescription": "Restores 3 Imagination"
-            }
-        },
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 6,
+            "name": "Pirate Jig",
+            "full_description": "Restores 3 Imagination"
         }
-    },
-    "behaviorIDs": [
-        15490,
-        4241,
-        4252
     ],
     "stats": {
-        "cooldown": 5.0,
-        "cooldowngroup": 6,
-        "armorBonusUI": 1,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 1,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 415,
-        "buyPrice": 4150,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 415,
+    "buy_price": 4150,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "15490": {
             "hasChargeUp": false,
@@ -123,29 +62,13 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m2544_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            21
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            42
-        ],
-        "VendorIDs": [
-            9708
-        ],
-        "Vendors": [
-            {
-                "id": 9708,
-                "name": "GF Gear Vendor - Ravine",
-                "displayName": "Burky Urchin - Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 9708,
+            "name": "Burky Urchin - Gear Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,1015 +1,238 @@
 {
-    "objectID": 8664,
-    "itemInfo": {
+    "object_id": 8664,
+    "components": {
+        "2": 8219,
+        "9": 0,
+        "11": 3909
+    },
+    "item_info": {
         "name": "Jodhpurs",
         "displayName": "Jodhpurs",
         "type": "Loot",
         "description": "",
         "internalNotes": "1 AP"
     },
-    "components": {
-        "2": 8219,
-        "9": 0,
-        "11": 3909
-    },
-    "skillIDs": [
-        360
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        }
-    },
-    "behaviorIDs": [
-        4241
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 1
+        "life": 0,
+        "armor": 1,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "legs"
-        ],
-        "sellPrice": 142,
-        "buyPrice": 1425,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 143,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Pants"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Pants"
+    ],
+    "sell_price": 142,
+    "buy_price": 1425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/legs/m73200_283.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            287,
-            575
-        ],
-        "LootMatrixIndexes": {
-            "160": {
-                "LootMatrixIndex": 160,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 2.5,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "489": {
-                        "enemyID": 4712,
-                        "enemyNames": {
-                            "name": "AG - Stromling",
-                            "displayName": "Stromling"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.0937,
-                    "howManyToKill": 1120
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": []
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 0.0937,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1120
             },
-            "230": {
-                "LootMatrixIndex": 230,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 5.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "505": {
-                        "enemyID": 6253,
-                        "enemyNames": {
-                            "name": "AG - Stromling Mech",
-                            "displayName": "Stromling Mech"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.1875,
-                    "howManyToKill": 560
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            },
-            "231": {
-                "LootMatrixIndex": 231,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 5.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "2132": {
-                        "enemyID": 16197,
-                        "enemyNames": {
-                            "name": "AG - Dark Spiderling (Spider Boss Version)",
-                            "displayName": "Dark Spiderling"
-                        }
-                    },
-                    "643": {
-                        "enemyID": 6359,
-                        "enemyNames": {
-                            "name": "AG - Dark Spiderling",
-                            "displayName": "Dark Spiderling"
-                        }
-                    },
-                    "2032": {
-                        "enemyID": 14572,
-                        "enemyNames": {
-                            "name": "AG - Dark Spiderling - Spider Cave only",
-                            "displayName": "Dark Spiderling"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.1875,
-                    "howManyToKill": 560
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            },
-            "314": {
-                "LootMatrixIndex": 314,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 25.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.9375,
-                    "howManyToKill": 112
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "FV Dragon 1 Player",
-                    "Loot Table Tester Object"
-                ]
-            },
-            "483": {
-                "LootMatrixIndex": 483,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 50.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 1.875,
-                    "howManyToKill": 56
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "FV Dragon 2 Player"
-                ]
-            },
-            "484": {
-                "LootMatrixIndex": 484,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 3.75,
-                    "howManyToKill": 28
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "FV Dragon 3 Player"
-                ]
-            },
-            "485": {
-                "LootMatrixIndex": 485,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 100.0,
-                "minToDrop": 2,
-                "maxToDrop": 2,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 3.75,
-                    "howManyToKill": 28
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "FV Dragon 4 Player"
-                ]
-            },
-            "583": {
-                "LootMatrixIndex": 583,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 1.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.0625,
-                    "howManyToKill": 1600
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 2"
-                ]
-            },
-            "584": {
-                "LootMatrixIndex": 584,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 5.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.3125,
-                    "howManyToKill": 320
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 3"
-                ]
-            },
-            "585": {
-                "LootMatrixIndex": 585,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 10.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.625,
-                    "howManyToKill": 160
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 4"
-                ]
-            },
-            "586": {
-                "LootMatrixIndex": 586,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 20.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 1.25,
-                    "howManyToKill": 80
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 5"
-                ]
-            },
-            "587": {
-                "LootMatrixIndex": 587,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 40.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 2.5,
-                    "howManyToKill": 32
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 6"
-                ]
-            },
-            "588": {
-                "LootMatrixIndex": 588,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 77.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 4.8125,
-                    "howManyToKill": 16
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 7"
-                ]
-            },
-            "589": {
-                "LootMatrixIndex": 589,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 29,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 95,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 96,
-                        "randmax": 100.0,
-                        "rarity": 2,
-                        "chance": 25.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 6.25,
-                    "howManyToKill": 16
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Wishing Well 8"
-                ]
-            },
-            "617": {
-                "LootMatrixIndex": 617,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "1756": {
-                        "enemyID": 12600,
-                        "enemyNames": {
-                            "name": "NSI - Super Stromling Boss",
-                            "displayName": "Murgle Blotch - Stromling Champion"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 3.75,
-                    "howManyToKill": 28
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            },
-            "686": {
-                "LootMatrixIndex": 686,
-                "LootTableIndex": 575,
-                "RarityTableIndex": 4,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 3,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 24,
-                    "2": 48,
-                    "3": 11,
-                    "4": 2,
-                    "5": 0
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0.3125,
-                    "howManyToKill": 336
-                },
-                "LootTableIndexItems": 85,
-                "PackageComponent": {
-                    "686": {
-                        "name": "Nexus Tower Gift Bag",
-                        "displayName": "Nexus Tower Gift Bag"
-                    }
-                },
-                "ActivityComponent": []
-            },
-            "860": {
-                "LootMatrixIndex": 860,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 5.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.1875,
-                    "howManyToKill": 560
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Spider Queen 1 Player"
-                ]
-            },
-            "861": {
-                "LootMatrixIndex": 861,
-                "LootTableIndex": 287,
-                "RarityTableIndex": 4,
-                "percent": 10.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 0,
-                    "2": 4,
-                    "3": 3,
-                    "4": 1,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 0.375,
-                    "howManyToKill": 280
-                },
-                "LootTableIndexItems": 8,
-                "PackageComponent": {},
-                "ActivityComponent": [
-                    "AG Spider Queen 2 Player"
-                ]
-            }
+            "type": "Enemy",
+            "name": "Stromling",
+            "id": 4712
         },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            4712,
-            6253,
-            6359,
-            12600,
-            14572,
-            16197
-        ],
-        "Enemies": [
-            {
-                "id": 4712,
-                "name": "AG - Stromling",
-                "displayName": "Stromling"
+        {
+            "percent": 0.1875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 560
             },
-            {
-                "id": 6253,
-                "name": "AG - Stromling Mech",
-                "displayName": "Stromling Mech"
+            "type": "Enemy",
+            "name": "Stromling Mech",
+            "id": 6253
+        },
+        {
+            "percent": 0.1875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 560
             },
-            {
-                "id": 6359,
-                "name": "AG - Dark Spiderling",
-                "displayName": "Dark Spiderling"
+            "type": "Enemy",
+            "name": "Dark Spiderling",
+            "id": 16197
+        },
+        {
+            "percent": 0.1875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 560
             },
-            {
-                "id": 12600,
-                "name": "NSI - Super Stromling Boss",
-                "displayName": "Murgle Blotch - Stromling Champion"
+            "type": "Enemy",
+            "name": "Dark Spiderling",
+            "id": 6359
+        },
+        {
+            "percent": 0.1875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 560
             },
-            {
-                "id": 14572,
-                "name": "AG - Dark Spiderling - Spider Cave only",
-                "displayName": "Dark Spiderling"
+            "type": "Enemy",
+            "name": "Dark Spiderling",
+            "id": 14572
+        },
+        {
+            "percent": 0.9375,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 112
             },
-            {
-                "id": 16197,
-                "name": "AG - Dark Spiderling (Spider Boss Version)",
-                "displayName": "Dark Spiderling"
-            }
-        ]
-    },
-    "earn": {}
+            "type": "Activity",
+            "name": "FV Dragon 1 Player"
+        },
+        {
+            "percent": 0.9375,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 112
+            },
+            "type": "Activity",
+            "name": "Loot Table Tester Object"
+        },
+        {
+            "percent": 1.875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 56
+            },
+            "type": "Activity",
+            "name": "FV Dragon 2 Player"
+        },
+        {
+            "percent": 3.75,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 28
+            },
+            "type": "Activity",
+            "name": "FV Dragon 3 Player"
+        },
+        {
+            "percent": 3.75,
+            "fraction": {
+                "numerator": 2,
+                "denominator": 56
+            },
+            "type": "Activity",
+            "name": "FV Dragon 4 Player"
+        },
+        {
+            "percent": 0.0625,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1600
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 2"
+        },
+        {
+            "percent": 0.3125,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 320
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 3"
+        },
+        {
+            "percent": 0.625,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 160
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 4"
+        },
+        {
+            "percent": 1.25,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 80
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 5"
+        },
+        {
+            "percent": 2.5,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 32
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 6"
+        },
+        {
+            "percent": 4.8125,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 16
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 7"
+        },
+        {
+            "percent": 6.25,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 16
+            },
+            "type": "Activity",
+            "name": "AG Wishing Well 8"
+        },
+        {
+            "percent": 3.75,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 28
+            },
+            "type": "Enemy",
+            "name": "Murgle Blotch - Stromling Champion",
+            "id": 12600
+        },
+        {
+            "percent": 0.3125,
+            "fraction": {
+                "numerator": 4,
+                "denominator": 1008
+            },
+            "type": "Package",
+            "name": "N",
+            "id": "686"
+        },
+        {
+            "percent": 0.1875,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 560
+            },
+            "type": "Activity",
+            "name": "AG Spider Queen 1 Player"
+        },
+        {
+            "percent": 0.375,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 280
+            },
+            "type": "Activity",
+            "name": "AG Spider Queen 2 Player"
+        }
+    ]
 }

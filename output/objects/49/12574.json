@@ -1,72 +1,46 @@
 {
-    "objectID": 12574,
-    "itemInfo": {
+    "object_id": 12574,
+    "components": {
+        "2": 12364,
+        "9": 0,
+        "11": 6174
+    },
+    "item_info": {
         "name": "TEST Wand of Skill Testing",
         "displayName": "Test Wand of Skill Testing",
         "type": "Loot",
         "description": "Use this to test new skills",
         "internalNotes": null
     },
-    "components": {
-        "2": 12364,
-        "9": 0,
-        "11": 6174
-    },
-    "skillIDs": [
-        1412
-    ],
-    "objectSkills": {
-        "1412": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 38607,
-            "imaginationcost": 0,
-            "cooldowngroup": 15,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 8.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4414,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Deploy Maelstrom Vacuum",
-                "rawDescription": "Deploy this device to absorb Maelstrom energy"
-            }
+            "cooldown_group": 15,
+            "name": "Deploy Maelstrom Vacuum",
+            "full_description": "Deploy this device to absorb Maelstrom energy"
         }
-    },
-    "behaviorIDs": [
-        38607
     ],
     "stats": {
-        "cooldown": 8.0,
-        "cooldowngroup": 15
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 195,
-        "buyPrice": 1950,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 11,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 195,
+    "buy_price": 1950,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "38607": {
             "hasChargeUp": false,
@@ -86,17 +60,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m6124_102.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

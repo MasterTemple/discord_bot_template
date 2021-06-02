@@ -1,79 +1,50 @@
 {
-    "objectID": 12777,
-    "itemInfo": {
+    "object_id": 12777,
+    "components": {
+        "2": 12567,
+        "9": 0,
+        "11": 6325
+    },
+    "item_info": {
         "name": "Battle Bread",
         "displayName": "Battle Bread",
         "type": "Loot",
         "description": "",
         "internalNotes": "3/3/3 Slashing"
     },
-    "components": {
-        "2": 12567,
-        "9": 0,
-        "11": 6325
-    },
-    "skillIDs": [
-        279
-    ],
-    "objectSkills": {
-        "279": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4713,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Great Attack",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(Description)Smashes enemies",
-                "damageCombo": " 2+2+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Great Attack",
+            "full_description": "%(DamageCombo) 2+2+3 %(Description)Smashes enemies",
+            "damage_combo": " 2+2+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        4713
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 900,
-        "buyPrice": 9000,
-        "isKitPiece": 1,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 900,
+    "buy_price": 9000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4713": {
             "hasChargeUp": false,
@@ -115,29 +86,13 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/auramar/ui/inventory/misc/battlebread.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            441
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            92
-        ],
-        "VendorIDs": [
-            12215
-        ],
-        "Vendors": [
-            {
-                "id": 12215,
-                "name": "Heimlich Stewblaster",
-                "displayName": "Heimlich Stewblaster - Supplies Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12215,
+            "name": "Heimlich Stewblaster - Supplies Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

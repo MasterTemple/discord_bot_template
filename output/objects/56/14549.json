@@ -1,134 +1,71 @@
 {
-    "objectID": 14549,
-    "itemInfo": {
+    "object_id": 14549,
+    "components": {
+        "2": 14232,
+        "11": 7143
+    },
+    "item_info": {
         "name": "Spiderling Postcard",
         "displayName": "Spider Queen's Postcard",
         "type": "Loot",
         "description": "Return this to Melodie Foxtrot in Avant Gardens.",
         "internalNotes": "Avant Gardens Mission Item"
     },
-    "components": {
-        "2": 14232,
-        "11": 7143
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 999,
-        "color": null,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 999,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/icons/postcard.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            768
-        ],
-        "LootMatrixIndexes": {
-            "231": {
-                "LootMatrixIndex": 231,
-                "LootTableIndex": 768,
-                "RarityTableIndex": 23,
-                "percent": 50.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "2132": {
-                        "enemyID": 16197,
-                        "enemyNames": {
-                            "name": "AG - Dark Spiderling (Spider Boss Version)",
-                            "displayName": "Dark Spiderling"
-                        }
-                    },
-                    "643": {
-                        "enemyID": 6359,
-                        "enemyNames": {
-                            "name": "AG - Dark Spiderling",
-                            "displayName": "Dark Spiderling"
-                        }
-                    },
-                    "2032": {
-                        "enemyID": 14572,
-                        "enemyNames": {
-                            "name": "AG - Dark Spiderling - Spider Cave only",
-                            "displayName": "Dark Spiderling"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 86,
-                        "randmax": 100.0,
-                        "rarity": 1,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 1,
-                    "2": 0,
-                    "3": 0,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 50.0,
-                    "howManyToKill": 2
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            }
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 50.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 2
+            },
+            "type": "Enemy",
+            "name": "Dark Spiderling",
+            "id": 16197
         },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            6359,
-            14572,
-            16197
-        ],
-        "Enemies": [
-            {
-                "id": 6359,
-                "name": "AG - Dark Spiderling",
-                "displayName": "Dark Spiderling"
+        {
+            "percent": 50.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 2
             },
-            {
-                "id": 14572,
-                "name": "AG - Dark Spiderling - Spider Cave only",
-                "displayName": "Dark Spiderling"
+            "type": "Enemy",
+            "name": "Dark Spiderling",
+            "id": 6359
+        },
+        {
+            "percent": 50.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 2
             },
-            {
-                "id": 16197,
-                "name": "AG - Dark Spiderling (Spider Boss Version)",
-                "displayName": "Dark Spiderling"
-            }
-        ]
-    },
-    "earn": {}
+            "type": "Enemy",
+            "name": "Dark Spiderling",
+            "id": 14572
+        }
+    ]
 }

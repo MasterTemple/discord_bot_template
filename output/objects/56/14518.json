@@ -1,108 +1,51 @@
 {
-    "objectID": 14518,
-    "itemInfo": {
+    "object_id": 14518,
+    "components": {
+        "2": 14203,
+        "11": 7137
+    },
+    "item_info": {
         "name": "Eye Bone",
         "displayName": "Eye Bone",
         "type": "Loot",
         "description": "Return this to Furious Urufu in the Ninjago Monastery.",
         "internalNotes": "Ninjago Mission Item; drops from Bonezai on Siege Field, only on mission"
     },
-    "components": {
-        "2": 14203,
-        "11": 7137
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/misc/eye_bone.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            755
-        ],
-        "LootMatrixIndexes": {
-            "766": {
-                "LootMatrixIndex": 766,
-                "LootTableIndex": 755,
-                "RarityTableIndex": 23,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 1,
-                "DestructibleComponent": {
-                    "2104": {
-                        "enemyID": 16050,
-                        "enemyNames": {
-                            "name": "NJ - Bonezai Skeleton Lieutenant",
-                            "displayName": "Bonezai - Skeleton of Ice"
-                        }
-                    }
-                },
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 86,
-                        "randmax": 100.0,
-                        "rarity": 1,
-                        "chance": 100.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 1,
-                    "2": 0,
-                    "3": 0,
-                    "4": 0,
-                    "5": 0
-                },
-                "inNpcEditor": 1,
-                "overallChance": {
-                    "percent": 100.0,
-                    "howManyToKill": 1
-                },
-                "LootTableIndexItems": 1,
-                "PackageComponent": {},
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [
-            16050
-        ],
-        "Enemies": [
-            {
-                "id": 16050,
-                "name": "NJ - Bonezai Skeleton Lieutenant",
-                "displayName": "Bonezai - Skeleton of Ice"
-            }
-        ]
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 1,
+    "drops": [
+        {
+            "percent": 100.0,
+            "fraction": {
+                "numerator": 1,
+                "denominator": 1
+            },
+            "type": "Enemy",
+            "name": "Bonezai - Skeleton of Ice",
+            "id": 16050
+        }
+    ]
 }

@@ -1,96 +1,48 @@
 {
-    "objectID": 8684,
-    "itemInfo": {
+    "object_id": 8684,
+    "components": {
+        "2": 8238,
+        "9": 0,
+        "11": 3923
+    },
+    "item_info": {
         "name": "Epaulets of Extravagance",
         "displayName": "Epaulets of Extravagance",
         "type": "Loot",
         "description": "",
         "internalNotes": "1 AP"
     },
-    "components": {
-        "2": 8238,
-        "9": 0,
-        "11": 3923
-    },
-    "skillIDs": [
-        360
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        }
-    },
-    "behaviorIDs": [
-        4241
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 1
+        "life": 0,
+        "armor": 1,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 142,
-        "buyPrice": 1425,
-        "isKitPiece": 1,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 147,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 142,
+    "buy_price": 1425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/back_neck/m2526_297.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            258
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            80
-        ],
-        "VendorIDs": [
-            9749
-        ],
-        "Vendors": [
-            {
-                "id": 9749,
-                "name": "Club LEGO Vendor",
-                "displayName": "Bucky Gorfunblot - LEGO Club Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 9749,
+            "name": "Bucky Gorfunblot - LEGO Club Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

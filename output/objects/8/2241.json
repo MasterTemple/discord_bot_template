@@ -1,111 +1,57 @@
 {
-    "objectID": 2241,
-    "itemInfo": {
+    "object_id": 2241,
+    "components": {
+        "2": 1933,
+        "9": 0,
+        "11": 896
+    },
+    "item_info": {
         "name": "Test Elite Hammer",
         "displayName": "Test Elite Hammer",
         "type": "Loot",
         "description": null,
         "internalNotes": null
     },
-    "components": {
-        "2": 1933,
-        "9": 0,
-        "11": 896
-    },
-    "skillIDs": [
-        55,
-        290,
-        377
-    ],
-    "objectSkills": {
-        "55": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 17785,
-            "imaginationcost": 0,
-            "cooldowngroup": 51,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 9.0,
-            "inNpcEditor": 1,
-            "skillIcon": 3643,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Fire Breath",
-                "rawDescription": "%(DamageCombo) 3 %(Description)Breath a cone of flame that does 3 damage to enemies",
-                "damageCombo": " 3 ",
-                "Description": "Breath a cone of flame that does 3 damage to enemies"
-            }
+            "cooldown_group": 51,
+            "name": "Fire Breath",
+            "full_description": "%(DamageCombo) 3 %(Description)Breath a cone of flame that does 3 damage to enemies",
+            "damage_combo": " 3 ",
+            "description": "Breath a cone of flame that does 3 damage to enemies"
         },
-        "290": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 4718,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(Description)Smashes enemies",
-                "damageCombo": " 3+3+3 ",
-                "Description": "Smashes enemies"
-            }
-        },
-        "377": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4259,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 9,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
+            "cooldown_group": 1,
+            "name": "Elite Attack",
+            "full_description": "%(DamageCombo) 3+3+3 %(Description)Smashes enemies",
+            "damage_combo": " 3+3+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        17785,
-        4718,
-        4259
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1,
-        "imBonusUI": 9
+        "life": 0,
+        "armor": 0,
+        "imagination": 9
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 2,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "17785": {
             "hasChargeUp": false,
@@ -168,75 +114,7 @@
             "singleJumpSmash": 3
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/uber_hammer.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            54
-        ],
-        "LootMatrixIndexes": {
-            "65": {
-                "LootMatrixIndex": 65,
-                "LootTableIndex": 54,
-                "RarityTableIndex": 4,
-                "percent": 100.0,
-                "minToDrop": 1,
-                "maxToDrop": 12,
-                "DestructibleComponent": {},
-                "rarityTableInfo": {
-                    "1": {
-                        "id": 17,
-                        "randmax": 75.0,
-                        "rarity": 1,
-                        "chance": 75.0
-                    },
-                    "2": {
-                        "id": 18,
-                        "randmax": 90.0,
-                        "rarity": 2,
-                        "chance": 15.0
-                    },
-                    "4": {
-                        "id": 19,
-                        "randmax": 100.0,
-                        "rarity": 4,
-                        "chance": 2.0
-                    },
-                    "3": {
-                        "id": 22,
-                        "randmax": 98.0,
-                        "rarity": 3,
-                        "chance": 8.0
-                    }
-                },
-                "rarityCount": {
-                    "1": 2,
-                    "2": 5,
-                    "3": 2,
-                    "4": 1,
-                    "5": 3
-                },
-                "inNpcEditor": 0,
-                "overallChance": {
-                    "percent": 0,
-                    "howManyToKill": 0
-                },
-                "LootTableIndexItems": 13,
-                "PackageComponent": {
-                    "65": {
-                        "name": "Test Package",
-                        "displayName": "Test Package"
-                    }
-                },
-                "ActivityComponent": []
-            }
-        },
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

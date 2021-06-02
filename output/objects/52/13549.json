@@ -1,73 +1,46 @@
 {
-    "objectID": 13549,
-    "itemInfo": {
+    "object_id": 13549,
+    "components": {
+        "2": 13286,
+        "9": 0,
+        "11": 6693
+    },
+    "item_info": {
         "name": "Imagination Backpack Head Proxy",
         "displayName": "Head Proxy  - Releases imagination",
         "type": "Loot",
         "description": "",
         "internalNotes": ""
     },
-    "components": {
-        "2": 13286,
-        "9": 0,
-        "11": 6693
-    },
-    "skillIDs": [
-        1257
-    ],
-    "objectSkills": {
-        "1257": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 29299,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 3.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4277,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Unload Imagination Backpack",
-                "rawDescription": "Restores 100 Imagination to nearby characters, and heals certain kinds of Maelstrom sickness"
-            }
+            "cooldown_group": 1,
+            "name": "Unload Imagination Backpack",
+            "full_description": "Restores 100 Imagination to nearby characters, and heals certain kinds of Maelstrom sickness"
         }
-    },
-    "behaviorIDs": [
-        29299
     ],
     "stats": {
-        "cooldown": 3.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 1,
-        "isKitPiece": 1,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 1,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 0,
+    "buy_price": 1,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "29299": {
             "hasChargeUp": false,
@@ -89,17 +62,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

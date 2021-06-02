@@ -1,81 +1,50 @@
 {
-    "objectID": 6845,
-    "itemInfo": {
+    "object_id": 6845,
+    "components": {
+        "2": 6396,
+        "9": 0,
+        "11": 2865
+    },
+    "item_info": {
         "name": "Exceptional Long Axe",
         "displayName": "Exceptional Long Axe",
         "type": "Loot",
         "description": null,
         "internalNotes": "2/2/2 Smashing"
     },
-    "components": {
-        "2": 6396,
-        "9": 0,
-        "11": 2865
-    },
-    "skillIDs": [
-        556
-    ],
-    "objectSkills": {
-        "556": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 8770,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Exceptional Attack",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(Description)Smashes enemies",
-                "damageCombo": " 2+2+2 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Exceptional Attack",
+            "full_description": "%(DamageCombo) 2+2+2 %(Description)Smashes enemies",
+            "damage_combo": " 2+2+2 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        8770
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 350,
-        "buyPrice": 3500,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 17,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 350,
+    "buy_price": 3500,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 17,
+    "stack_size": 1,
     "overview": {
         "8770": {
             "hasChargeUp": false,
@@ -117,26 +86,18 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m3848_131.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "424": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "424",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Pirate Duelist 1",
-            "missionDescription": "Smash 10 Stromling Admirals.",
-            "isMission": 0,
+            "mission_description": "Smash 10 Stromling Admirals.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

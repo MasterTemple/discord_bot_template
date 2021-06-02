@@ -1,78 +1,50 @@
 {
-    "objectID": 10504,
-    "itemInfo": {
+    "object_id": 10504,
+    "components": {
+        "2": 10357,
+        "9": 0,
+        "11": 5188
+    },
+    "item_info": {
         "name": "TEST 5",
         "displayName": "",
         "type": "Loot",
         "description": null,
         "internalNotes": null
     },
-    "components": {
-        "2": 10357,
-        "9": 0,
-        "11": 5188
-    },
-    "skillIDs": [
-        478
-    ],
-    "objectSkills": {
-        "478": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 5744,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3487,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Knight's Blade 3",
-                "rawDescription": "%(DamageCombo) 2+3+3 %(ChargeUp)Blocks 8 attacks while charged",
-                "damageCombo": " 2+3+3 ",
-                "ChargeUp": "Blocks 8 attacks while charged"
-            }
+            "cooldown_group": 1,
+            "name": "Knight's Blade 3",
+            "full_description": "%(DamageCombo) 2+3+3 %(ChargeUp)Blocks 8 attacks while charged",
+            "charge_up": "Blocks 8 attacks while charged",
+            "damage_combo": " 2+3+3 "
         }
-    },
-    "behaviorIDs": [
-        5744
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            88
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "preconditionDescriptions": {
-            "88": "Use the Rank 3 Knight book before doing that."
-        }
+    "preconditions": {
+        "88": "Use the Rank 3 Knight book before doing that."
     },
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "5744": {
             "hasChargeUp": true,
@@ -117,17 +89,7 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/knight_sword_3.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

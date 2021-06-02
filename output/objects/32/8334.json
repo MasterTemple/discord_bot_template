@@ -1,75 +1,48 @@
 {
-    "objectID": 8334,
-    "itemInfo": {
+    "object_id": 8334,
+    "components": {
+        "2": 7892,
+        "9": 0,
+        "11": 3660
+    },
+    "item_info": {
         "name": "Test Maelstrom Staff",
         "displayName": "Test Maelstrom Staff",
         "type": "Loot",
         "description": null,
         "internalNotes": "A quest reward from FV, available in GF"
     },
-    "components": {
-        "2": 7892,
-        "9": 0,
-        "11": 3660
-    },
-    "skillIDs": [
-        549
-    ],
-    "objectSkills": {
-        "549": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 8187,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Superior Attack",
-                "rawDescription": "%(DamageCombo) 1+2+3 %(Description)Smashes enemies",
-                "damageCombo": " 1+2+3 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Superior Attack",
+            "full_description": "%(DamageCombo) 1+2+3 %(Description)Smashes enemies",
+            "damage_combo": " 1+2+3 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        8187
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "8187": {
             "hasChargeUp": false,
@@ -109,17 +82,7 @@
             "singleJumpSmash": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/gf_maelstromstaff.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

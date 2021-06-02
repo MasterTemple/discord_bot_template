@@ -1,75 +1,48 @@
 {
-    "objectID": 12650,
-    "itemInfo": {
+    "object_id": 12650,
+    "components": {
+        "2": 12440,
+        "9": 0,
+        "11": 6207
+    },
+    "item_info": {
         "name": "NPC Sentinel Scout Sword",
         "displayName": "",
         "type": "Loot",
         "description": "NPC Sentinel Scout Sword",
         "internalNotes": null
     },
-    "components": {
-        "2": 12440,
-        "9": 0,
-        "11": 6207
-    },
-    "skillIDs": [
-        970
-    ],
-    "objectSkills": {
-        "970": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 20237,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Great Attack with Block",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(ChargeUp)Blocks 3 attacks while charged",
-                "damageCombo": " 2+2+3 ",
-                "ChargeUp": "Blocks 3 attacks while charged"
-            }
+            "cooldown_group": 1,
+            "name": "Great Attack with Block",
+            "full_description": "%(DamageCombo) 2+2+3 %(ChargeUp)Blocks 3 attacks while charged",
+            "charge_up": "Blocks 3 attacks while charged",
+            "damage_combo": " 2+2+3 "
         }
-    },
-    "behaviorIDs": [
-        20237
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 1,
-        "rarity": 5,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "20237": {
             "hasChargeUp": true,
@@ -114,17 +87,7 @@
             "singleJumpSmash": 2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m2530_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

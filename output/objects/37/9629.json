@@ -1,70 +1,52 @@
 {
-    "objectID": 9629,
-    "itemInfo": {
-        "name": "Model Reward King Leo Castle",
-        "displayName": "King Leo's Castle Model",
-        "type": "Loot",
-        "description": "A model for your Property!",
-        "internalNotes": null
-    },
+    "object_id": 9629,
     "components": {
         "2": 9475,
         "3": 4191,
         "11": 4650,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 1069,
-        "buyPrice": 10690,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 59,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
+    "item_info": {
+        "name": "Model Reward King Leo Castle",
+        "displayName": "King Leo's Castle Model",
+        "type": "Loot",
+        "description": "A model for your Property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 1069,
+    "buy_price": 10690,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 59,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_kingleoscastle.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "97": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "97",
             "defined_type": "Build",
             "defined_subtype": null,
             "missionName": "A Worthy Builder",
-            "missionDescription": "Complete 10,000 more Quick Builds.",
-            "isMission": 0,
+            "mission_description": "Complete 10,000 more Quick Builds.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

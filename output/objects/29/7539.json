@@ -1,12 +1,5 @@
 {
-    "objectID": 7539,
-    "itemInfo": {
-        "name": "Samurai Neck/Back 3",
-        "displayName": "Samurai Shoulderpads 3",
-        "type": "Loot",
-        "description": "Rank 3 Specialty Kit Item",
-        "internalNotes": "Rank 3 Specialty Kit Item"
-    },
+    "object_id": 7539,
     "components": {
         "2": 7104,
         "5": 1083,
@@ -14,106 +7,48 @@
         "11": 3194,
         "72": 0
     },
-    "skillIDs": [
-        362,
-        369,
-        550
-    ],
-    "objectSkills": {
-        "362": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4244,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 3
-        },
-        "369": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4251,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 1,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "550": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 8303,
-            "imaginationcost": 9,
-            "cooldowngroup": 21,
-            "cooldown": 7.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3082,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ronin Rush",
-                "rawDescription": "%(DamageCombo) 12 %(Description)Makes you perform a flying kick, doing 12 damage and knocking down enemies",
-                "damageCombo": " 12 ",
-                "Description": "Makes you perform a flying kick, doing 12 damage and knocking down enemies"
-            }
-        }
+    "item_info": {
+        "name": "Samurai Neck/Back 3",
+        "displayName": "Samurai Shoulderpads 3",
+        "type": "Loot",
+        "description": "Rank 3 Specialty Kit Item",
+        "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        4244,
-        4251,
-        8303
+    "skills": [
+        {
+            "imagination_cost": 9,
+            "cooldown": 7.0,
+            "cooldown_group": 21,
+            "name": "Ronin Rush",
+            "full_description": "%(DamageCombo) 12 %(Description)Makes you perform a flying kick, doing 12 damage and knocking down enemies",
+            "damage_combo": " 12 ",
+            "description": "Makes you perform a flying kick, doing 12 damage and knocking down enemies"
+        }
     ],
     "stats": {
-        "armorBonusUI": 3,
-        "imBonusUI": 1,
-        "cooldown": 7.0,
-        "cooldowngroup": 21
+        "life": 0,
+        "armor": 3,
+        "imagination": 1
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            90,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8319,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Sentinel Token",
-        "altCurrencyDisplayName": "Sentinel Faction Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "90": "Use the Rank 3 Samurai book before doing that.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "90": "Use the Rank 3 Samurai book before doing that.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8319,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "8303": {
             "hasChargeUp": false,
@@ -140,32 +75,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/samurai_shoulder_3.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            686,
-            620,
-            678,
-            689
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            102
-        ],
-        "VendorIDs": [
-            13376
-        ],
-        "Vendors": [
-            {
-                "id": 13376,
-                "name": "NT Sentinel Faction Vendor",
-                "displayName": "Nikolai Gammapulse - Sentinel Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13376,
+            "name": "Nikolai Gammapulse - Sentinel Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

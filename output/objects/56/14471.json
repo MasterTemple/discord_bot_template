@@ -1,95 +1,61 @@
 {
-    "objectID": 14471,
-    "itemInfo": {
+    "object_id": 14471,
+    "components": {
+        "2": 14160,
+        "9": 0,
+        "11": 7104
+    },
+    "item_info": {
         "name": "Frost Fruit",
         "displayName": "Frost Fruit",
         "type": "Loot",
         "description": "Use this in a recipe for Johnny Umami!",
         "internalNotes": "Recipe ingredient for Johnny Umami in Ninjago"
     },
-    "components": {
-        "2": 14160,
-        "9": 0,
-        "11": 7104
-    },
-    "skillIDs": [
-        1512
-    ],
-    "objectSkills": {
-        "1512": {
-            "castOnType": 3,
-            "AICombatWeight": null,
-            "behaviorID": 37232,
-            "imaginationcost": 0,
-            "cooldowngroup": 59,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 60.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Eat Frost Fruit",
-                "rawDescription": "Boosts your maximum Imagination by 1 for 60 seconds"
-            }
+            "cooldown_group": 59,
+            "name": "Eat Frost Fruit",
+            "full_description": "Boosts your maximum Imagination by 1 for 60 seconds"
         }
-    },
-    "behaviorIDs": [
-        37232
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 20,
-        "buyPrice": 200,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 30,
-        "color": null,
-        "preconditions": [
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "10",
-        "preconditionDescriptions": {
-            "248": "You must be Level 10 or greater to use this item."
-        }
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {
+        "248": "You must be Level 10 or greater to use this item."
+    },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 20,
+    "buy_price": 200,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 30,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/consumables/frost_fruit.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            748
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1789": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1789",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Air Ninja!",
-            "missionDescription": "Smash and rebuild the Bone Buckets on 3 Skeleton Catapults on the Ninjago Battlefield.",
-            "isMission": 1,
+            "mission_description": "Smash and rebuild the Bone Buckets on 3 Skeleton Catapults on the Ninjago Battlefield.",
+            "is_mission": 1,
             "rewardCount": 2
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,90 +1,48 @@
 {
-    "objectID": 6872,
-    "itemInfo": {
+    "object_id": 6872,
+    "components": {
+        "2": 6427,
+        "9": 0,
+        "11": 2892
+    },
+    "item_info": {
         "name": "Test PvP Awesome Healing Staff",
         "displayName": "Test PvP Awesome Healing Staff",
         "type": "Loot",
         "description": "Test healing staff",
         "internalNotes": "Test healing staff"
     },
-    "components": {
-        "2": 6427,
-        "9": 0,
-        "11": 2892
-    },
-    "skillIDs": [
-        152,
-        179
-    ],
-    "objectSkills": {
-        "152": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 4637,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Basic Attack",
-                "rawDescription": "%(DamageCombo) 1+1+1 %(Description)Pokes enemies",
-                "damageCombo": " 1+1+1 ",
-                "Description": "Pokes enemies"
-            }
-        },
-        "179": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 1558,
-            "imaginationcost": 0,
-            "cooldowngroup": 5,
-            "cooldown": 5.0,
-            "inNpcEditor": 1,
-            "skillIcon": 2841,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
+            "cooldown_group": 1,
+            "name": "Basic Attack",
+            "full_description": "%(DamageCombo) 1+1+1 %(Description)Pokes enemies",
+            "damage_combo": " 1+1+1 ",
+            "description": "Pokes enemies"
         }
-    },
-    "behaviorIDs": [
-        4637,
-        1558
     ],
     "stats": {
-        "cooldown": 5.0,
-        "cooldowngroup": 5
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": null,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4637": {
             "hasChargeUp": false,
@@ -140,17 +98,7 @@
             "chargeUpCost": -2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/firestaff.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

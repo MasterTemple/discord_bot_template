@@ -1,79 +1,48 @@
 {
-    "objectID": 14764,
-    "itemInfo": {
+    "object_id": 14764,
+    "components": {
+        "2": 14451,
+        "9": 0,
+        "11": 7254
+    },
+    "item_info": {
         "name": "Purified Bone Axe",
         "displayName": "Purified Axe",
         "type": "Loot",
         "description": "",
         "internalNotes": "1/2/3 6/6/9 NJ Smashing"
     },
-    "components": {
-        "2": 14451,
-        "9": 0,
-        "11": 7254
-    },
-    "skillIDs": [
-        1637
-    ],
-    "objectSkills": {
-        "1637": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 39210,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4695,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Attack",
-                "rawDescription": "%(DamageCombo) 1+2+3 %(AltCombo) 6+6+10 %(Description)Smashes enemies",
-                "damageCombo": " 1+2+3 %(AltCombo) 6+6+10 ",
-                "Description": "Smashes enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Attack",
+            "full_description": "%(DamageCombo) 1+2+3 %(AltCombo) 6+6+10 %(Description)Smashes enemies",
+            "damage_combo": " 1+2+3 %(AltCombo) 6+6+10 ",
+            "description": "Smashes enemies"
         }
-    },
-    "behaviorIDs": [
-        39210
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 300,
-        "buyPrice": 3000,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            293,
-            248
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 20,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "10",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "10",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 300,
+    "buy_price": 3000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 20,
+    "stack_size": 1,
     "overview": {
         "39210": {
             "hasChargeUp": false,
@@ -124,38 +93,24 @@
             "singleJumpSmash": 6
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/hands/boneaxe.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            758
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            122
-        ],
-        "VendorIDs": [
-            13799
-        ],
-        "Vendors": [
-            {
-                "id": 13799,
-                "name": "NJ Mon - Nya vendor",
-                "displayName": "Nya - Ninjago Gear Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "2023": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13799,
+            "name": "Nya - Ninjago Gear Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "2023",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Maelstrom Weapons Part 3",
-            "missionDescription": "Smash Skeleton Commandos on the Ninjago Battlefield until you retrieve a Maelstrom Bone Axe, then take it back to Nya.",
-            "isMission": 1,
+            "mission_description": "Smash Skeleton Commandos on the Ninjago Battlefield until you retrieve a Maelstrom Bone Axe, then take it back to Nya.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

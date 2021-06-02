@@ -1,73 +1,46 @@
 {
-    "objectID": 14357,
-    "itemInfo": {
+    "object_id": 14357,
+    "components": {
+        "2": 14048,
+        "9": 0,
+        "11": 7074
+    },
+    "item_info": {
         "name": "Assembly Gear - Summoner - offhand  proxy",
         "displayName": "Assembly Gear - Summoner - offhand  proxy",
         "type": "Loot",
         "description": "",
         "internalNotes": ""
     },
-    "components": {
-        "2": 14048,
-        "9": 0,
-        "11": 7074
-    },
-    "skillIDs": [
-        689
-    ],
-    "objectSkills": {
-        "689": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 11349,
-            "imaginationcost": 4,
-            "cooldowngroup": 24,
+    "skills": [
+        {
+            "imagination_cost": 4,
             "cooldown": 45.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3684,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Summon Thwok 1",
-                "rawDescription": "Creates a Thwok that assists you in battle"
-            }
+            "cooldown_group": 24,
+            "name": "Summon Thwok 1",
+            "full_description": "Creates a Thwok that assists you in battle"
         }
-    },
-    "behaviorIDs": [
-        11349
     ],
     "stats": {
-        "cooldown": 45.0,
-        "cooldowngroup": 24
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false
-    },
+    "preconditions": {},
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "11349": {
             "hasChargeUp": false,
@@ -87,17 +60,7 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/summoner_orb_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

@@ -1,114 +1,48 @@
 {
-    "objectID": 12296,
-    "itemInfo": {
+    "object_id": 12296,
+    "components": {
+        "2": 12046,
+        "9": 0,
+        "11": 6040
+    },
+    "item_info": {
         "name": "Present Shield",
         "displayName": "Present Shield",
         "type": "Loot",
         "description": "",
         "internalNotes": "2 AP 2 IP"
     },
-    "components": {
-        "2": 12046,
-        "9": 0,
-        "11": 6040
-    },
-    "skillIDs": [
-        361,
-        370
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4243,
-        4252
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 1,
-        "isKitPiece": 1,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 87,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 12237,
-        "altCurrencyCost": 120,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "altCurrencyName": "Candy Cane",
-        "altCurrencyDisplayName": "Candy Cane",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 1,
+    "alt_currency_type": 12237,
+    "alt_currency_cost": 120,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/presentshield.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            447
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            90
-        ],
-        "VendorIDs": [
-            12121
-        ],
-        "Vendors": [
-            {
-                "id": 12121,
-                "name": "FB - Toy Assembler Vendor",
-                "displayName": "Hansel Tinsel - Frostivus Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 12121,
+            "name": "Hansel Tinsel - Frostivus Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

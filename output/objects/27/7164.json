@@ -1,90 +1,48 @@
 {
-    "objectID": 7164,
-    "itemInfo": {
+    "object_id": 7164,
+    "components": {
+        "2": 6744,
+        "9": 0,
+        "11": 3023
+    },
+    "item_info": {
         "name": "Test Fishing Pole",
         "displayName": "Test Fishing Pole",
         "type": "Loot",
         "description": null,
         "internalNotes": "2/2/3 piercing weapon with pull"
     },
-    "components": {
-        "2": 6744,
-        "9": 0,
-        "11": 3023
-    },
-    "skillIDs": [
-        291,
-        316
-    ],
-    "objectSkills": {
-        "291": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 4641,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Great Attack",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(Description)Pokes enemies",
-                "damageCombo": " 2+2+3 ",
-                "Description": "Pokes enemies"
-            }
-        },
-        "316": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 3714,
-            "imaginationcost": 2,
-            "cooldowngroup": 2,
-            "cooldown": 1.0,
-            "inNpcEditor": 0,
-            "skillIcon": 2840,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {}
+            "cooldown_group": 1,
+            "name": "Great Attack",
+            "full_description": "%(DamageCombo) 2+2+3 %(Description)Pokes enemies",
+            "damage_combo": " 2+2+3 ",
+            "description": "Pokes enemies"
         }
-    },
-    "behaviorIDs": [
-        4641,
-        3714
     ],
     "stats": {
-        "cooldown": 1.0,
-        "cooldowngroup": 2
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 0,
-        "buyPrice": 0,
-        "isKitPiece": 0,
-        "rarity": 5,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": 0
-    },
+    "preconditions": {},
+    "rarity": 5,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 0,
+    "buy_price": 0,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "4641": {
             "hasChargeUp": false,
@@ -147,17 +105,7 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m2614_26.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

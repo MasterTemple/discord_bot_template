@@ -1,117 +1,52 @@
 {
-    "objectID": 16182,
-    "itemInfo": {
+    "object_id": 16182,
+    "components": {
+        "2": 14900,
+        "9": 0,
+        "11": 7511
+    },
+    "item_info": {
         "name": "Engineer Cape Back/Neck",
         "displayName": "Valiant Engineer's Cape",
         "type": "Loot",
         "description": "Rank 3 Specialty Kit Item",
         "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "components": {
-        "2": 14900,
-        "9": 0,
-        "11": 7511
-    },
-    "skillIDs": [
-        361,
-        370,
-        649
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "649": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 11149,
-            "imaginationcost": 10,
-            "cooldowngroup": 21,
+    "skills": [
+        {
+            "imagination_cost": 10,
             "cooldown": 30.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3494,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Personal Fortress",
-                "rawDescription": "%(DamageCombo) 1x16 %(Description)Creates a fortified turret that attacks enemies",
-                "damageCombo": " 1x16 ",
-                "Description": "Creates a fortified turret that attacks enemies"
-            }
+            "cooldown_group": 21,
+            "name": "Personal Fortress",
+            "full_description": "%(DamageCombo) 1x16 %(Description)Creates a fortified turret that attacks enemies",
+            "damage_combo": " 1x16 ",
+            "description": "Creates a fortified turret that attacks enemies"
         }
-    },
-    "behaviorIDs": [
-        4243,
-        4252,
-        11149
     ],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2,
-        "cooldown": 30.0,
-        "cooldowngroup": 21
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "clavicle"
-        ],
-        "sellPrice": 10000,
-        "buyPrice": 100000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 131584,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": -1,
-        "preconditions": [
-            228,
-            82,
-            37
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8318,
-        "altCurrencyCost": 250,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Neck/Back"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "40",
-        "altCurrencyName": "Assembly Token",
-        "altCurrencyDisplayName": "Assembly Token",
-        "preconditionDescriptions": {
-            "228": "You must be Level 40 or greater to use this item.",
-            "82": "Use the Rank 3 Engineer book before doing that.",
-            "37": "You need to be a member of Assembly to use this."
-        }
+    "preconditions": {
+        "228": "You must be Level 40 or greater to use this item.",
+        "82": "Use the Rank 3 Engineer book before doing that.",
+        "37": "You need to be a member of Assembly to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "40",
+    "equip_locations": [
+        "Neck/Back"
+    ],
+    "sell_price": 10000,
+    "buy_price": 100000,
+    "alt_currency_type": 8318,
+    "alt_currency_cost": 250,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "11149": {
             "hasChargeUp": false,
@@ -131,29 +66,13 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/icons/cape_assembly.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            794
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            107
-        ],
-        "VendorIDs": [
-            13380
-        ],
-        "Vendors": [
-            {
-                "id": 13380,
-                "name": "NT Assembly Faction Vendor",
-                "displayName": "Torbert Oscillator - Assembly Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13380,
+            "name": "Torbert Oscillator - Assembly Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

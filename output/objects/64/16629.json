@@ -1,77 +1,48 @@
 {
-    "objectID": 16629,
-    "itemInfo": {
+    "object_id": 16629,
+    "components": {
+        "2": 15413,
+        "9": 0,
+        "11": 7819
+    },
+    "item_info": {
         "name": "2011 Championship Sparkler",
         "displayName": "2011 Championship Sparkler",
         "type": "Loot",
         "description": "",
         "internalNotes": "Community Reward Item"
     },
-    "components": {
-        "2": 15413,
-        "9": 0,
-        "11": 7819
-    },
-    "skillIDs": [
-        843
-    ],
-    "objectSkills": {
-        "843": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 15663,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 1.5,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Imagination Wand 1",
-                "rawDescription": "%(DamageCombo) 1 %(ChargeUp)Restores 4 Imagination",
-                "damageCombo": " 1 ",
-                "ChargeUp": "Restores 4 Imagination"
-            }
+            "cooldown_group": 1,
+            "name": "Imagination Wand 1",
+            "full_description": "%(DamageCombo) 1 %(ChargeUp)Restores 4 Imagination",
+            "charge_up": "Restores 4 Imagination",
+            "damage_combo": " 1 "
         }
-    },
-    "behaviorIDs": [
-        15663
     ],
     "stats": {
-        "cooldown": 1.5,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": "                                                  ",
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 110,
-        "buyPrice": 1100,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": null,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 0,
-        "preconditions": [
-            ""
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 110,
+    "buy_price": 1100,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 1,
     "overview": {
         "15663": {
             "hasChargeUp": true,
@@ -108,26 +79,18 @@
             "singleJumpSmash": 1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m6124_21.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "2077": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "2077",
             "defined_type": "Hidden",
             "defined_subtype": "Hidden",
             "missionName": "Cheer for the Championships!",
-            "missionDescription": "Use the Speedchat menu in the lower left to perform a Cheer for Nexus Naomi!",
-            "isMission": 1,
+            "mission_description": "Use the Speedchat menu in the lower left to perform a Cheer for Nexus Naomi!",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

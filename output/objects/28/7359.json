@@ -1,12 +1,5 @@
 {
-    "objectID": 7359,
-    "itemInfo": {
-        "name": "Knight Head 2",
-        "displayName": "Knight Helm 2",
-        "type": "Loot",
-        "description": "Rank 2 Specialty Kit Item",
-        "internalNotes": "Rank 2 Specialty Kit Item"
-    },
+    "object_id": 7359,
     "components": {
         "2": 6923,
         "5": 1077,
@@ -14,88 +7,46 @@
         "11": 3036,
         "72": 0
     },
-    "skillIDs": [
-        360,
-        778
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "778": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 14116,
-            "imaginationcost": 5,
-            "cooldowngroup": 20,
-            "cooldown": 8.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3585,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Strengthen Armor 2",
-                "rawDescription": "Boosts Armor of nearby characters by 4 for 60 seconds and angers enemies"
-            }
-        }
+    "item_info": {
+        "name": "Knight Head 2",
+        "displayName": "Knight Helm 2",
+        "type": "Loot",
+        "description": "Rank 2 Specialty Kit Item",
+        "internalNotes": "Rank 2 Specialty Kit Item"
     },
-    "behaviorIDs": [
-        4241,
-        14116
+    "skills": [
+        {
+            "imagination_cost": 5,
+            "cooldown": 8.0,
+            "cooldown_group": 20,
+            "name": "Strengthen Armor 2",
+            "full_description": "Boosts Armor of nearby characters by 4 for 60 seconds and angers enemies"
+        }
     ],
     "stats": {
-        "armorBonusUI": 1,
-        "cooldown": 8.0,
-        "cooldowngroup": 20
+        "life": 0,
+        "armor": 1,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 300,
-        "buyPrice": 3000,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214,
-            87,
-            39
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8319,
-        "altCurrencyCost": 60,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "altCurrencyName": "Sentinel Token",
-        "altCurrencyDisplayName": "Sentinel Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item.",
-            "87": "Use the Rank 2 Knight book before doing that.",
-            "39": "You need to be a member of the Sentinel Faction to use this."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item.",
+        "87": "Use the Rank 2 Knight book before doing that.",
+        "39": "You need to be a member of the Sentinel Faction to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 300,
+    "buy_price": 3000,
+    "alt_currency_type": 8319,
+    "alt_currency_cost": 60,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "14116": {
             "hasChargeUp": false,
@@ -118,31 +69,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/faction%20kits/knight_helm_2.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            178,
-            619
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            56,
-            86
-        ],
-        "VendorIDs": [
-            6631
-        ],
-        "Vendors": [
-            {
-                "id": 6631,
-                "name": "NS Sentinel Faction Vendor - Plaza",
-                "displayName": "Xeno Blueblade - Sentinel Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 6631,
+            "name": "Xeno Blueblade - Sentinel Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

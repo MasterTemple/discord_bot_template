@@ -1,71 +1,47 @@
 {
-    "objectID": 13696,
-    "itemInfo": {
-        "name": "Model Reward Zoo Building Wall Doors Closed ",
-        "displayName": "Zoo Building Wall with Closed Doors Model",
-        "type": "Loot",
-        "description": "A model for your property!",
-        "internalNotes": "Reward Model"
-    },
+    "object_id": 13696,
     "components": {
         "2": 13434,
         "3": 6754,
         "11": 6806,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 116,
-        "buyPrice": 1160,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false
+    "item_info": {
+        "name": "Model Reward Zoo Building Wall Doors Closed ",
+        "displayName": "Zoo Building Wall with Closed Doors Model",
+        "type": "Loot",
+        "description": "A model for your property!",
+        "internalNotes": "Reward Model"
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 116,
+    "buy_price": 1160,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/rew_zoo_building_wall_doorsclosed.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            669
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            67
-        ],
-        "VendorIDs": [
-            10027
-        ],
-        "Vendors": [
-            {
-                "id": 10027,
-                "name": "NS Model Vendor",
-                "displayName": "Autumn Helix - Model Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 10027,
+            "name": "Autumn Helix - Model Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

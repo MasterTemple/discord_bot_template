@@ -1,81 +1,50 @@
 {
-    "objectID": 6846,
-    "itemInfo": {
+    "object_id": 6846,
+    "components": {
+        "2": 6397,
+        "9": 0,
+        "11": 2866
+    },
+    "item_info": {
         "name": "Captain's Cutlass",
         "displayName": "Captain's Cutlass",
         "type": "Loot",
         "description": null,
         "internalNotes": "3/3/3 Slashing + root chargeup"
     },
-    "components": {
-        "2": 6397,
-        "9": 0,
-        "11": 2866
-    },
-    "skillIDs": [
-        875
-    ],
-    "objectSkills": {
-        "875": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 17293,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3646,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Elite Attack with Rooting",
-                "rawDescription": "%(DamageCombo) 3+3+3 %(ChargeUp)Sticks enemies' feet to the ground",
-                "damageCombo": " 3+3+3 ",
-                "ChargeUp": "Sticks enemies' feet to the ground"
-            }
+            "cooldown_group": 1,
+            "name": "Elite Attack with Rooting",
+            "full_description": "%(DamageCombo) 3+3+3 %(ChargeUp)Sticks enemies' feet to the ground",
+            "charge_up": "Sticks enemies' feet to the ground",
+            "damage_combo": " 3+3+3 "
         }
-    },
-    "behaviorIDs": [
-        17293
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 402,
-        "buyPrice": 4025,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 81,
-        "preconditions": [
-            222
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 22,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "25",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "222": "You must be Level 25 or greater to use this item."
-        }
+    "preconditions": {
+        "222": "You must be Level 25 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "25",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 402,
+    "buy_price": 4025,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 22,
+    "stack_size": 1,
     "overview": {
         "17293": {
             "hasChargeUp": true,
@@ -121,30 +90,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m2530_131.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            117
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            52
-        ],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "426": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "426",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Pirate Duelist 3",
-            "missionDescription": "Smash 500 more Stromling Admirals.",
-            "isMission": 0,
+            "mission_description": "Smash 500 more Stromling Admirals.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

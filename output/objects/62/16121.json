@@ -1,126 +1,53 @@
 {
-    "objectID": 16121,
-    "itemInfo": {
+    "object_id": 16121,
+    "components": {
+        "2": 14840,
+        "9": 0,
+        "11": 7490
+    },
+    "item_info": {
         "name": "Kuro Hakama",
         "displayName": "Kuro Hakama",
         "type": "Loot",
         "description": null,
         "internalNotes": "2 AP 2 IP"
     },
-    "components": {
-        "2": 14840,
-        "9": 0,
-        "11": 7490
-    },
-    "skillIDs": [
-        361,
-        370,
-        1119
-    ],
-    "objectSkills": {
-        "361": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4243,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 2
-        },
-        "370": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 4252,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 2,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        },
-        "1119": {
-            "castOnType": 1,
-            "AICombatWeight": null,
-            "behaviorID": 24665,
-            "imaginationcost": 0,
-            "cooldowngroup": -1,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4709,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4243,
-        4252,
-        24665
-    ],
+    "skills": [],
     "stats": {
-        "armorBonusUI": 2,
-        "imBonusUI": 2
+        "life": 0,
+        "armor": 2,
+        "imagination": 2
     },
-    "itemComponent": {
-        "subItems": "                                                  ",
-        "equipLocation": [
-            "legs"
-        ],
-        "sellPrice": 342,
-        "buyPrice": 3425,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 9,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 20,
-        "equipLocationNames": [
-            "Pants"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Pants"
+    ],
+    "sell_price": 342,
+    "buy_price": 3425,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 20,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/legs/minifig_blackhakamalegs.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1981": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1981",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Skullcracker 2",
-            "missionDescription": "Smash 50 more Skeletons of any type in Ninjago.",
-            "isMission": 0,
+            "mission_description": "Smash 50 more Skeletons of any type in Ninjago.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

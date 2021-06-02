@@ -1,95 +1,53 @@
 {
-    "objectID": 6794,
-    "itemInfo": {
+    "object_id": 6794,
+    "components": {
+        "2": 6328,
+        "9": 0,
+        "11": 2832
+    },
+    "item_info": {
         "name": "Sideways Pirate Hat",
         "displayName": "Sideways Pirate Hat",
         "type": "Loot",
         "description": null,
         "internalNotes": "3 IP + secret Passage"
     },
-    "components": {
-        "2": 6328,
-        "9": 0,
-        "11": 2832
-    },
-    "skillIDs": [
-        371
-    ],
-    "objectSkills": {
-        "371": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4253,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 1032,
-            "imBonusUI": 3,
-            "lifeBonusUI": null,
-            "armorBonusUI": null
-        }
-    },
-    "behaviorIDs": [
-        4253
-    ],
+    "skills": [],
     "stats": {
-        "imBonusUI": 3
+        "life": 0,
+        "armor": 0,
+        "imagination": 3
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 325,
-        "buyPrice": 3250,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 88,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 18,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 325,
+    "buy_price": 3250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 18,
+    "stack_size": 1,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hats/m2544_25.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "409": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "409",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Gunner's Mate",
-            "missionDescription": "Collect 100 more cannonballs.",
-            "isMission": 0,
+            "mission_description": "Collect 100 more cannonballs.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

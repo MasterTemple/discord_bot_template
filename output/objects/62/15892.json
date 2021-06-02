@@ -1,81 +1,50 @@
 {
-    "objectID": 15892,
-    "itemInfo": {
+    "object_id": 15892,
+    "components": {
+        "2": 14585,
+        "9": 0,
+        "11": 7317
+    },
+    "item_info": {
         "name": "Sushi Delivery System",
         "displayName": "Sushi Delivery System",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "Great Sashimi Launcher 2/2/3 7/7/7 NJ Weapon"
     },
-    "components": {
-        "2": 14585,
-        "9": 0,
-        "11": 7317
-    },
-    "skillIDs": [
-        1473
-    ],
-    "objectSkills": {
-        "1473": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 36319,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4696,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Ninjago Sashimi Attack",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(AltCombo) 7+7+7 %(Description)Fires a Seeking Fish",
-                "damageCombo": " 2+2+3 %(AltCombo) 7+7+7 ",
-                "Description": "Fires a Seeking Fish"
-            }
+            "cooldown_group": 1,
+            "name": "Ninjago Sashimi Attack",
+            "full_description": "%(DamageCombo) 2+2+3 %(AltCombo) 7+7+7 %(Description)Fires a Seeking Fish",
+            "damage_combo": " 2+2+3 %(AltCombo) 7+7+7 ",
+            "description": "Fires a Seeking Fish"
         }
-    },
-    "behaviorIDs": [
-        36319
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 500,
-        "buyPrice": 5000,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 9,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 35,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 3,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 500,
+    "buy_price": 5000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 35,
+    "stack_size": 1,
     "overview": {
         "36319": {
             "hasChargeUp": false,
@@ -140,26 +109,18 @@
             "chargeUpCost": -1
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/m2570_192.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "2011": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "2011",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "The Bloom is Off",
-            "missionDescription": "Smash 250 more Elemental Flowers around the Ninjago Monastery.",
-            "isMission": 0,
+            "mission_description": "Smash 250 more Elemental Flowers around the Ninjago Monastery.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

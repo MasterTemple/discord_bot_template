@@ -1,81 +1,50 @@
 {
-    "objectID": 12437,
-    "itemInfo": {
+    "object_id": 12437,
+    "components": {
+        "2": 12191,
+        "9": 0,
+        "11": 6094
+    },
+    "item_info": {
         "name": "Banana Gun",
         "displayName": "Banana Gun",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "2/2/3 Projectile"
     },
-    "components": {
-        "2": 12191,
-        "9": 0,
-        "11": 6094
-    },
-    "skillIDs": [
-        1007
-    ],
-    "objectSkills": {
-        "1007": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 21727,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Banana Shot",
-                "rawDescription": "%(DamageCombo) 2+2+3 %(ChargeUp)Knocks down enemies",
-                "damageCombo": " 2+2+3 ",
-                "ChargeUp": "Knocks down enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Banana Shot",
+            "full_description": "%(DamageCombo) 2+2+3 %(ChargeUp)Knocks down enemies",
+            "charge_up": "Knocks down enemies",
+            "damage_combo": " 2+2+3 "
         }
-    },
-    "behaviorIDs": [
-        21727
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 1000,
-        "buyPrice": 10000,
-        "isKitPiece": 0,
-        "rarity": 2,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            218
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 56,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "20",
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token",
-        "preconditionDescriptions": {
-            "218": "You must be Level 20 or greater to use this item."
-        }
+    "preconditions": {
+        "218": "You must be Level 20 or greater to use this item."
     },
+    "rarity": 2,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "20",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 1000,
+    "buy_price": 10000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 56,
+    "stack_size": 1,
     "overview": {
         "21727": {
             "hasChargeUp": true,
@@ -138,26 +107,18 @@
             "projectileChargeUpLOT": 13120
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/bananagun.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1243": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1243",
             "defined_type": "Battle",
             "defined_subtype": "Nimbus Instance",
             "missionName": "Kinga Hurl Timesmash 2",
-            "missionDescription": "Defeat Kinga Hurl in the Battle of Nimbus Station in less than 7:30.",
-            "isMission": 0,
+            "mission_description": "Defeat Kinga Hurl in the Battle of Nimbus Station in less than 7:30.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

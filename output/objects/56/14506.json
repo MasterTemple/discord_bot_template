@@ -1,103 +1,65 @@
 {
-    "objectID": 14506,
-    "itemInfo": {
+    "object_id": 14506,
+    "components": {
+        "2": 14194,
+        "9": 0,
+        "11": 7128
+    },
+    "item_info": {
         "name": "Chilly Freezesteak",
         "displayName": "Chilly Freezesteak",
         "type": "Loot",
         "description": "Double-click to use!",
         "internalNotes": "Ninjago Consumable on Johnny Umami's vendor table; Medwards to determine buff"
     },
-    "components": {
-        "2": 14194,
-        "9": 0,
-        "11": 7128
-    },
-    "skillIDs": [
-        1503
-    ],
-    "objectSkills": {
-        "1503": {
-            "castOnType": 3,
-            "AICombatWeight": 0,
-            "behaviorID": 37144,
-            "imaginationcost": 0,
-            "cooldowngroup": 57,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 15.0,
-            "inNpcEditor": 0,
-            "skillIcon": 4720,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Eat Chilly Freezesteak",
-                "rawDescription": "Boosts your maximum Imagination and Life for 300 seconds"
-            }
+            "cooldown_group": 57,
+            "name": "Eat Chilly Freezesteak",
+            "full_description": "Boosts your maximum Imagination and Life for 300 seconds"
         }
-    },
-    "behaviorIDs": [
-        37144
     ],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            ""
-        ],
-        "sellPrice": 100,
-        "buyPrice": 1000,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 10,
-        "color": 19,
-        "preconditions": [
-            240,
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "levelRequirement": "15"
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 100,
+    "buy_price": 1000,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ng_ninjago/ui/inventory/consumables/freezesteak.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            759
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            123
-        ],
-        "VendorIDs": [
-            13800
-        ],
-        "Vendors": [
-            {
-                "id": 13800,
-                "name": "NJ Mon - Johny Umami vendor",
-                "displayName": "Johnny Umami - Ninjago Supplies Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "1868": {
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13800,
+            "name": "Johnny Umami - Ninjago Supplies Vendor"
+        }
+    ],
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "1868",
             "defined_type": "Location",
             "defined_subtype": "Ninjago Monastery",
             "missionName": "Jeet Yet?",
-            "missionDescription": "Find 6 Frost Fruit, a bottle of Tough Buff Sauce and a BBQ Blast Hot Dog for Johnny Umami in the Ninjago Monastery.",
-            "isMission": 1,
+            "mission_description": "Find 6 Frost Fruit, a bottle of Tough Buff Sauce and a BBQ Blast Hot Dog for Johnny Umami in the Ninjago Monastery.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

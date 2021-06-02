@@ -1,101 +1,52 @@
 {
-    "objectID": 7453,
-    "itemInfo": {
+    "object_id": 7453,
+    "components": {
+        "2": 7018,
+        "9": 0,
+        "11": 3108
+    },
+    "item_info": {
         "name": "Shinobi Head 3",
         "displayName": "Shinobi Hood 3",
         "type": "Loot",
         "description": "Rank 3 Specialty Kit Item",
         "internalNotes": "Rank 3 Specialty Kit Item"
     },
-    "components": {
-        "2": 7018,
-        "9": 0,
-        "11": 3108
-    },
-    "skillIDs": [
-        360,
-        1077
-    ],
-    "objectSkills": {
-        "360": {
-            "castOnType": 1,
-            "AICombatWeight": 0,
-            "behaviorID": 4241,
-            "imaginationcost": 0,
-            "cooldowngroup": 16,
-            "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3120,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": 1
-        },
-        "1077": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 23745,
-            "imaginationcost": 8,
-            "cooldowngroup": 20,
+    "skills": [
+        {
+            "imagination_cost": 8,
             "cooldown": 10.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3713,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Dark Lightning 3",
-                "rawDescription": "%(DamageCombo) 9 %(Description)Strikes enemies with lightning, doing 9 damage",
-                "damageCombo": " 9 ",
-                "Description": "Strikes enemies with lightning, doing 9 damage"
-            }
+            "cooldown_group": 20,
+            "name": "Dark Lightning 3",
+            "full_description": "%(DamageCombo) 9 %(Description)Strikes enemies with lightning, doing 9 damage",
+            "damage_combo": " 9 ",
+            "description": "Strikes enemies with lightning, doing 9 damage"
         }
-    },
-    "behaviorIDs": [
-        4241,
-        23745
     ],
     "stats": {
-        "armorBonusUI": 1,
-        "cooldown": 10.0,
-        "cooldowngroup": 20
+        "life": 0,
+        "armor": 1,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "hair"
-        ],
-        "sellPrice": 750,
-        "buyPrice": 7500,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            224,
-            80,
-            38
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": 8320,
-        "altCurrencyCost": 180,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Headgear"
-        ],
-        "isWeapon": false,
-        "levelRequirement": "30",
-        "altCurrencyName": "Paradox Token",
-        "altCurrencyDisplayName": "Paradox Token",
-        "preconditionDescriptions": {
-            "224": "You must be Level 30 or greater to use this item.",
-            "80": "Use the Rank 3 Shinobi book before doing that.",
-            "38": "You need to be a member of Paradox to use this."
-        }
+    "preconditions": {
+        "224": "You must be Level 30 or greater to use this item.",
+        "80": "Use the Rank 3 Shinobi book before doing that.",
+        "38": "You need to be a member of Paradox to use this."
     },
+    "rarity": 4,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": "30",
+    "equip_locations": [
+        "Headgear"
+    ],
+    "sell_price": 750,
+    "buy_price": 7500,
+    "alt_currency_type": 8320,
+    "alt_currency_cost": 180,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "23745": {
             "hasChargeUp": false,
@@ -122,29 +73,13 @@
             ]
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/freetrial/ui/inventory/factionkits/shinobi3_helmut.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [
-            633
-        ],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [
-            103
-        ],
-        "VendorIDs": [
-            13378
-        ],
-        "Vendors": [
-            {
-                "id": 13378,
-                "name": "NT Paradox Faction Vendor",
-                "displayName": "Sutoro Hatto - Paradox Vendor"
-            }
-        ],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 1,
+    "vendors": [
+        {
+            "id": 13378,
+            "name": "Sutoro Hatto - Paradox Vendor"
+        }
+    ],
+    "is_earned": 0,
+    "is_dropped": 0
 }

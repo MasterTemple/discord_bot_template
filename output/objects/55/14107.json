@@ -1,79 +1,50 @@
 {
-    "objectID": 14107,
-    "itemInfo": {
+    "object_id": 14107,
+    "components": {
+        "2": 13818,
+        "9": 0,
+        "11": 6984
+    },
+    "item_info": {
         "name": "Exceptional Pea Shooter Mk Ia",
         "displayName": "Exceptional Pea Shooter MK Ia",
         "type": "Loot",
         "description": "Requires Imagination to fire.",
         "internalNotes": "Community Reward - Color Variant - 2/2/2 damage with knockdown on each bullet"
     },
-    "components": {
-        "2": 13818,
-        "9": 0,
-        "11": 6984
-    },
-    "skillIDs": [
-        990
-    ],
-    "objectSkills": {
-        "990": {
-            "castOnType": 0,
-            "AICombatWeight": 0,
-            "behaviorID": 20685,
-            "imaginationcost": 0,
-            "cooldowngroup": 1,
+    "skills": [
+        {
+            "imagination_cost": 0,
             "cooldown": 0.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3647,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Pea Shot",
-                "rawDescription": "%(DamageCombo) 2+2+2 %(Description)Knocks down enemies",
-                "damageCombo": " 2+2+2 ",
-                "Description": "Knocks down enemies"
-            }
+            "cooldown_group": 1,
+            "name": "Pea Shot",
+            "full_description": "%(DamageCombo) 2+2+2 %(Description)Knocks down enemies",
+            "damage_combo": " 2+2+2 ",
+            "description": "Knocks down enemies"
         }
-    },
-    "behaviorIDs": [
-        20685
     ],
     "stats": {
-        "cooldown": 0.0,
-        "cooldowngroup": 1
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_r"
-        ],
-        "sellPrice": 625,
-        "buyPrice": 6250,
-        "isKitPiece": 0,
-        "rarity": 4,
-        "itemComponent": 0,
-        "inLootTable": 0,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 10,
-        "preconditions": [
-            214
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": null,
-        "commendationCurrencyCost": null,
-        "equipLocationNames": [
-            "Right Hand"
-        ],
-        "isWeapon": true,
-        "levelRequirement": "15",
-        "preconditionDescriptions": {
-            "214": "You must be Level 15 or greater to use this item."
-        }
+    "preconditions": {
+        "214": "You must be Level 15 or greater to use this item."
     },
+    "rarity": 4,
+    "is_weapon": 1,
+    "is_two_handed": 0,
+    "level_requirement": "15",
+    "equip_locations": [
+        "Right Hand"
+    ],
+    "sell_price": 625,
+    "buy_price": 6250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 0,
+    "commendation_currency_cost": 0,
+    "stack_size": 1,
     "overview": {
         "20685": {
             "hasChargeUp": false,
@@ -130,17 +101,7 @@
             "chargeUpCost": -2
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/nexustower/ui/inventory/hands/peashooter_blackred.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {}
+    "is_sold": 0,
+    "is_earned": 0,
+    "is_dropped": 0
 }

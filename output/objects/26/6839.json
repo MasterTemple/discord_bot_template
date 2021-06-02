@@ -1,70 +1,52 @@
 {
-    "objectID": 6839,
-    "itemInfo": {
-        "name": "Model Reward Ambient Rat",
-        "displayName": "Rat Model",
-        "type": "Loot",
-        "description": "Place this animated creature model on your Property!",
-        "internalNotes": null
-    },
+    "object_id": 6839,
     "components": {
         "2": 6390,
         "3": 3152,
         "11": 2860,
         "42": 0
     },
-    "skillIDs": [],
-    "objectSkills": {},
-    "behaviorIDs": [],
-    "stats": {},
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "Extra_1"
-        ],
-        "sellPrice": 2,
-        "buyPrice": 20,
-        "isKitPiece": 0,
-        "rarity": 1,
-        "itemComponent": 6839,
-        "inLootTable": 1,
-        "inVendor": 1,
-        "stackSize": 10,
-        "color": null,
-        "preconditions": [
-            "62|26"
-        ],
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 10,
-        "equipLocationNames": [],
-        "isWeapon": false,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
+    "item_info": {
+        "name": "Model Reward Ambient Rat",
+        "displayName": "Rat Model",
+        "type": "Loot",
+        "description": "Place this animated creature model on your Property!",
+        "internalNotes": null
     },
+    "skills": [],
+    "stats": {
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
+    },
+    "preconditions": {},
+    "rarity": 1,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Consumable"
+    ],
+    "sell_price": 2,
+    "buy_price": 20,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 10,
+    "stack_size": 10,
     "overview": {},
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/models/amb_rat.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "454": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "454",
             "defined_type": "Location",
             "defined_subtype": "Gnarled Forest",
             "missionName": "Pirate Legend 1",
-            "missionDescription": "Complete a number of 'Piratey' activities.",
-            "isMission": 0,
+            "mission_description": "Complete a number of 'Piratey' activities.",
+            "is_mission": 0,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }

@@ -1,74 +1,46 @@
 {
-    "objectID": 4977,
-    "itemInfo": {
+    "object_id": 4977,
+    "components": {
+        "2": 4400,
+        "9": 0,
+        "11": 3030
+    },
+    "item_info": {
         "name": "Money Magnet",
         "displayName": "Money Magnet",
         "type": "Loot",
         "description": null,
         "internalNotes": "Money Magnet"
     },
-    "components": {
-        "2": 4400,
-        "9": 0,
-        "11": 3030
-    },
-    "skillIDs": [
-        330
-    ],
-    "objectSkills": {
-        "330": {
-            "castOnType": 0,
-            "AICombatWeight": null,
-            "behaviorID": 3854,
-            "imaginationcost": 5,
-            "cooldowngroup": 12,
+    "skills": [
+        {
+            "imagination_cost": 5,
             "cooldown": 30.0,
-            "inNpcEditor": 0,
-            "skillIcon": 3492,
-            "imBonusUI": null,
-            "lifeBonusUI": null,
-            "armorBonusUI": null,
-            "info": {
-                "name": "Money Magnet",
-                "rawDescription": "Attracts coins and other rewards towards you"
-            }
+            "cooldown_group": 12,
+            "name": "Money Magnet",
+            "full_description": "Attracts coins and other rewards towards you"
         }
-    },
-    "behaviorIDs": [
-        3854
     ],
     "stats": {
-        "cooldown": 30.0,
-        "cooldowngroup": 12
+        "life": 0,
+        "armor": 0,
+        "imagination": 0
     },
-    "itemComponent": {
-        "subItems": null,
-        "equipLocation": [
-            "special_l"
-        ],
-        "sellPrice": 525,
-        "buyPrice": 5250,
-        "isKitPiece": 0,
-        "rarity": 3,
-        "itemComponent": null,
-        "inLootTable": 1,
-        "inVendor": 0,
-        "stackSize": 1,
-        "color": 6,
-        "preconditions": null,
-        "isTwoHanded": 0,
-        "altCurrencyType": null,
-        "altCurrencyCost": null,
-        "commendationCurrencyType": 13763,
-        "commendationCurrencyCost": 29,
-        "equipLocationNames": [
-            "Left Hand"
-        ],
-        "isWeapon": false,
-        "levelRequirement": 0,
-        "commendationCurrencyName": "Faction Token Proxy",
-        "commendationCurrencyDisplayName": "Faction Token"
-    },
+    "preconditions": {},
+    "rarity": 3,
+    "is_weapon": 0,
+    "is_two_handed": 0,
+    "level_requirement": 0,
+    "equip_locations": [
+        "Left Hand"
+    ],
+    "sell_price": 525,
+    "buy_price": 5250,
+    "alt_currency_type": 0,
+    "alt_currency_cost": 0,
+    "commendation_currency_type": 13763,
+    "commendation_currency_cost": 29,
+    "stack_size": 1,
     "overview": {
         "3854": {
             "hasChargeUp": false,
@@ -88,26 +60,18 @@
             "attackTypes": []
         }
     },
-    "proxySkillIDs": [],
-    "proxySkills": {},
-    "iconURL": "textures/ui/inventory/hands/ag_metal_detector.png",
-    "buyAndDrop": {
-        "LootTableIndexes": [],
-        "LootMatrixIndexes": {},
-        "VendorComponents": [],
-        "VendorIDs": [],
-        "Vendors": [],
-        "EnemyIDs": [],
-        "Enemies": []
-    },
-    "earn": {
-        "324": {
+    "is_sold": 0,
+    "is_earned": 1,
+    "missions": [
+        {
+            "mission_id": "324",
             "defined_type": "Location",
             "defined_subtype": "Avant Gardens",
             "missionName": "Know Thy Enemy",
-            "missionDescription": "Smash Stromlings and collect 25 Maelstrom-infected bricks for Wisp Lee.",
-            "isMission": 1,
+            "mission_description": "Smash Stromlings and collect 25 Maelstrom-infected bricks for Wisp Lee.",
+            "is_mission": 1,
             "rewardCount": 1
         }
-    }
+    ],
+    "is_dropped": 0
 }
