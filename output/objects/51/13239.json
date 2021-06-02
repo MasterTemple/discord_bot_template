@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13239,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward White Sheep Model",
+        "displayName": "White Sheep Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

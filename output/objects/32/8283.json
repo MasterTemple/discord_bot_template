@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 8283,
+    "components": {},
+    "item_info": {
+        "name": "NPC Rusty Steele Helmet",
+        "displayName": "NPC Rusty Steele Helmet",
+        "type": "Loot",
+        "description": "NPC Rusty Steele Helmet",
+        "internalNotes": "NPC Rusty Steele Helmet"
+    },
+    "skills": []
+}

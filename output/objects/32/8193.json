@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 8193,
+    "components": {},
+    "item_info": {
+        "name": "Test Broken Item Components",
+        "displayName": "Test Broken Item Components",
+        "type": "Loot",
+        "description": "Test Samurai KIT Helmet",
+        "internalNotes": "Test Samurai KIT Helmet"
+    },
+    "skills": []
+}

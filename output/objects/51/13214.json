@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13214,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Ice Cage Model",
+        "displayName": "Ice Cage Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

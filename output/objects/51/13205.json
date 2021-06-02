@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13205,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Platform Model",
+        "displayName": "Platform Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

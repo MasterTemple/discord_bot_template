@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13226,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Rock Transport Model",
+        "displayName": "Rock Transport Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

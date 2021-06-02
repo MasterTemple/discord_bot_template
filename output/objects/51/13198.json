@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13198,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Burger Model",
+        "displayName": "Burger Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

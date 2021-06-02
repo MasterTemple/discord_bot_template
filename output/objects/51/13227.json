@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13227,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Rosebush Model",
+        "displayName": "Rosebush Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

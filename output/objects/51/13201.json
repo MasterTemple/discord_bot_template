@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13201,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Cheese Model",
+        "displayName": "Cheese Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

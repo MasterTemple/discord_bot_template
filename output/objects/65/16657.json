@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 16657,
+    "components": {},
+    "item_info": {
+        "name": "Bank Note II",
+        "displayName": "Bank Note II",
+        "type": "Loot",
+        "description": "Return this to a vendor to cash it in!",
+        "internalNotes": "value 50,000 coins"
+    },
+    "skills": []
+}

@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 7571,
+    "components": {
+        "2": 7134
+    },
+    "item_info": {
+        "name": "Test Mesh Effect Test",
+        "displayName": "Test Mesh Effect Test",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": null
+    },
+    "skills": []
+}

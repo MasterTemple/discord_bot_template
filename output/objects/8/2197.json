@@ -1,1 +1,15 @@
-null
+{
+    "object_id": 2197,
+    "components": {
+        "2": 1909,
+        "3": 1025
+    },
+    "item_info": {
+        "name": "Treasure Chest Loot",
+        "displayName": "Treasure Chest Loot",
+        "type": "Loot",
+        "description": "Loot Drop Container",
+        "internalNotes": "Loot Drop Container"
+    },
+    "skills": []
+}

@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13224,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Rhino Model",
+        "displayName": "Rhino Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

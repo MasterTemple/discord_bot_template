@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 11455,
+    "components": {
+        "2": 11201
+    },
+    "item_info": {
+        "name": "Frog Hat Set",
+        "displayName": "Frog Hat Set",
+        "type": "Loot",
+        "description": "Hat Equip",
+        "internalNotes": null
+    },
+    "skills": []
+}

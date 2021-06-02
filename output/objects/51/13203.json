@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13203,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Chicken Dinner Model",
+        "displayName": "Chicken Dinner Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

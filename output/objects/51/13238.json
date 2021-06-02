@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13238,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Turtle Model",
+        "displayName": "Turtle Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13220,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Powerbot Model",
+        "displayName": "Powerbot Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13210,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Fountain Model",
+        "displayName": "Fountain Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

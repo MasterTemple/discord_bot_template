@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 16604,
+    "components": {
+        "2": 15384
+    },
+    "item_info": {
+        "name": "Chopsticks Mesh Effect",
+        "displayName": "Chopsticks",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": null
+    },
+    "skills": []
+}

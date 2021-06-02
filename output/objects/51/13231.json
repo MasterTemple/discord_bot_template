@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13231,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Ice Spike Ring Model",
+        "displayName": "Ice Spike Ring Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 2853,
+    "components": {
+        "46": 2
+    },
+    "item_info": {
+        "name": "Contest HoverBoard 4",
+        "displayName": "Contest HoverBoard 4",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": null
+    },
+    "skills": []
+}

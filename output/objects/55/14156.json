@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 14156,
+    "components": {
+        "2": 12234
+    },
+    "item_info": {
+        "name": "NJ SJ Whirlwind Imagination",
+        "displayName": "NJ SJ Whirlwind Imagination",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": null
+    },
+    "skills": []
+}

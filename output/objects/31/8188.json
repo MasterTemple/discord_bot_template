@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 8188,
+    "components": {},
+    "item_info": {
+        "name": "Test shoulder pads",
+        "displayName": "Test shoulder pads",
+        "type": "Loot",
+        "description": "Test shoulder pads",
+        "internalNotes": "Test shoulder pads"
+    },
+    "skills": []
+}

@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 8161,
+    "components": {},
+    "item_info": {
+        "name": "Test for Item Componets",
+        "displayName": "Test for Item Componets",
+        "type": "Loot",
+        "description": "TEST",
+        "internalNotes": "TEST"
+    },
+    "skills": []
+}

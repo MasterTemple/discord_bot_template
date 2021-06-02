@@ -1,1 +1,15 @@
-null
+{
+    "object_id": 10311,
+    "components": {
+        "2": 10157,
+        "3": 4550
+    },
+    "item_info": {
+        "name": "Mesh Effect Horn",
+        "displayName": "Mesh Effect Horn",
+        "type": "Loot",
+        "description": "",
+        "internalNotes": null
+    },
+    "skills": []
+}

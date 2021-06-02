@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13207,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Dynamite Model",
+        "displayName": "Dynamite Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 10388,
+    "components": {},
+    "item_info": {
+        "name": "Behavior for AG Property Platform",
+        "displayName": "Basic Platform Behavior",
+        "type": "Loot",
+        "description": "Behavior for Platform",
+        "internalNotes": "Behavior for Platform"
+    },
+    "skills": []
+}

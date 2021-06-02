@@ -1,1 +1,15 @@
-null
+{
+    "object_id": 3973,
+    "components": {
+        "2": 3418,
+        "3": 1957
+    },
+    "item_info": {
+        "name": "Pet Treasure Chest",
+        "displayName": "Pet Treasure Chest",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": null
+    },
+    "skills": []
+}

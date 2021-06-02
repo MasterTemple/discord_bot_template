@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13237,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Trophy Model",
+        "displayName": "Trophy Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

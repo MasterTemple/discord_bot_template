@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13234,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Theropod Model",
+        "displayName": "Theropod Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

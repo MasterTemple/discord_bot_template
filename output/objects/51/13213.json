@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13213,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Hot Air Balloon Model",
+        "displayName": "Hot Air Balloon Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

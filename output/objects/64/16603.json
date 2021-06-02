@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 16603,
+    "components": {
+        "2": 15383
+    },
+    "item_info": {
+        "name": "Bento Box Mesh Effect",
+        "displayName": "Bento Box",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": "Ninjago consumable sold by Johnny Umami; Medwards to determine buffs"
+    },
+    "skills": []
+}

@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 13221,
+    "components": {},
+    "item_info": {
+        "name": "Model Reward Pteranodon Model",
+        "displayName": "Pteranodon Model",
+        "type": "Loot",
+        "description": "This model contains behaviors!",
+        "internalNotes": null
+    },
+    "skills": []
+}

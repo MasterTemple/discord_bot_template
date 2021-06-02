@@ -1,1 +1,14 @@
-null
+{
+    "object_id": 13293,
+    "components": {
+        "2": 13023
+    },
+    "item_info": {
+        "name": "TEST Adventurer Offhand Level 2",
+        "displayName": "TEST Adventurer Offhand Level 2",
+        "type": "Loot",
+        "description": "Rank 2 Specialty Kit Item",
+        "internalNotes": "Rank 2 Specialty Kit Item"
+    },
+    "skills": []
+}

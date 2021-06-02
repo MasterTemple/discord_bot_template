@@ -1,1 +1,12 @@
-null
+{
+    "object_id": 9250,
+    "components": {},
+    "item_info": {
+        "name": "TEST DELETE ME Bandana",
+        "displayName": "DELETE ME Bandana",
+        "type": "Loot",
+        "description": "",
+        "internalNotes": "1 IP"
+    },
+    "skills": []
+}

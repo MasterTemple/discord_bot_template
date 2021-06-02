@@ -1,1 +1,15 @@
-null
+{
+    "object_id": 2358,
+    "components": {
+        "2": 2028,
+        "3": 642
+    },
+    "item_info": {
+        "name": "Bubble Shell",
+        "displayName": "Bubble Shell",
+        "type": "Loot",
+        "description": "Collectible Shell",
+        "internalNotes": "Collectible Shell"
+    },
+    "skills": []
+}

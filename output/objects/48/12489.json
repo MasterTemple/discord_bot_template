@@ -1,1 +1,18 @@
-null
+{
+    "object_id": 12489,
+    "components": {
+        "1": 6130,
+        "2": 12253,
+        "5": 1364,
+        "7": 1734,
+        "9": 0
+    },
+    "item_info": {
+        "name": "[DNL] Valiant Ship",
+        "displayName": "[DNL] Valiant Ship",
+        "type": "Loot",
+        "description": null,
+        "internalNotes": "Summoned pet from Buccaneer Valiant weapon"
+    },
+    "skills": []
+}
