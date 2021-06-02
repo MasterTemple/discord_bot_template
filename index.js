@@ -9,6 +9,7 @@ const field_handler = require('./functions/handlers/field_handler')
 const search_handler = require('./functions/handlers/search_handler')
 const embed_template = require('./templates/embeds/default_embed_template')
 const divide_into_fields = require('./functions/format/divide_fields_into_pages')
+const get_button_group = require('./functions/buttons/get_button_group')
 var config = require('./config.json');
 
 
@@ -24,6 +25,7 @@ var settings = {
     search_handler: search_handler.execute,
     embed_template: embed_template.execute,
     divide_into_fields: divide_into_fields.execute,
+    get_button_group: get_button_group.execute,
     message_info: {}
 }
 //an object to pass around certain common values without creating countless parameters
